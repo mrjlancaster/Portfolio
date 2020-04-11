@@ -116,3 +116,12 @@ footer p{
 }
 
 
+.copyrights{
+  background-color: #1e272e; 
+  text-align: center;
+}
+
+.copyrights p{
+  color: #f5f6fa;
+}
+
