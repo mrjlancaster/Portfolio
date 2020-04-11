@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   color: black;
+  scroll-behavior: smooth;
 }
 
 main{
@@ -19,25 +20,34 @@ main{
 }
 
 header{
-  height: 600px;
+  height: 800px;
 }
 
 
 
 nav{
   height: 100%;
-  display: table;
   float: right;
 }
 
 
-#navbar a{
-  display: table-cell;
-  vertical-align: middle;
+#navbar ul li{
+  display: inline;
+  margin: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
-  padding-right: 20px;
+  position: relative;
+  top: 25px;
 }
+
+#navbar ul li:hover{
+  border: 1px solid #7f8fa6;
+  border-radius: 10px;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+
 
 
 #welcome-section{
@@ -64,8 +74,29 @@ nav{
 #social ul li{
   display: inline;
   padding: 20px;
-
+  font-size: 25px;
 }
+
+
+
+
+/* PROJECTS SECTION **/
+
+
+#projects{
+  height: 800px;
+  width: 100%;
+  background-color: #7f8fa6;
+}
+
+
+.project-title{
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 
 
 
@@ -73,12 +104,15 @@ nav{
 
 
 footer{
-  height: 300px;
+  height: 200px;
   background-color: #1e272e;
 }
 
-.footer-section h1{
-  color: #d2dae2;
+
+footer p{
+  color: #f5f6fa;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
