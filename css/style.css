@@ -7,36 +7,32 @@
   scroll-behavior: smooth;
 }
 
-.container{
+.container {
   width: 100%;
   margin: 0px auto;
 }
 
-.content{
+.content {
   width: 80%;
   margin: 0 auto;
 }
 
-
-.inner-header{
+.inner-header {
   display: block;
   height: 80px;
   margin: 0 auto;
 }
 
-header{
+header {
   height: 800px;
 }
 
-
-
-nav{
+nav {
   height: 100%;
   float: right;
 }
 
-
-#navbar ul li{
+#navbar ul li {
   display: inline;
   margin: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -45,63 +41,68 @@ nav{
   top: 25px;
 }
 
-#navbar ul li:hover{
+#navbar ul li:hover {
   border: 1px solid #7f8fa6;
   border-radius: 10px;
   padding: 5px;
   transition: 0.5s;
 }
 
-
-
-
-#welcome-section{
+#welcome-section {
   text-align: center;
   position: relative;
   top: 30%;
-
 }
 
-
-.intro{
+.intro {
   font-size: 40px;
 }
 
-
-.intro p{
+.intro p {
   line-height: 1.3em;
   letter-spacing: 1px;
   font-weight: 200;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-#social ul li{
+#social ul li {
   display: inline;
   padding: 20px 30px;
   font-size: 25px;
 }
 
 
-
-
 /* PROJECTS SECTION **/
 
 
-#projects{
-  height: 800px;
+#projects {
+  height: auto;
   width: 100%;
 }
 
-
-.project-title{
-  font-size: 40px;
+.project-title {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
+.project-boxes {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 100px;
+}
 
-.skills-box{
+.project_img {
+  border-radius: 5px;
+}
+
+.project_img:hover {
+  opacity: 0.5;
+  
+}
+
+.skills-box {
   float: right;
   position: relative;
   top: 300px;
@@ -112,53 +113,43 @@ nav{
 }
 
 
-
-
-
 /* footer section **/
 
-
-
-footer{
+footer {
   height: 250px;
   background-color: #1e272e;
 }
 
-.action-call{
+.action-call {
   display: block;
   text-align: center;
-  padding: 40px;
+  padding: 30px;
   line-height: 80px;
 }
 
-
-.action-call h2{
+.action-call h2 {
   color: white;
   font-family: sans-serif;
   font-weight: 200;
 }
 
-
-.action-call a{
+.action-call a {
   color: #f5f6fa;
   padding: 15px 50px;
   border: 1px solid #7f8fa6;
 }
 
-
-.action-call a:hover{
+.action-call a:hover {
   background-color: #f5f6fa;
   color: #1e272e;
   font-size: 20px;
   transition: 0.5s;
 }
 
-
-.copyrights{
+.copyrights {
   text-align: center;
   color: #f5f6fa;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 200;
   font-size: 15px;
 }
-
