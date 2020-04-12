@@ -96,10 +96,22 @@ nav{
 }
 
 
+.skills-box{
+  float: right;
+  position: relative;
+  top: 300px;
+  text-align: center;
+  line-height: 2em;
+  background: #ced6e0;
+  padding: 30px 20px;
+}
+
+
 
 
 
 /* footer section **/
+
 
 
 footer{
@@ -116,7 +128,7 @@ footer{
 
 
 .action-call h2{
-  color: #f5f6fa;
+  color: white;
   font-family: sans-serif;
   font-weight: 200;
 }
