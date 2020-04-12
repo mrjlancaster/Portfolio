@@ -7,9 +7,14 @@
   scroll-behavior: smooth;
 }
 
-main{
-  max-width: 70%;
+.container{
+  width: 100%;
   margin: 0px auto;
+}
+
+.content{
+  width: 80%;
+  margin: 0 auto;
 }
 
 
@@ -150,11 +155,7 @@ footer{
 
 
 .copyrights{
-  background-color: #1e272e; 
   text-align: center;
-}
-
-.copyrights p{
   color: #f5f6fa;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 200;
