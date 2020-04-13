@@ -97,34 +97,18 @@ nav {
   border-radius: 5px;
 }
 
-.project_img:hover {
-  opacity: 0.5;
-  
-}
-
-.skills-box {
-  float: right;
-  position: relative;
-  top: 300px;
-  text-align: center;
-  line-height: 2em;
-  background: #ced6e0;
-  padding: 30px 20px;
-}
-
-
 /* footer section **/
 
 footer {
-  height: 250px;
+  height: 230px;
   background-color: #1e272e;
 }
 
 .action-call {
   display: block;
   text-align: center;
-  padding: 30px;
   line-height: 80px;
+  justify-content: space-evenly;  
 }
 
 .action-call h2 {
@@ -151,5 +135,7 @@ footer {
   color: #f5f6fa;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 200;
-  font-size: 15px;
+  font-size: 14px;
+  position: relative;
+  top: 50px;
 }
