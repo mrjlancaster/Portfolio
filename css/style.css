@@ -18,7 +18,6 @@
 }
 
 .inner-header {
-  display: block;
   height: 80px;
   margin: 0 auto;
 }
@@ -88,14 +87,26 @@ nav {
 }
 
 .project-boxes {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
   padding: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-1 {
+}
+
+.box-2 {
+align-self: flex-end;
+}
+
+.box-3 {
+
 }
 
 .project_img {
   border-radius: 5px;
 }
+
 
 /* footer section **/
 
