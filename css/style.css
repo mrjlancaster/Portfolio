@@ -64,11 +64,16 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#social ul li {
+#social a {
   display: inline;
   margin: 20px 30px;
   font-size: 25px;
 }
+
+#social a i:hover {
+  color: #05c46b;
+}
+
 
 /* PROJECTS SECTION **/
 
