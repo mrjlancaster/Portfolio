@@ -1,10 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
   color: black;
   scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -41,7 +42,9 @@ nav {
 }
 
 #navbar a:hover {
-  border-bottom: 3px solid #05c46b;
+  border-bottom: 2px solid #05c46b;
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 
 #welcome-section {
@@ -69,12 +72,11 @@ nav {
 
 #social a i:hover {
   color: #05c46b;
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 
-
 /* PROJECTS SECTION **/
-
-
 #projects {
   height: auto;
   width: 100%;
@@ -87,32 +89,34 @@ nav {
   font-size: 2rem;
 }
 
-.project-boxes {
-  padding: 100px;
+.project-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px 0;
 }
 
 .box-1 {
-
+  padding: 20px 0;
 }
 
 .box-2 {
-align-self: flex-end;
+  padding: 20px 0;
+}
+
+.box-2 .slideshow {
+  float: right;
 }
 
 .box-3 {
-  
+  padding: 20px 0;
 }
-
-
-.project_img {
-  border-radius: 5px;
-}
-
 
 /* footer section **/
-
 footer {
   height: 230px;
   background-color: #1e272e;
@@ -121,9 +125,16 @@ footer {
 .footer-content {
   height: 98%;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .heading h2 {
@@ -143,9 +154,9 @@ footer {
   background-color: #f5f6fa;
   color: #1e272e;
   font-size: 20px;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 
 .copyrights p {
   color: #f5f6fa;
@@ -153,3 +164,4 @@ footer {
   font-weight: 200;
   font-size: 14px;
 }
+/*# sourceMappingURL=style.css.map */
