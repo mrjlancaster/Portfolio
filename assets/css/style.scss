@@ -75,57 +75,14 @@ nav {
 }
 
 
-/* PROJECTS SECTION **/
-
-
-#projects {
-  height: auto;
-  width: 100%;
-}
-
-.project-title {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  font-size: 2rem;
-}
-
-.project-section {
-  display: flex;
-  flex-direction: column;
-  margin: 50px 0;
-}
-
-.box-1 {
-  padding: 30px 0;
-}
-
-.box-2 {
-  padding: 30px 0;
-  .slideshow {
-      float: right;
-  }
-}
-
-.box-3 {
-  padding: 30px 0;
-}
-
-
 /* FOOTER GOES HERE */
-footer {
+.footer-container {
   height: 200px;
   background-color: #1e272e;
-}
-
-.footer-content {
-  text-align: center;
   display: flex;
-  justify-content: space-between;
-}
-
-.footer_heading {
-  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .footer_heading-text {
@@ -147,8 +104,13 @@ footer {
 }
   
 .copyrights {
-  color: #f5f6fa;
+  text-align: center;
+  padding: 3px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 200;
-  font-size: 14px;
+  background-color: #1e272e;
+  .copyrights_text {
+    color: #f5f6fa;
+    font-size: 14px;
+  }
 }
