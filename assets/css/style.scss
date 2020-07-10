@@ -9,7 +9,8 @@
 }
 
 header {
-  height: 100vh;
+	background: linear-gradient(0.70turn, #3f87a6, #ebf8e1);
+	height: 100vh;
 }
 
 // NAVIGATION GOES HERE
@@ -42,30 +43,74 @@ header {
   height: 90vh;
 }
 
-.intro {
-  font-size: 40px;
-}
-
-.intro p {
+.intro_text {
+	font-size: 40px;
   line-height: 1.3em;
   letter-spacing: 1px;
   font-weight: 200;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.social a {
+.icon {
   display: inline;
   margin: 20px 30px;
   font-size: 25px;
+  transition: 300ms;
   i {
-    transition: 300ms;
+	 transition: 300ms;
+	 &:hover {
+		color: #05c46b;
+		transition: 300ms;
+	 }
   }
 }
 
-.social a i:hover {
-  color: #05c46b;
-  transition: 300ms;
+// PROJECTS GO HERE
+.projects_container {
+	background-color: #ffff;
+	height: auto;
+	padding: 40px 0;
 }
+
+.projects_title {
+	text-align: center;
+	// padding-top: 40px;
+	font-size: 35px;
+	letter-spacing: 1px;
+	font-weight: 200;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects_wrapper {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.trans1go {
+	width: 200px;
+	height: 200px;
+	background-color: #aaaa;
+}
+
+.world_clock {
+	width: 200px;
+	height: 200px;
+	background-color: #000;
+}
+.am {
+	width: 200px;
+	height: 200px;
+	background-color: #aaaa;
+}
+.arcade-game {
+	width: 200px;
+	height: 200px;
+	background-color: #aaaa;
+}
+
+
+
 
 // FOOTER GOES HERE
 .footer-container {
