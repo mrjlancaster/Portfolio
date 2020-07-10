@@ -9,7 +9,6 @@
 }
 
 header {
-	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1);
 	height: 100vh;
 }
 
@@ -67,8 +66,8 @@ header {
 
 // PROJECTS GO HERE
 .projects_container {
-	background-color: #ffff;
-	height: auto;
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1);
+	height: 740px;
 	padding: 40px 0;
 }
 
@@ -82,13 +81,26 @@ header {
 }
 
 .projects_wrapper {
-	padding: 20px 0;
-	display: flex;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
+}
+
+.first_line {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.second_line {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 img {
+  border-radius: 4px;
   width: 350px;
   height: 220px;
   margin: 20px;
