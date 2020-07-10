@@ -75,14 +75,19 @@ header {
   font-size: 25px;
 }
 
+.social a i {
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
 .social a i:hover {
   color: #05c46b;
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 
 .footer-container {
-  height: 200px;
+  height: 175px;
   background-color: #1e272e;
   display: -webkit-box;
   display: -ms-flexbox;
