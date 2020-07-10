@@ -9,7 +9,7 @@
 }
 
 header {
-	background: linear-gradient(0.70turn, #3f87a6, #ebf8e1);
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1);
 	height: 100vh;
 }
 
@@ -84,31 +84,21 @@ header {
 .projects_wrapper {
 	padding: 20px 0;
 	display: flex;
-	justify-content: space-evenly;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.trans1go {
-	width: 200px;
-	height: 200px;
-	background-color: #aaaa;
+img {
+  width: 350px;
+  height: 220px;
+  margin: 20px;
+  cursor: pointer;
+  transition: 300ms;
+  &:hover {
+    opacity: .7;
+    transition: 300ms;
+  }
 }
-
-.world_clock {
-	width: 200px;
-	height: 200px;
-	background-color: #000;
-}
-.am {
-	width: 200px;
-	height: 200px;
-	background-color: #aaaa;
-}
-.arcade-game {
-	width: 200px;
-	height: 200px;
-	background-color: #aaaa;
-}
-
 
 
 
