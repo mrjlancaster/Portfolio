@@ -53,6 +53,8 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  width: 75%;
+  margin: 0 auto;
   height: 90vh;
 }
 
@@ -79,7 +81,6 @@ header {
   transition: 500ms;
 }
 
-/* FOOTER GOES HERE */
 .footer-container {
   height: 200px;
   background-color: #1e272e;

@@ -12,6 +12,7 @@ header {
   height: 100vh;
 }
 
+// NAVIGATION GOES HERE
 .navigation {
   display: flex;
   align-items: center;
@@ -30,11 +31,14 @@ header {
   }
 }
 
+// WELCOME SECTION GOES HERE
 .welcome-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  width: 75%;
+  margin: 0 auto;
   height: 90vh;
 }
 
@@ -60,8 +64,7 @@ header {
   transition: 500ms;
 }
 
-
-/* FOOTER GOES HERE */
+// FOOTER GOES HERE
 .footer-container {
   height: 200px;
   background-color: #1e272e;
@@ -88,7 +91,7 @@ header {
     transition: 500ms;
   }
 }
-  
+
 .copyrights {
   text-align: center;
   padding: 3px;
