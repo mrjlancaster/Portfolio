@@ -7,49 +7,22 @@
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
-  
-.container {
-  width: 100%;
-  margin: 0px auto;
-}
-
-.content {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.inner-header {
-  height: 80px;
-  margin: 0 auto;
-}
 
 header {
-  height: 800px;
+  height: 100vh;
 }
 
-nav {
-  height: 100%;
-  float: right;
-}
-
-.nav-link {
-  display: inline;
-  margin: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  position: relative;
-  top: 25px;
-}
-
-#navbar a:hover {
-  border-bottom: 2px solid #05c46b;
-  transition: 500ms;
+.navigation {
+  height: 10vh;
+  background-color: blue;
 }
 
 #welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  position: relative;
-  top: 30%;
+  height: 90vh;
 }
 
 .intro {
@@ -63,13 +36,13 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#social a {
+.social a {
   display: inline;
   margin: 20px 30px;
   font-size: 25px;
 }
 
-#social a i:hover {
+.social a i:hover {
   color: #05c46b;
   transition: 500ms;
 }
