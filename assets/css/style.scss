@@ -13,11 +13,24 @@ header {
 }
 
 .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   height: 10vh;
-  background-color: blue;
 }
 
-#welcome-section {
+.navigation ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  li {
+    padding-right: 25px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+.welcome-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
