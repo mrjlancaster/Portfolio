@@ -44,6 +44,8 @@
   position: absolute;
   width: 100vw;
   height: 94vh;
+  -webkit-transition: 1500ms;
+  transition: 1500ms;
   z-index: -1;
 }
 
@@ -211,5 +213,10 @@ img:hover {
   color: #000;
   -webkit-transition: 500ms;
   transition: 500ms;
+}
+
+.projectsOpen {
+  -webkit-transform: translateX(0vw);
+          transform: translateX(0vw);
 }
 /*# sourceMappingURL=style.css.map */
