@@ -16,13 +16,16 @@ projectsBtn.addEventListener('click', function() {
 	setTimeout(() => {
 		homePage.style.transform= 'translateX(-100vw)';
 	}, 300);
-	// homePage.style.transform= 'translateX(-100vw)';
 	projectsPage.style.transform= 'translateX(0vw)';
 	contactPage.style.transform= 'translateY(-100vh)';
 });
 
 contactBtn.addEventListener('click', function() {
+	setTimeout(() => {
+		projectsPage.style.transform= 'translateX(-100vw)';
+	}, 300);
+
 	homePage.style.transform= 'translateY(-100vh)';
-	projectsPage.style.transform= 'translateX(-100vw)';
+	// projectsPage.style.transform= 'translateX(-100vw)';
 	contactPage.style.transform= 'translateY(0vh)';
 });
