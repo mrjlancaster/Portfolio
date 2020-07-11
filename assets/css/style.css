@@ -8,10 +8,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  height: 100vh;
-}
-
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,7 +18,8 @@ header {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  height: 10vh;
+  height: 6vh;
+  background-color: #1e272e;
 }
 
 .navigation ul {
@@ -36,9 +33,18 @@ header {
 }
 
 .navigation ul li {
-  padding-right: 25px;
+  color: #ffff;
+  margin-right: 25px;
   font-size: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.welcome_container {
+  position: absolute;
+  width: 100vw;
+  height: 94vh;
+  z-index: -1;
 }
 
 .welcome-section {
@@ -53,9 +59,9 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  width: 75%;
   margin: 0 auto;
-  height: 90vh;
+  height: 94vh;
+  width: 75%;
 }
 
 .intro_text {
@@ -86,23 +92,34 @@ header {
 }
 
 .projects_container {
-  background: -webkit-gradient(linear, left top, right top, from(#3f87a6), to(#ebf8e1));
-  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1);
-  height: 740px;
-  padding: 40px 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 94vh;
+  -webkit-transform: translateX(-100vw);
+          transform: translateX(-100vw);
+  background-color: #ffff;
+  -webkit-transition: 1500ms;
+  transition: 1500ms;
 }
 
 .projects_title {
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
   letter-spacing: 1px;
   font-weight: 200;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .projects_wrapper {
-  height: 100%;
-  padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,9 +127,9 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .first_line {
@@ -135,7 +152,7 @@ header {
 
 img {
   border-radius: 4px;
-  width: 350px;
+  width: 340px;
   height: 220px;
   margin: 20px;
   cursor: pointer;
@@ -149,9 +166,14 @@ img:hover {
   transition: 300ms;
 }
 
-.footer-container {
-  height: 175px;
-  background-color: #1e272e;
+.contact_container {
+  -webkit-transform: translateY(-100vh);
+          transform: translateY(-100vh);
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  -webkit-transition: 1500ms;
+  transition: 1500ms;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,39 +187,29 @@ img:hover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  height: 94vh;
+  background-color: #1e272e;
 }
 
-.footer_heading-text {
-  color: white;
-  font-family: sans-serif;
-  font-weight: 200;
+.contact_title {
+  font-size: 45px;
+  color: #ffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.footer_button {
-  color: #f5f6fa;
+.button {
+  color: #ffff;
   padding: 15px 50px;
   border: 1px solid #7f8fa6;
   -webkit-transition: 500ms;
   transition: 500ms;
+  cursor: pointer;
 }
 
-.footer_button:hover {
+.button:hover {
   background-color: #f5f6fa;
-  color: #1e272e;
+  color: #000;
   -webkit-transition: 500ms;
   transition: 500ms;
-}
-
-.copyrights {
-  text-align: center;
-  padding: 3px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 200;
-  background-color: #1e272e;
-}
-
-.copyrights .copyrights_text {
-  color: #f5f6fa;
-  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */

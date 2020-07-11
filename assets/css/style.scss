@@ -8,16 +8,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-	height: 100vh;
-}
-
-// NAVIGATION GOES HERE
+// HEADER GOES HERE
 .navigation {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  height: 10vh;
+  height: 6vh;
+  background-color: #1e272e;
 }
 
 .navigation ul {
@@ -25,21 +22,30 @@ header {
   align-items: center;
   height: 100%;
   li {
-    padding-right: 25px;
+    color: #ffff;
+    margin-right: 25px;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
   }
 }
 
 // WELCOME SECTION GOES HERE
+.welcome_container {
+  position: absolute;
+  width: 100vw;
+  height: 94vh;
+  z-index: -1;
+}
+
 .welcome-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width: 75%;
   margin: 0 auto;
-  height: 90vh;
+  height: 94vh;
+  width: 75%;
 }
 
 .intro_text {
@@ -66,27 +72,41 @@ header {
 
 // PROJECTS GO HERE
 .projects_container {
-	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1);
-	height: 740px;
-	padding: 40px 0;
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 94vh;
+  transform: translateX(-100vw);
+  background-color: #ffff;
+  transition: 1500ms;
 }
 
+// .projects_active {
+//   position: absolute;
+//   display: flex;
+//   width: 100vw;
+//   flex-direction: column;
+//   justify-content: space-around;
+//   height: 94vh;
+//   transform: translateX(100vw);
+//   background-color: #ffff;
+// }
+
 .projects_title {
-	text-align: center;
-	// padding-top: 40px;
-	font-size: 35px;
+  text-align: center;
+	font-size: 40px;
 	letter-spacing: 1px;
 	font-weight: 200;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .projects_wrapper {
-  height: 100%;
-  padding: 20px 0;
+  // padding: 20px 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  // flex-wrap: wrap;
+  justify-content: center;
 }
 
 .first_line {
@@ -101,7 +121,7 @@ header {
 
 img {
   border-radius: 4px;
-  width: 350px;
+  width: 340px;
   height: 220px;
   margin: 20px;
   cursor: pointer;
@@ -112,44 +132,77 @@ img {
   }
 }
 
-
-
-// FOOTER GOES HERE
-.footer-container {
-  height: 175px;
-  background-color: #1e272e;
+// CONTACT GOES HERE
+.contact_container {
+  transform: translateY(-100vh);
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  transition: 1500ms;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  height: 94vh;
+  background-color: #1e272e;
 }
 
-.footer_heading-text {
-  color: white;
-  font-family: sans-serif;
-  font-weight: 200;
+.contact_title {
+  font-size: 45px;
+  color: #ffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.footer_button {
-  color: #f5f6fa;
+.button {
+  color: #ffff;
   padding: 15px 50px;
   border: 1px solid #7f8fa6;
   transition: 500ms;
+  cursor: pointer;
   &:hover {
     background-color: #f5f6fa;
-    color: #1e272e;
+    color: #000;
     transition: 500ms;
   }
 }
 
-.copyrights {
-  text-align: center;
-  padding: 3px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 200;
-  background-color: #1e272e;
-  .copyrights_text {
-    color: #f5f6fa;
-    font-size: 14px;
-  }
-}
+// FOOTER GOES HERE
+// .footer-container {
+//   height: 175px;
+//   background-color: #1e272e;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: space-evenly;
+// }
+
+// .footer_heading-text {
+//   color: white;
+//   font-family: sans-serif;
+//   font-weight: 200;
+// }
+
+// .footer_button {
+//   color: #f5f6fa;
+//   padding: 15px 50px;
+//   border: 1px solid #7f8fa6;
+//   transition: 500ms;
+//   &:hover {
+//     background-color: #f5f6fa;
+//     color: #1e272e;
+//     transition: 500ms;
+//   }
+// }
+
+// .copyrights {
+//   height: 2vh;
+//   text-align: center;
+//   // padding: 3px;
+//   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//   font-weight: 200;
+//   background-color: #1e272e;
+//   .copyrights_text {
+//     color: #f5f6fa;
+//     font-size: 14px;
+//   }
+// }
