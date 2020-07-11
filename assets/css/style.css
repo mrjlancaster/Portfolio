@@ -9,6 +9,7 @@
 }
 
 .navigation {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,10 +214,5 @@ img:hover {
   color: #000;
   -webkit-transition: 500ms;
   transition: 500ms;
-}
-
-.projectsOpen {
-  -webkit-transform: translateX(0vw);
-          transform: translateX(0vw);
 }
 /*# sourceMappingURL=style.css.map */

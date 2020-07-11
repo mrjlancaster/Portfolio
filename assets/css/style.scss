@@ -10,6 +10,7 @@
 
 // HEADER GOES HERE
 .navigation {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -154,11 +155,6 @@ img {
     color: #000;
     transition: 500ms;
   }
-}
-
-// CLASS LISTS
-.projectsOpen {
-  transform: translateX(0vw);
 }
 
 // FOOTER GOES HERE

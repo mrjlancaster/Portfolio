@@ -13,8 +13,12 @@ homeBtn.addEventListener('click', function() {
 })
 
 projectsBtn.addEventListener('click', function() {
-	contactPage.style.transform= 'translateY(-100vh)';
+	setTimeout(() => {
+		homePage.style.transform= 'translateX(-100vw)';
+	}, 300);
+	// homePage.style.transform= 'translateX(-100vw)';
 	projectsPage.style.transform= 'translateX(0vw)';
+	contactPage.style.transform= 'translateY(-100vh)';
 });
 
 contactBtn.addEventListener('click', function() {
