@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrjlancaster/Portfolio.git"
+  },
+  "author": "Jonathan Lancaster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrjlancaster/Portfolio/issues"
+  },
+  "homepage": "https://github.com/mrjlancaster/Portfolio#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
