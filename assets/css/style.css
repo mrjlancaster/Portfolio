@@ -21,6 +21,8 @@
           justify-content: flex-end;
   height: 6vh;
   background-color: #1e272e;
+  position: relative;
+  z-index: 3;
 }
 
 .navigation ul {
@@ -94,6 +96,17 @@
   transition: 300ms;
 }
 
+.copyrights_home {
+  height: 2vh;
+  text-align: center;
+}
+
+.copyrights_home .copyrights_text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+}
+
 .projects_container {
   position: absolute;
   display: -webkit-box;
@@ -123,6 +136,7 @@
 }
 
 .projects_wrapper {
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,7 +169,7 @@
 
 img {
   border-radius: 4px;
-  width: 340px;
+  width: 360px;
   height: 220px;
   margin: 20px;
   cursor: pointer;
@@ -167,6 +181,10 @@ img:hover {
   opacity: .7;
   -webkit-transition: 300ms;
   transition: 300ms;
+}
+
+.trans1go_button {
+  position: absolute;
 }
 
 .contact_container {
@@ -195,7 +213,9 @@ img:hover {
 }
 
 .contact_title {
-  font-size: 45px;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 200;
   color: #ffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

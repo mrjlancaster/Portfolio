@@ -16,6 +16,8 @@
   justify-content: flex-end;
   height: 6vh;
   background-color: #1e272e;
+  position: relative;
+  z-index: 3;
 }
 
 .navigation ul {
@@ -72,6 +74,16 @@
   }
 }
 
+.copyrights_home {
+  height: 2vh;
+  text-align: center;
+  .copyrights_text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+  }
+}
+
 // PROJECTS GO HERE
 .projects_container {
   position: absolute;
@@ -94,7 +106,7 @@
 }
 
 .projects_wrapper {
-  // padding: 20px 0;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,7 +124,7 @@
 
 img {
   border-radius: 4px;
-  width: 340px;
+  width: 360px;
   height: 220px;
   margin: 20px;
   cursor: pointer;
@@ -121,6 +133,10 @@ img {
     opacity: .7;
     transition: 300ms;
   }
+}
+
+.trans1go_button {
+  position: absolute;
 }
 
 // CONTACT GOES HERE
@@ -139,7 +155,9 @@ img {
 }
 
 .contact_title {
-  font-size: 45px;
+	font-size: 40px;
+	letter-spacing: 1px;
+  font-weight: 200;
   color: #ffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -157,33 +175,6 @@ img {
   }
 }
 
-// FOOTER GOES HERE
-// .footer-container {
-//   height: 175px;
-//   background-color: #1e272e;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: space-evenly;
-// }
-
-// .footer_heading-text {
-//   color: white;
-//   font-family: sans-serif;
-//   font-weight: 200;
-// }
-
-// .footer_button {
-//   color: #f5f6fa;
-//   padding: 15px 50px;
-//   border: 1px solid #7f8fa6;
-//   transition: 500ms;
-//   &:hover {
-//     background-color: #f5f6fa;
-//     color: #1e272e;
-//     transition: 500ms;
-//   }
-// }
 
 // .copyrights {
 //   height: 2vh;

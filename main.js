@@ -13,9 +13,9 @@ homeBtn.addEventListener('click', function() {
 })
 
 projectsBtn.addEventListener('click', function() {
-	setTimeout(() => {
-		homePage.style.transform= 'translateX(-100vw)';
-	}, 300);
+	// setTimeout(() => {
+	// 	homePage.style.transform= 'translateX(-100vw)';
+	// }, 300);
 	projectsPage.style.transform= 'translateX(0vw)';
 	contactPage.style.transform= 'translateY(-100vh)';
 });
