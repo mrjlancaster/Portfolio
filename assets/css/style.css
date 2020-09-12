@@ -44,6 +44,9 @@
 }
 
 .welcome_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   width: 100vw;
   height: 94vh;
@@ -109,9 +112,7 @@
 
 .projects_container {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -120,8 +121,6 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 94vh;
-  -webkit-transform: translateX(-100vw);
-          transform: translateX(-100vw);
   background-color: #ffff;
   -webkit-transition: 1500ms;
   transition: 1500ms;
@@ -188,16 +187,12 @@ img:hover {
 }
 
 .contact_container {
-  -webkit-transform: translateY(-100vh);
-          transform: translateY(-100vh);
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
   position: absolute;
   width: 100%;
   margin: 0;
-  -webkit-transition: 1500ms;
-  transition: 1500ms;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -234,5 +229,26 @@ img:hover {
   color: #000;
   -webkit-transition: 500ms;
   transition: 500ms;
+}
+
+.animate__animated.animate__fadeOut {
+  -webkit-animation: fadeOut;
+          animation: fadeOut;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.animate__animated.animate__fadeIn {
+  -webkit-animation: fadeIn;
+          animation: fadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.animate__animated.animate__fadeInDown {
+  -webkit-animation: fadeInDown;
+          animation: fadeInDown;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
 }
 /*# sourceMappingURL=style.css.map */
