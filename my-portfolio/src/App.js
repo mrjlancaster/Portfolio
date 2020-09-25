@@ -8,9 +8,6 @@ import Contact from './components/Contact';
 const App = () => {
 
 
-
-
-
   return (
     <div className="App">
 		 <Header />

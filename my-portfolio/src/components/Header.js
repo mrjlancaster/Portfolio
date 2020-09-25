@@ -7,7 +7,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import useStyles from '../styles';
 
 
-function Header() {
+const Header = () => {
 
 	const classes = useStyles();
 
