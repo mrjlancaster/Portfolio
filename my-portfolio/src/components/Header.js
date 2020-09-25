@@ -18,11 +18,11 @@ function Header() {
 					<Typography variant="h6" className={classes.title}>
 						Jonathan Lancaster
 					</Typography>
-						<ul className={classes.ul}>
-							<li className={classes.li}>Home</li>
-							<li className={classes.li}>Projects</li>
-							<li className={classes.li}>Contact</li>
-						</ul>
+					<ul className={classes.ul}>
+						<li className={classes.li}>Home</li>
+						<li className={classes.li}>Projects</li>
+						<li className={classes.li}>Contact</li>
+					</ul>
 				</Toolbar>
 			</AppBar>
     	</div>
