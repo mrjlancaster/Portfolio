@@ -19,7 +19,10 @@ const useStyles = makeStyles((theme) => ({
 		 justifyContent: 'flex-end'
 	 },
 	 li: {
-		 marginLeft: 20
+		 marginLeft: 20,
+		 listStyle: 'none',
+		 color: '#fff',
+		 textDecoration: 'none'
 	 },
 
 	 // Projects styles
@@ -50,7 +53,13 @@ const useStyles = makeStyles((theme) => ({
 		 padding: '15px 50px',
 		 border: '1px solid #7f8fa6',
 		 cursor: 'pointer',
-		 background: 'none'
+		 background: 'none',
+		 borderRadius: 4,
+		 transition: 'all 500ms ease',
+		 '&:hover': {
+			 backgroundColor: '#f5f6fa',
+			 color: '#000'
+		 }
 	 }
 }))
 
