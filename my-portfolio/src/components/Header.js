@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 
 // Material ui imports
 import AppBar from '@material-ui/core/AppBar';
@@ -24,9 +24,21 @@ function Header() {
 								<Link to="/Projects" className={classes.li}>Projects</Link>
 							</li>
 							<li>
-								<Link to="/Projects" className={classes.li}>Contact</Link>
+								<Link to="/Contact" className={classes.li}>Contact</Link>
 							</li>
 						</ul>
+
+						{/* <Switch>
+							<Route path="/Home">
+								<Welcome />
+							</Route>
+							<Route path="/Projects">
+								<Projects />
+							</Route>
+							<Route path="/Contact">
+								<Contact />
+							</Route>
+						</Switch> */}
 					</Toolbar>
 				</AppBar>
 			</div>
