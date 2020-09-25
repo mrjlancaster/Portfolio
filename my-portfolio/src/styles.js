@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme) => ({
 		flexGrow: 1,
 	 },
 	 bar: {
-		 backgroundColor: '#1e272e',
+		 backgroundColor: '#1e272e',		
 	 },
 	 title: {
 		flexGrow: 1,
@@ -13,8 +13,10 @@ const useStyles = makeStyles((theme) => ({
 	 
 	 // Header styles
 	 ul: {
+		 width: '100%',
 		 display: 'flex',
-		 listStyle: 'none'
+		 listStyle: 'none',
+		 justifyContent: 'flex-end'
 	 },
 	 li: {
 		 marginLeft: 20

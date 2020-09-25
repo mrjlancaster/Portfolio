@@ -38,19 +38,8 @@ projectsBtn.addEventListener('click', function() {
 contactBtn.addEventListener('click', function() {
 
 	// hide home page if current
-	if (homePage.style.display == 'flex') {
-		setTimeout(() => {
-			homePage.classList.add('animate__animated', 'animate__fadeOut');
-			
-			setTimeout(() => {
-				homePage.style.display = 'none';
-			}, 1000);
-		}, 1000);
 
+				homePage.style.display = 'none';
 		// display contact page
-		setTimeout(() => {
-			contactPage.classList.add('animate__animated', 'animate__fadeInDown');
 			contactPage.style.display = 'flex';
-		}, 3000);
-	}
 });

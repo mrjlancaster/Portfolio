@@ -15,9 +15,6 @@ function Header() {
 		<div className={classes.root}>
 			<AppBar className={classes.bar} position="static">
 				<Toolbar>
-					<Typography variant="h6" className={classes.title}>
-						Jonathan Lancaster
-					</Typography>
 					<ul className={classes.ul}>
 						<li className={classes.li}>Home</li>
 						<li className={classes.li}>Projects</li>
