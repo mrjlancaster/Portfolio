@@ -18,12 +18,47 @@ const useStyles = makeStyles((theme) => ({
 		 listStyle: 'none',
 		 justifyContent: 'flex-end'
 	 },
+	 
 	 li: {
 		 marginLeft: 20,
-		 listStyle: 'none',
-		 color: '#fff',
-		 textDecoration: 'none'
+		 cursor: 'pointer'
 	 },
+	 // Welcome section
+	 welcomeContainer: {
+		 display: 'flex',
+		 position: 'absolute',
+		 width: '100vw',
+	 },
+	 welcomeSection: {
+			display: 'flex',
+			flexDirection: 'column',
+			justifyContent: 'center',
+			textAlign: 'center',
+			margin: '0 auto',
+			height: '90vh',
+			width: '75%'
+	 },
+	 welcomeTitle: {
+		 fontSize: 40,
+		 lineHeight: '1.3em',
+		 letterSpacing: 1,
+		 fontWeight: 200,
+		 fontFamily: 'Arial, Helvetica, sans-serif'
+	 },
+	 welcomeSeparator: {
+		 margin: '15px 0'
+	 },
+	 socialLinks: {
+		 display: 'inline',
+		 color: '#000',
+		 margin: '20px 30px',
+		 fontSize: 25,
+		 transition: 'all 300ms ease',
+		 '&:hover': {
+			 color: '#05c46b'
+		 }
+	 },
+
 
 	 // Projects styles
 	 projectsHeading: {

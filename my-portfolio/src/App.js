@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css'
 import Header from './components/Header';
 import Welcome from './components/Welcome';
@@ -12,8 +12,9 @@ const App = () => {
     <div className="App">
 		 <Header />
 		 <Welcome />
-		 <Projects />
-		 <Contact />
+	
+		 {/* <Projects /> */}
+		 {/* <Contact /> */}
     </div>
   );
 }

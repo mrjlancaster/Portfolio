@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 
 // Material ui imports
 import AppBar from '@material-ui/core/AppBar';
@@ -9,40 +8,36 @@ import useStyles from '../styles';
 
 const Header = () => {
 
+	// const [navbar, setNavbar] =  useState({
+	// 	visible: false
+	// });
+
 	const classes = useStyles();
 
-	return (
-		<Router>
-			<div className={classes.root}>
-				<AppBar className={classes.bar} position="static">
-					<Toolbar>
-						<ul className={classes.ul}>
-							<li>
-								<Link to="/Home" className={classes.li}>Home</Link>
-							</li>
-							<li>
-								<Link to="/Projects" className={classes.li}>Projects</Link>
-							</li>
-							<li>
-								<Link to="/Contact" className={classes.li}>Contact</Link>
-							</li>
-						</ul>
+	const displayHome = () => {
 
-						{/* <Switch>
-							<Route path="/Home">
-								<Welcome />
-							</Route>
-							<Route path="/Projects">
-								<Projects />
-							</Route>
-							<Route path="/Contact">
-								<Contact />
-							</Route>
-						</Switch> */}
-					</Toolbar>
-				</AppBar>
-			</div>
-		</Router>
+	}
+
+	const displayProjects = () => {
+
+	}
+
+	const displayContact = () => {
+
+	}
+
+	return (
+		<div className={classes.root}>
+			<AppBar className={classes.bar} position="static">
+				<Toolbar>
+					<ul className={classes.ul}>
+						<li className={classes.li} onClick={displayHome}>Home</li>
+						<li className={classes.li} onClick={displayProjects}>Projects</li>
+						<li className={classes.li} onClick={displayContact}>Contact</li>
+					</ul>
+				</Toolbar>
+			</AppBar>
+		</div>
 	)
 }
 
