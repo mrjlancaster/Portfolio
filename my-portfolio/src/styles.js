@@ -1,5 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
 
+import trans1go from './img/trans1go.jpg';
+
 const useStyles = makeStyles((theme) => ({
 	toolbar: {
 		height: '10vh'
@@ -31,14 +33,14 @@ const useStyles = makeStyles((theme) => ({
 		 position: 'absolute',
 		 width: '100vw',
 	 },
-	 welcomeSection: {
-			display: 'flex',
-			flexDirection: 'column',
-			justifyContent: 'center',
-			textAlign: 'center',
-			margin: '0 auto',
-			height: '90vh',
-			width: '75%'
+	 welcomeSection: {	
+		display: 'flex',
+		flexDirection: 'column',
+		justifyContent: 'center',
+		textAlign: 'center',
+		margin: '0 auto',
+		height: '90vh',
+		width: '75%'
 	 },
 	 welcomeTitle: {
 		 fontSize: 40,
@@ -66,8 +68,8 @@ const useStyles = makeStyles((theme) => ({
 	 projectsHeading: {
 		 textAlign: 'center'
 	 },
-	 projectBox: {
-		 backgroundColor: 'green'
+	 paper: {
+		 background: 'blue'
 	 },
 
 	 // Contact component styles
@@ -98,7 +100,7 @@ const useStyles = makeStyles((theme) => ({
 			 backgroundColor: '#f5f6fa',
 			 color: '#000'
 		 }
-	 }
+	 },
 }))
 
 export default useStyles;
