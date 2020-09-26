@@ -1,7 +1,9 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
-
+	toolbar: {
+		height: '10vh'
+	},
 	 bar: {
 		 backgroundColor: '#1e272e',
 	 },
@@ -71,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
 	 // Contact component styles
 	 contactBox: {
 		 backgroundColor: '#1e272e',
-		 height: '91vh',
+		 height: '90vh',
 		 display: 'flex',
 		 flexDirection: 'column',
 		 alignItems: 'center',
@@ -90,6 +92,7 @@ const useStyles = makeStyles((theme) => ({
 		 cursor: 'pointer',
 		 background: 'none',
 		 borderRadius: 4,
+		 textDecoration: 'none',
 		 transition: 'all 500ms ease',
 		 '&:hover': {
 			 backgroundColor: '#f5f6fa',

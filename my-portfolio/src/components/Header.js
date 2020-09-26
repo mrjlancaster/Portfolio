@@ -30,7 +30,7 @@ const Header = () => {
 	return (
 		<div>
 			<AppBar className={classes.bar} position="static">
-				<Toolbar>
+				<Toolbar className={classes.toolbar}>
 					<ul className={classes.ul}>
 						<li>
 							<Link to='/' className={classes.li} onClick={displayHome}>Home</Link>

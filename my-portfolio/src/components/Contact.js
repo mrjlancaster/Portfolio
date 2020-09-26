@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // Material UI imports
 import useStyles from '../styles';
 
 
-function Contact() {
+const Contact = () => {
+
+	const [email] = useState({
+		email: 'lancast001@gmail.com'
+	});
 
 	const classes = useStyles();
 
@@ -13,9 +17,9 @@ function Contact() {
 			<h1 className={classes.contactTitle}>
 				I'm Available For Work
 			</h1>
-			<p variant="Outlined" className={classes.contactButton}>
+			<a href={'mailto: ' + email.email} variant="Outlined" className={classes.contactButton}>
 				Get in touch
-			</p>
+			</a>
 		</div>
 	)
 }
