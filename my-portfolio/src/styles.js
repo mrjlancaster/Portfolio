@@ -1,11 +1,9 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
-	root: {
-		flexGrow: 1,
-	 },
+
 	 bar: {
-		 backgroundColor: '#1e272e',		
+		 backgroundColor: '#1e272e',
 	 },
 	 title: {
 		flexGrow: 1,
@@ -21,6 +19,8 @@ const useStyles = makeStyles((theme) => ({
 	 
 	 li: {
 		 marginLeft: 20,
+		 color: '#fff',
+		 textDecoration: 'none',
 		 cursor: 'pointer'
 	 },
 	 // Welcome section
@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
 	 // Contact component styles
 	 contactBox: {
 		 backgroundColor: '#1e272e',
-		 height: '94vh',
+		 height: '91vh',
 		 display: 'flex',
 		 flexDirection: 'column',
 		 alignItems: 'center',
