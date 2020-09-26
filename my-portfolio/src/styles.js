@@ -65,6 +65,13 @@ const useStyles = makeStyles((theme) => ({
 
 
 	 // Projects styles
+	 gridContainer: {
+		 height: '75vh',
+		 maxWidth: '100vw'
+		//  display: 'flex',
+		//  alignItems: 'center',
+		//  justifyContent: 'center'
+	 },
 	 projectsHeading: {
 		 textAlign: 'center'
 	 },
