@@ -1,7 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
 
-import trans1go from './img/trans1go.jpg';
-
 const useStyles = makeStyles((theme) => ({
 	toolbar: {
 		height: '10vh'

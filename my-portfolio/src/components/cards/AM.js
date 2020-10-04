@@ -2,8 +2,6 @@ import React from 'react';
 
 import useStyles from '../../styles';
 
-import am from '../../img/am.jpg';
-
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
