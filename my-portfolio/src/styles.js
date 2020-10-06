@@ -63,12 +63,24 @@ const useStyles = makeStyles((theme) => ({
 
 
 	 // Projects styles
+	 projectsBox: {
+		 paddingTop: 25
+	 },
 	 projectsHeading: {
-		 textAlign: 'center'
+		 textAlign: 'center',
+		 padding: '40px 0'
+	 },
+	 projectsContainer: {
+		 display: 'flex',
+		 flexWrap: 'wrap',
+		 justifyContent: 'space-evenly'
 	 },
 	 pics: {
+		 margin: '15px 10px',
 		 height: 250,
 		 width: 400,
+		 border: '1px solid lightgray',
+		 borderRadius: 4,
 		 '&:hover': {
 			 cursor: 'pointer'
 		 }

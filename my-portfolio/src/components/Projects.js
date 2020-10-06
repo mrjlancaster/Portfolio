@@ -1,7 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // images import
 import Trans1go from '../img/trans1go.jpg';
+import am from '../img/am.jpg';
+import padaOne from '../img/padaone.jpg';
+import WorldClock from '../img/world_clock.jpg';
+import ArcadeGame from '../img/arcade_game.jpg';
 
 // Cards imports
 // import Trans1go from './cards/Trans1go';
@@ -22,28 +27,40 @@ const Projects = () => {
 	const classes = useStyles();
 
 	return (
-		<Box>
-			<Typography variant="h4" className={classes.projectsHeading}>
+		<Box className={classes.projectsBox}>
+			<Typography variant="h2" className={classes.projectsHeading}>
 				Projects
 			</Typography>
-			<div className="trans1go">
-				<img className={classes.pics} src={Trans1go} alt="" />
-			</div>
+			<div className={classes.projectsContainer}>
+				<div className="trans1go">
+					<a href="http://trans1go.com/" target="blank">
+						<img className={classes.pics} src={Trans1go} alt="Trans1go.com" />
+					</a>
+				</div>
 
-			<div className="padaOne">
-				<img className={classes.pics} src="" alt="" />
-			</div>
+				<div className="padaOne">
+					<a href="https://www.padaone.app/" target="blank">
+						<img className={classes.pics} src={padaOne} alt="PadaOne" />
+					</a>
+				</div>
 
-			<div className="worldClock">
-				<img className={classes.pics} src="" alt="" />
-			</div>
+				<div className="worldClock">
+					<a href="https://mrjlancaster.github.io/world_clock/" target="blank">
+						<img className={classes.pics} src={WorldClock} alt="World digital clock" />
+					</a>
+				</div>
 
-			<div className="am">
-				<img className={classes.pics} src="" alt="" />
-			</div>
+				<div className="am">
+					<a href="https://mrjlancaster.github.io/Responsive-website/" target="blank">
+						<img className={classes.pics} src={am} alt="Architecture and design website" />
+					</a>
+				</div>
 
-			<div className="ArcadeGame">
-				<img className={classes.pics} src="" alt="" />
+				<div className="ArcadeGame">
+					<a href="https://mrjlancaster.github.io/Arcade-Game/" target="blank">
+						<img className={classes.pics} src={ArcadeGame} alt="Arcade Game" />
+					</a> 
+				</div>
 			</div>
 		</Box>
 
