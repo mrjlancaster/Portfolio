@@ -63,18 +63,15 @@ const useStyles = makeStyles((theme) => ({
 
 
 	 // Projects styles
-	 gridContainer: {
-		 height: '75vh',
-		 maxWidth: '100vw'
-		//  display: 'flex',
-		//  alignItems: 'center',
-		//  justifyContent: 'center'
-	 },
 	 projectsHeading: {
 		 textAlign: 'center'
 	 },
-	 paper: {
-		 background: 'blue'
+	 pics: {
+		 height: 250,
+		 width: 400,
+		 '&:hover': {
+			 cursor: 'pointer'
+		 }
 	 },
 
 	 // Contact component styles
