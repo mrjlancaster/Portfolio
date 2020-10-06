@@ -9,10 +9,6 @@ import useStyles from '../styles';
 
 const Header = () => {
 
-	// const [navbar, setNavbar] =  useState({
-	// 	visible: false
-	// });
-
 	const classes = useStyles();
 
 	const displayHome = () => {

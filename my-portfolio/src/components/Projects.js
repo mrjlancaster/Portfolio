@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // images import
 import Trans1go from '../img/trans1go.jpg';
@@ -7,15 +6,6 @@ import am from '../img/am.jpg';
 import padaOne from '../img/padaone.jpg';
 import WorldClock from '../img/world_clock.jpg';
 import ArcadeGame from '../img/arcade_game.jpg';
-
-// Cards imports
-// import Trans1go from './cards/Trans1go';
-// import PadaOne from './cards/PadaOne';
-// import ArcadeGame from './cards/ArcadeGame';
-// import AM from './cards/AM';
-// import WorldClock from './cards/WorldClock';
-
-
 
 // Material UI imports
 import useStyles from '../styles';
