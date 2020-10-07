@@ -11,18 +11,6 @@ const Header = () => {
 
 	const classes = useStyles();
 
-	const displayHome = () => {
-
-	}
-
-	const displayProjects = () => {
-
-	}
-
-	const displayContact = () => {
-
-	}
-
 	return (
 		<div>
 			<AppBar className={classes.bar} position="static">
