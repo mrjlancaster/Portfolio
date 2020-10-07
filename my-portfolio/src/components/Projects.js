@@ -30,6 +30,7 @@ const Projects = () => {
 
 				<div className="padaOne">
 					<a href="https://www.padaone.app/" target="blank">
+						<Typography variant="p">Technologies used: HTML, CSS3/SASS, JavaScript</Typography>
 						<img className={classes.pics} src={padaOne} alt="PadaOne" />
 					</a>
 				</div>
