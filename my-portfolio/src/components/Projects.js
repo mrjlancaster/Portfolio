@@ -16,6 +16,7 @@ const Projects = () => {
 
 	const classes = useStyles();
 
+
 	return (
 		<Box className={classes.projectsBox}>
 			<Typography variant="h2" className={classes.projectsHeading}>
@@ -30,7 +31,6 @@ const Projects = () => {
 
 				<div className="padaOne">
 					<a href="https://www.padaone.app/" target="blank">
-						<Typography variant="p">Technologies used: HTML, CSS3/SASS, JavaScript</Typography>
 						<img className={classes.pics} src={padaOne} alt="PadaOne" />
 					</a>
 				</div>

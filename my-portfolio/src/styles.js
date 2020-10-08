@@ -81,8 +81,10 @@ const useStyles = makeStyles((theme) => ({
 		 width: 400,
 		 border: '1px solid lightgray',
 		 borderRadius: 4,
+		 transition: 'all 200ms ease',
 		 '&:hover': {
-			 cursor: 'pointer'
+			 cursor: 'pointer',
+			 transform: 'scale(1.1)'
 		 }
 	 },
 
