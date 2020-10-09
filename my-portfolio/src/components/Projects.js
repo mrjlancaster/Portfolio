@@ -24,63 +24,53 @@ const Projects = () => {
 			</Typography>
 			<div className={classes.projectsContainer}>
 				<div className="trans1go">
-					<a href="http://trans1go.com/" target="blank">
-						<div className={classes.picContainer}>
-							<img className={classes.pics} src={Trans1go} alt="Trans1go.com" />
-						</div>
-						<div className={classes.details}>
-							<Typography variant="p">Tech used:</Typography>
-							<button>See project</button>
-						</div>
-					</a>
+					<div className={classes.picContainer}>
+						<img className={classes.pics} src={Trans1go} alt="Trans1go.com" />
+					</div>
+					<div className={classes.details}>
+						<Typography variant="p">Tech used:</Typography>
+						<a href="http://trans1go.com/" target="blank">See project</a>
+					</div>
 				</div>
 
 				<div className="padaOne">
-					<a href="https://www.padaone.app/" target="blank">
-						<div className={classes.picContainer}>
-							<img className={classes.pics} src={padaOne} alt="PadaOne" />
-						</div>
-						<div className={classes.details}>
-							<Typography variant="p">Tech used:</Typography>
-							<button>See project</button>
-						</div>
-					</a>
+					<div className={classes.picContainer}>
+						<img className={classes.pics} src={padaOne} alt="PadaOne" />
+					</div>
+					<div className={classes.details}>
+						<Typography variant="p">Tech used:</Typography>
+						<a href="https://www.padaone.app/" target="blank">See project</a>
+					</div>
 				</div>
 
 				<div className="worldClock">
-					<a href="https://mrjlancaster.github.io/world_clock/" target="blank">
-						<div className={classes.picContainer}>
-							<img className={classes.pics} src={WorldClock} alt="World digital clock" />
-						</div>
-						<div className={classes.details}>
-							<Typography variant="p">Tech used:</Typography>
-							<button>See project</button>
-						</div>
-					</a>
+					<div className={classes.picContainer}>
+						<img className={classes.pics} src={WorldClock} alt="World digital clock" />
+					</div>
+					<div className={classes.details}>
+						<Typography variant="p">Tech used:</Typography>
+						<a href="https://mrjlancaster.github.io/world_clock/" target="blank">See project</a>
+					</div>
 				</div>
 
 				<div className="am">
-					<a href="https://mrjlancaster.github.io/Responsive-website/" target="blank">
-						<div className={classes.picContainer}>
-							<img className={classes.pics} src={am} alt="Architecture and design website" />
-						</div>
-						<div className={classes.details}>
-							<Typography variant="p">Tech used:</Typography>
-							<button>See project</button>
-						</div>
-					</a>
+					<div className={classes.picContainer}>
+						<img className={classes.pics} src={am} alt="Architecture and design website" />
+					</div>
+					<div className={classes.details}>
+						<Typography variant="p">Tech used:</Typography>
+						<a href="https://mrjlancaster.github.io/Responsive-website/" target="blank"></a>
+					</div>
 				</div>
 
 				<div className="ArcadeGame">
-					<a href="https://mrjlancaster.github.io/Arcade-Game/" target="blank">
-						<div className={classes.picContainer}>
-							<img className={classes.pics} src={ArcadeGame} alt="Arcade Game" />
-						</div>
-						<div className={classes.details}>
-							<Typography variant="p">Tech used:</Typography>
-							<button>See project</button>
-						</div>
-					</a> 
+					<div className={classes.picContainer}>
+						<img className={classes.pics} src={ArcadeGame} alt="Arcade Game" />
+					</div>
+					<div className={classes.details}>
+						<Typography variant="p">Tech used:</Typography>
+						<a href="https://mrjlancaster.github.io/Arcade-Game/" target="blank"></a>
+					</div>
 				</div>
 			</div>
 		</Box>

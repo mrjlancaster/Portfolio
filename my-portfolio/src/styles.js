@@ -80,7 +80,8 @@ const useStyles = makeStyles((theme) => ({
 		overflow: 'hidden',
 		background: 'rgba(0, 0, 0, 0.9)',
 		height: 250,
-		width: 400
+		width: 400,
+		borderRadius: 4
 	 },
 	 pics: {
 		 height: 250,
