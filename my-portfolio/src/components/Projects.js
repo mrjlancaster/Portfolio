@@ -28,6 +28,10 @@ const Projects = () => {
 						<div className={classes.picContainer}>
 							<img className={classes.pics} src={Trans1go} alt="Trans1go.com" />
 						</div>
+						<div className={classes.details}>
+							<Typography variant="p">Tech used:</Typography>
+							<button>See project</button>
+						</div>
 					</a>
 				</div>
 
@@ -35,6 +39,10 @@ const Projects = () => {
 					<a href="https://www.padaone.app/" target="blank">
 						<div className={classes.picContainer}>
 							<img className={classes.pics} src={padaOne} alt="PadaOne" />
+						</div>
+						<div className={classes.details}>
+							<Typography variant="p">Tech used:</Typography>
+							<button>See project</button>
 						</div>
 					</a>
 				</div>
@@ -44,6 +52,10 @@ const Projects = () => {
 						<div className={classes.picContainer}>
 							<img className={classes.pics} src={WorldClock} alt="World digital clock" />
 						</div>
+						<div className={classes.details}>
+							<Typography variant="p">Tech used:</Typography>
+							<button>See project</button>
+						</div>
 					</a>
 				</div>
 
@@ -52,6 +64,10 @@ const Projects = () => {
 						<div className={classes.picContainer}>
 							<img className={classes.pics} src={am} alt="Architecture and design website" />
 						</div>
+						<div className={classes.details}>
+							<Typography variant="p">Tech used:</Typography>
+							<button>See project</button>
+						</div>
 					</a>
 				</div>
 
@@ -59,6 +75,10 @@ const Projects = () => {
 					<a href="https://mrjlancaster.github.io/Arcade-Game/" target="blank">
 						<div className={classes.picContainer}>
 							<img className={classes.pics} src={ArcadeGame} alt="Arcade Game" />
+						</div>
+						<div className={classes.details}>
+							<Typography variant="p">Tech used:</Typography>
+							<button>See project</button>
 						</div>
 					</a> 
 				</div>

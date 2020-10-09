@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
 	 picContainer: {
 		margin: '15px 10px',
 		overflow: 'hidden',
-		background: 'rgba(0, 0, 0, 0.7)',
+		background: 'rgba(0, 0, 0, 0.9)',
 		height: 250,
 		width: 400
 	 },
