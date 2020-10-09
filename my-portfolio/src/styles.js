@@ -81,7 +81,7 @@ const useStyles = makeStyles((theme) => ({
 		background: 'rgba(0, 0, 0, 0.9)',
 		height: 250,
 		width: 400,
-		borderRadius: 4
+		borderRadius: 4,
 	 },
 	 pics: {
 		 height: 250,
@@ -91,6 +91,15 @@ const useStyles = makeStyles((theme) => ({
 			 transform: 'scale(1.2)',
 			 opacity: 0.5,
 		 }
+	 },
+	 button: {
+		 cursor: 'pointer',
+		 textDecoration: 'none',
+		 color: '#fff',
+		 padding: '10px 15px',
+		 border: 'none',
+		 backgroundColor: '#0080FF',
+		 borderRadius: 4
 	 },
 
 	 // Contact component styles
