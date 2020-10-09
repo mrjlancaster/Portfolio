@@ -29,7 +29,7 @@ const Projects = () => {
 					</div>
 					<div className={classes.details}>
 						<Typography variant="p">Tech used:</Typography>
-						<a href="http://trans1go.com/" target="blank">See project</a>
+						<a className={classes.button} href="http://trans1go.com/" target="blank">See project</a>
 					</div>
 				</div>
 
@@ -39,7 +39,7 @@ const Projects = () => {
 					</div>
 					<div className={classes.details}>
 						<Typography variant="p">Tech used:</Typography>
-						<a href="https://www.padaone.app/" target="blank">See project</a>
+						<a className={classes.button} href="https://www.padaone.app/" target="blank">See project</a>
 					</div>
 				</div>
 
@@ -49,7 +49,7 @@ const Projects = () => {
 					</div>
 					<div className={classes.details}>
 						<Typography variant="p">Tech used:</Typography>
-						<a href="https://mrjlancaster.github.io/world_clock/" target="blank">See project</a>
+						<a className={classes.button} href="https://mrjlancaster.github.io/world_clock/" target="blank">See project</a>
 					</div>
 				</div>
 
@@ -59,7 +59,7 @@ const Projects = () => {
 					</div>
 					<div className={classes.details}>
 						<Typography variant="p">Tech used:</Typography>
-						<a href="https://mrjlancaster.github.io/Responsive-website/" target="blank"></a>
+						<a className={classes.button} href="https://mrjlancaster.github.io/Responsive-website/" target="blank"></a>
 					</div>
 				</div>
 
@@ -69,7 +69,7 @@ const Projects = () => {
 					</div>
 					<div className={classes.details}>
 						<Typography variant="p">Tech used:</Typography>
-						<a href="https://mrjlancaster.github.io/Arcade-Game/" target="blank"></a>
+						<a className={classes.button} href="https://mrjlancaster.github.io/Arcade-Game/" target="blank"></a>
 					</div>
 				</div>
 			</div>
