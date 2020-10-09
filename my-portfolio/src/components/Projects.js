@@ -25,31 +25,41 @@ const Projects = () => {
 			<div className={classes.projectsContainer}>
 				<div className="trans1go">
 					<a href="http://trans1go.com/" target="blank">
-						<img className={classes.pics} src={Trans1go} alt="Trans1go.com" />
+						<div className={classes.picContainer}>
+							<img className={classes.pics} src={Trans1go} alt="Trans1go.com" />
+						</div>
 					</a>
 				</div>
 
 				<div className="padaOne">
 					<a href="https://www.padaone.app/" target="blank">
-						<img className={classes.pics} src={padaOne} alt="PadaOne" />
+						<div className={classes.picContainer}>
+							<img className={classes.pics} src={padaOne} alt="PadaOne" />
+						</div>
 					</a>
 				</div>
 
 				<div className="worldClock">
 					<a href="https://mrjlancaster.github.io/world_clock/" target="blank">
-						<img className={classes.pics} src={WorldClock} alt="World digital clock" />
+						<div className={classes.picContainer}>
+							<img className={classes.pics} src={WorldClock} alt="World digital clock" />
+						</div>
 					</a>
 				</div>
 
 				<div className="am">
 					<a href="https://mrjlancaster.github.io/Responsive-website/" target="blank">
-						<img className={classes.pics} src={am} alt="Architecture and design website" />
+						<div className={classes.picContainer}>
+							<img className={classes.pics} src={am} alt="Architecture and design website" />
+						</div>
 					</a>
 				</div>
 
 				<div className="ArcadeGame">
 					<a href="https://mrjlancaster.github.io/Arcade-Game/" target="blank">
-						<img className={classes.pics} src={ArcadeGame} alt="Arcade Game" />
+						<div className={classes.picContainer}>
+							<img className={classes.pics} src={ArcadeGame} alt="Arcade Game" />
+						</div>
 					</a> 
 				</div>
 			</div>

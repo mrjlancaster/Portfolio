@@ -75,16 +75,21 @@ const useStyles = makeStyles((theme) => ({
 		 flexWrap: 'wrap',
 		 justifyContent: 'space-evenly'
 	 },
+	 picContainer: {
+		margin: '15px 10px',
+		overflow: 'hidden',
+		background: 'rgba(0, 0, 0, 0.7)',
+		height: 250,
+		width: 400
+	 },
 	 pics: {
-		 margin: '15px 10px',
 		 height: 250,
 		 width: 400,
-		 border: '1px solid lightgray',
-		 borderRadius: 4,
-		 transition: 'all 200ms ease',
+		 transition: 'all 300ms ease',
 		 '&:hover': {
 			 cursor: 'pointer',
-			 transform: 'scale(1.1)'
+			 transform: 'scale(1.2)',
+			 opacity: 0.5,
 		 }
 	 },
 
