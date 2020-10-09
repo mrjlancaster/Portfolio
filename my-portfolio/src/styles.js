@@ -87,7 +87,6 @@ const useStyles = makeStyles((theme) => ({
 		 width: 400,
 		 transition: 'all 300ms ease',
 		 '&:hover': {
-			 cursor: 'pointer',
 			 transform: 'scale(1.2)',
 			 opacity: 0.5,
 		 }
