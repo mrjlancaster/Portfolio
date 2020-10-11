@@ -36,9 +36,9 @@ const PadaOne = () => {
 					</Typography>
 				</CardContent>
 			</CardActionArea>
-			<CardActions>
-				<Button size="small" color="primary">
-					<a href="https://www.padaone.app/" target="blank">
+			<CardActions className={classes.cardAction}>
+				<Button size="small" color="primary" className={classes.button}>
+					<a href="https://www.padaone.app/" target="blank" className={classes.buttonLink}>
 						See Project
 					</a>
 				</Button>

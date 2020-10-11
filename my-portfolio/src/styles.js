@@ -80,6 +80,14 @@ const useStyles = makeStyles((theme) => ({
 		 flexWrap: 'wrap',
 		 justifyContent: 'space-evenly',
 	 },
+	 cardAction: {
+		 justifyContent: 'flex-end'
+	 },
+	 buttonLink: {
+		 textDecoration: 'none',
+		color: '#1769aa'
+	},
+
 
 	 // Contact component styles
 	 contactBox: {

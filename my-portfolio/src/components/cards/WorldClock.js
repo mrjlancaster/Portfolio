@@ -36,9 +36,9 @@ const WorldClock = () => {
 					</Typography>
 				</CardContent>
 			</CardActionArea>
-			<CardActions>
+			<CardActions className={classes.cardAction}>
 				<Button size="small" color="primary">
-					<a href="https://mrjlancaster.github.io/world_clock/" target="blank">
+					<a href="https://mrjlancaster.github.io/world_clock/" target="blank" className={classes.buttonLink}>
 						See Project
 					</a>
 				</Button>

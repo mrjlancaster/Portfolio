@@ -36,9 +36,9 @@ const ArcadeGame = () => {
 					</Typography>
 				</CardContent>
 			</CardActionArea>
-			<CardActions>
-				<Button size="small" color="primary">
-					<a href="https://mrjlancaster.github.io/Arcade-Game/" target="blank">
+			<CardActions className={classes.cardAction}>
+				<Button size="small" color="primary" className={classes.button}>
+					<a href="https://mrjlancaster.github.io/Arcade-Game/" target="blank" className={classes.buttonLink}>
 						See Project
 					</a>
 				</Button>

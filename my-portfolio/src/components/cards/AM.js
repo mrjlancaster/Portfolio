@@ -31,18 +31,16 @@ const AM = () => {
 						AM Architecture & Design
 					</Typography>
 					<Typography variant="body2" color="textSecondary" component="p">
-						Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-						across all continents except Antarctica
+						This is a mockup website I've built based on a design I found as an inspiration. AM Architecture & Design was built utilizing HTML5, and CSS3 as technologies. Simple, elegant and great design.
 					</Typography>
 				</CardContent>
 			</CardActionArea>
-			<CardActions>
-					<Button size="small" color="primary">
-					<a href="https://mrjlancaster.github.io/Responsive-website/" target="blank">
+			<CardActions className={classes.cardAction}>
+					<Button size="small" color="primary" className={classes.button}>
+					<a href="https://mrjlancaster.github.io/Responsive-website/" target="blank" className={classes.buttonLink}>
 						See Project
 					</a>
 					</Button>
-				
 			</CardActions>
 		</Card>
 

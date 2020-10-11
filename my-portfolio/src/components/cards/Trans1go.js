@@ -36,9 +36,9 @@ const Trans1go = () => {
 					</Typography>
 				</CardContent>
 			</CardActionArea>
-			<CardActions>
-				<Button size="small" color="primary">
-					<a href="http://trans1go.com/" target="blank">
+			<CardActions className={classes.cardAction}>
+				<Button size="small" color="primary" className={classes.button}>
+					<a href="http://trans1go.com/" target="blank" className={classes.buttonLink}>
 						See Project
 					</a>
 				</Button>
