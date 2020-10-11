@@ -67,15 +67,15 @@ const useStyles = makeStyles((theme) => ({
 		maxWidth: 345
 	 },
 	 media: {
-		height: 140
+		height: 170
 	 },
-	//  projectsBox: {
-	// 	 paddingTop: 25
-	//  },
-	//  projectsHeading: {
-	// 	 textAlign: 'center',
-	// 	 padding: '40px 0'
-	//  },
+	 projectsBox: {
+		 paddingTop: 25
+	 },
+	 projectsHeading: {
+		 textAlign: 'center',
+		 padding: '40px 0'
+	 },
 	//  projectsContainer: {
 	// 	 display: 'flex',
 	// 	 flexWrap: 'wrap',

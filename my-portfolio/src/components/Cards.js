@@ -23,6 +23,8 @@ const Cards = () => {
 	const classes = useStyles()
 	return (
 		<Card className={classes.root}>
+
+			{/* trans1go */}
 			<CardActionArea>
 			<CardMedia
 				className={classes.media}
@@ -31,7 +33,7 @@ const Cards = () => {
 			/>
 			<CardContent>
 				<Typography gutterBottom variant="h5" component="h2">
-					Lizard
+					Trans1go.com
 				</Typography>
 				<Typography variant="body2" color="textSecondary" component="p">
 					Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -41,15 +43,104 @@ const Cards = () => {
 			</CardActionArea>
 			<CardActions>
 			<Button size="small" color="primary">
-				Share
-			</Button>
-			<Button size="small" color="primary">
-				Learn More
+				See Project
 			</Button>
 			</CardActions>
-	</Card>
+
+		{/* padaone */}
+			<CardActionArea>
+			<CardMedia
+				className={classes.media}
+				image={Trans1go}
+				title="trans1go.com"
+			/>
+			<CardContent>
+				<Typography gutterBottom variant="h5" component="h2">
+					Trans1go.com
+				</Typography>
+				<Typography variant="body2" color="textSecondary" component="p">
+					Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+					across all continents except Antarctica
+				</Typography>
+			</CardContent>
+			</CardActionArea>
+			<CardActions>
+			<Button size="small" color="primary">
+				See Project
+			</Button>
+			</CardActions>
+
+			{/* am */}
+			<CardActionArea>
+			<CardMedia
+				className={classes.media}
+				image={Trans1go}
+				title="trans1go.com"
+			/>
+			<CardContent>
+				<Typography gutterBottom variant="h5" component="h2">
+					Trans1go.com
+				</Typography>
+				<Typography variant="body2" color="textSecondary" component="p">
+					Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+					across all continents except Antarctica
+				</Typography>
+			</CardContent>
+			</CardActionArea>
+			<CardActions>
+			<Button size="small" color="primary">
+				See Project
+			</Button>
+			</CardActions>
+
+			{/* world clock */}
+			<CardActionArea>
+			<CardMedia
+				className={classes.media}
+				image={Trans1go}
+				title="trans1go.com"
+			/>
+			<CardContent>
+				<Typography gutterBottom variant="h5" component="h2">
+					Trans1go.com
+				</Typography>
+				<Typography variant="body2" color="textSecondary" component="p">
+					Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+					across all continents except Antarctica
+				</Typography>
+			</CardContent>
+			</CardActionArea>
+			<CardActions>
+			<Button size="small" color="primary">
+				See Project
+			</Button>
+			</CardActions>
+
+			{/* arcade game */}
+			<CardActionArea>
+			<CardMedia
+				className={classes.media}
+				image={Trans1go}
+				title="trans1go.com"
+			/>
+			<CardContent>
+				<Typography gutterBottom variant="h5" component="h2">
+					Trans1go.com
+				</Typography>
+				<Typography variant="body2" color="textSecondary" component="p">
+					Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+					across all continents except Antarctica
+				</Typography>
+			</CardContent>
+			</CardActionArea>
+			<CardActions>
+			<Button size="small" color="primary">
+				See Project
+			</Button>
+			</CardActions>
+			</Card>
+
   );
 }
-
 
 export default Cards;

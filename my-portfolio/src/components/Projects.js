@@ -19,11 +19,12 @@ const Projects = () => {
 
 
 	return (
-		<Cards />
-		// <Box className={classes.projectsBox}>
-		// 	<Typography variant="h2" className={classes.projectsHeading}>
-		// 		Projects
-		// 	</Typography>
+		<Box className={classes.projectsBox}>
+			<Typography variant="h2" className={classes.projectsHeading}>
+				Projects
+			</Typography>
+			<Cards />
+			</Box>
 		// 	<div className={classes.projectsContainer}>
 
 		// 			<div className={classes.box}>
