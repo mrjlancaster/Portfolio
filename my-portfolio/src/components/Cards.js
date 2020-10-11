@@ -51,12 +51,12 @@ const Cards = () => {
 			<CardActionArea>
 			<CardMedia
 				className={classes.media}
-				image={Trans1go}
-				title="trans1go.com"
+				image={padaOne}
+				title="PadaOne"
 			/>
 			<CardContent>
 				<Typography gutterBottom variant="h5" component="h2">
-					Trans1go.com
+					PadaOne
 				</Typography>
 				<Typography variant="body2" color="textSecondary" component="p">
 					Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -74,12 +74,12 @@ const Cards = () => {
 			<CardActionArea>
 			<CardMedia
 				className={classes.media}
-				image={Trans1go}
-				title="trans1go.com"
+				image={am}
+				title="AM"
 			/>
 			<CardContent>
 				<Typography gutterBottom variant="h5" component="h2">
-					Trans1go.com
+					AM Architecture & Design
 				</Typography>
 				<Typography variant="body2" color="textSecondary" component="p">
 					Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -97,12 +97,12 @@ const Cards = () => {
 			<CardActionArea>
 			<CardMedia
 				className={classes.media}
-				image={Trans1go}
-				title="trans1go.com"
+				image={WorldClock}
+				title="World Clock"
 			/>
 			<CardContent>
 				<Typography gutterBottom variant="h5" component="h2">
-					Trans1go.com
+					World Clock (Web App)
 				</Typography>
 				<Typography variant="body2" color="textSecondary" component="p">
 					Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -111,21 +111,23 @@ const Cards = () => {
 			</CardContent>
 			</CardActionArea>
 			<CardActions>
-			<Button size="small" color="primary">
-				See Project
-			</Button>
+			<a href="">
+				<Button size="small" color="primary">
+					See Project
+				</Button>
+			</a>
 			</CardActions>
 
 			{/* arcade game */}
 			<CardActionArea>
 			<CardMedia
 				className={classes.media}
-				image={Trans1go}
-				title="trans1go.com"
+				image={ArcadeGame}
+				title="arcade game"
 			/>
 			<CardContent>
 				<Typography gutterBottom variant="h5" component="h2">
-					Trans1go.com
+					Arcade Game
 				</Typography>
 				<Typography variant="body2" color="textSecondary" component="p">
 					Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
@@ -139,7 +141,6 @@ const Cards = () => {
 			</Button>
 			</CardActions>
 			</Card>
-
   );
 }
 
