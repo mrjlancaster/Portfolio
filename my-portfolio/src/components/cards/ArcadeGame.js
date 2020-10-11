@@ -31,8 +31,7 @@ const ArcadeGame = () => {
 						Arcade Game
 					</Typography>
 					<Typography variant="body2" color="textSecondary" component="p">
-						Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-						across all continents except Antarctica
+						I've used my Javascript skills to build an Arcade game. Just for the fun also for my daily coding practices. Check it out!
 					</Typography>
 				</CardContent>
 			</CardActionArea>

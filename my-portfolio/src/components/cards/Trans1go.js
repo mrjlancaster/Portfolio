@@ -31,8 +31,8 @@ const Trans1go = () => {
 						Trans1go.com
 					</Typography>
 					<Typography variant="body2" color="textSecondary" component="p">
-						Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-						across all continents except Antarctica
+						Trans1go.com is an auto repair shop focused on delivering mobile repairs (service at your door). Responseive website, mobile and tablet friendly. Front-end and back-end technologies were used in this project, such as 
+						<span className={classes.techText}>HTML5, CSS3/Sass, Javascript, nodeJS, and REST APIs.</span>
 					</Typography>
 				</CardContent>
 			</CardActionArea>
