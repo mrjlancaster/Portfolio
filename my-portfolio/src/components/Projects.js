@@ -16,8 +16,6 @@ const Projects = () => {
 			</Typography>
 			<Cards />
 		</Box>
-		
-
 	)
 }
 
