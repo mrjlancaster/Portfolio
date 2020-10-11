@@ -63,48 +63,54 @@ const useStyles = makeStyles((theme) => ({
 
 
 	 // Projects styles
-	 projectsBox: {
-		 paddingTop: 25
+	 root: {
+		maxWidth: 345
 	 },
-	 projectsHeading: {
-		 textAlign: 'center',
-		 padding: '40px 0'
+	 media: {
+		height: 140
 	 },
-	 projectsContainer: {
-		 display: 'flex',
-		 flexWrap: 'wrap',
-		 justifyContent: 'space-evenly',
-	 },
-	 picContainer: {
-		margin: '15px 10px',
-		overflow: 'hidden',
-		background: 'rgba(0, 0, 0, 0.9)',
-		height: 250,
-		width: 400,
-		borderRadius: 4,
-	 },
-	 pics: {
-		 height: 250,
-		 width: 400,
-		 transition: 'all 300ms ease',
-		 '&:hover': {
-			 transform: 'scale(1.2)',
-			 opacity: 0.5,
-		 }
-	 },
-	 details: {
-		 height: 250,
-		 width: 400,
-	 },
-	 button: {
-		 cursor: 'pointer',
-		 textDecoration: 'none',
-		 color: '#fff',
-		 padding: '10px 15px',
-		 border: 'none',
-		 backgroundColor: '#0080FF',
-		 borderRadius: 4
-	 },
+	//  projectsBox: {
+	// 	 paddingTop: 25
+	//  },
+	//  projectsHeading: {
+	// 	 textAlign: 'center',
+	// 	 padding: '40px 0'
+	//  },
+	//  projectsContainer: {
+	// 	 display: 'flex',
+	// 	 flexWrap: 'wrap',
+	// 	 justifyContent: 'space-evenly',
+	//  },
+	//  picContainer: {
+	// 	margin: '15px 10px',
+	// 	overflow: 'hidden',
+	// 	background: 'rgba(0, 0, 0, 0.9)',
+	// 	height: 250,
+	// 	width: 400,
+	// 	borderRadius: 4,
+	//  },
+	//  pics: {
+	// 	 height: 250,
+	// 	 width: 400,
+	// 	 transition: 'all 300ms ease',
+	// 	 '&:hover': {
+	// 		 transform: 'scale(1.2)',
+	// 		 opacity: 0.5,
+	// 	 }
+	//  },
+	//  details: {
+	// 	 height: 250,
+	// 	 width: 400,
+	//  },
+	//  button: {
+	// 	 cursor: 'pointer',
+	// 	 textDecoration: 'none',
+	// 	 color: '#fff',
+	// 	 padding: '10px 15px',
+	// 	 border: 'none',
+	// 	 backgroundColor: '#0080FF',
+	// 	 borderRadius: 4
+	//  },
 
 	 // Contact component styles
 	 contactBox: {
