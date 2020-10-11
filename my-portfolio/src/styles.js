@@ -61,7 +61,6 @@ const useStyles = makeStyles((theme) => ({
 		 }
 	 },
 
-
 	 // Projects styles
 	 root: {
 		maxWidth: 345,
@@ -76,6 +75,8 @@ const useStyles = makeStyles((theme) => ({
 	 },
 	 projectsContainer: {
 		 display: 'flex',
+		 width: '85%',
+		 margin: '0 auto',
 		 flexWrap: 'wrap',
 		 justifyContent: 'space-evenly',
 	 },
