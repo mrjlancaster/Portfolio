@@ -23,7 +23,7 @@ const Projects = () => {
 				Projects
 			</Typography>
 			<div className={classes.projectsContainer}>
-				<div className="trans1go">
+				<div className={classes.box}>
 					<div className={classes.picContainer}>
 						<img className={classes.pics} src={Trans1go} alt="Trans1go.com" />
 					</div>
@@ -33,7 +33,7 @@ const Projects = () => {
 					</div>
 				</div>
 
-				<div className="padaOne">
+				<div className={classes.box}>
 					<div className={classes.picContainer}>
 						<img className={classes.pics} src={padaOne} alt="PadaOne" />
 					</div>
@@ -43,7 +43,7 @@ const Projects = () => {
 					</div>
 				</div>
 
-				<div className="worldClock">
+				<div className={classes.box}>
 					<div className={classes.picContainer}>
 						<img className={classes.pics} src={WorldClock} alt="World digital clock" />
 					</div>
@@ -53,7 +53,7 @@ const Projects = () => {
 					</div>
 				</div>
 
-				<div className="am">
+				<div className={classes.box}>
 					<div className={classes.picContainer}>
 						<img className={classes.pics} src={am} alt="Architecture and design website" />
 					</div>
@@ -63,7 +63,7 @@ const Projects = () => {
 					</div>
 				</div>
 
-				<div className="ArcadeGame">
+				<div className={classes.box}>
 					<div className={classes.picContainer}>
 						<img className={classes.pics} src={ArcadeGame} alt="Arcade Game" />
 					</div>
