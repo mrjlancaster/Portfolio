@@ -76,11 +76,11 @@ const useStyles = makeStyles((theme) => ({
 		 textAlign: 'center',
 		 padding: '40px 0'
 	 },
-	//  projectsContainer: {
-	// 	 display: 'flex',
-	// 	 flexWrap: 'wrap',
-	// 	 justifyContent: 'space-evenly',
-	//  },
+	 projectsContainer: {
+		 display: 'flex',
+		 flexWrap: 'wrap',
+		 justifyContent: 'space-evenly',
+	 },
 	//  picContainer: {
 	// 	margin: '15px 10px',
 	// 	overflow: 'hidden',

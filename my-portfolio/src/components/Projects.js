@@ -23,75 +23,7 @@ const Projects = () => {
 			<Typography variant="h2" className={classes.projectsHeading}>
 				Projects
 			</Typography>
-			<Cards />
-			</Box>
-		// 	<div className={classes.projectsContainer}>
-
-		// 			<div className={classes.box}>
-		// 				<div className={classes.picContainer}>
-		// 					<img className={classes.pics} src={Trans1go} alt="Trans1go.com" />
-		// 					<Typography className={classes.text} variant="p">Trans1go.com</Typography>
-		// 				</div>
-		// 				<div className={classes.details}>
-		// 					{/* <Typography variant="p">Tech used:</Typography> */}
-		// 					<a className={classes.button} href="http://trans1go.com/" target="blank">See project</a>
-		// 				</div>
-		// 			</div>
-			
-
-		// 		<div className={classes.box}>
-		// 			<div className={classes.picContainer}>
-		// 				<img className={classes.pics} src={padaOne} alt="PadaOne" />
-		// 				<Typography variant="p">
-		// 					PadaOne
-		// 				</Typography>
-		// 			</div>
-		// 			<div className={classes.details}>
-		// 				{/* <Typography variant="p">Tech used:</Typography> */}
-		// 				<a className={classes.button} href="https://www.padaone.app/" target="blank">See project</a>
-		// 			</div>
-		// 		</div>
-
-		// 		<div className={classes.box}>
-		// 			<div className={classes.picContainer}>
-		// 				<img className={classes.pics} src={WorldClock} alt="World digital clock" />
-		// 				<Typography variant="p">
-		// 					Digital World Clock
-		// 				</Typography>
-		// 			</div>
-		// 			<div className={classes.details}>
-		// 				{/* <Typography variant="p">Tech used:</Typography> */}
-		// 				<a className={classes.button} href="https://mrjlancaster.github.io/world_clock/" target="blank">See project</a>
-		// 			</div>
-		// 		</div>
-
-		// 		<div className={classes.box}>
-		// 			<div className={classes.picContainer}>
-		// 				<img className={classes.pics} src={am} alt="Architecture and design website" />
-		// 				<Typography variant="p">
-		// 					AM \n
-		// 					Architecture and Design
-		// 				</Typography>
-		// 			</div>
-		// 			<div className={classes.details}>
-		// 				{/* <Typography variant="p">Tech used:</Typography> */}
-		// 				<a className={classes.button} href="https://mrjlancaster.github.io/Responsive-website/" target="blank">See project</a>
-		// 			</div>
-		// 		</div>
-
-		// 		<div className={classes.box}>
-		// 			<div className={classes.picContainer}>
-		// 				<img className={classes.pics} src={ArcadeGame} alt="Arcade Game" />
-		// 				<Typography variant="p">
-		// 					Arcade Game
-		// 				</Typography>
-		// 			</div>
-		// 			<div className={classes.details}>
-		// 				{/* <Typography variant="p">Tech used:</Typography> */}
-		// 				<a className={classes.button} href="https://mrjlancaster.github.io/Arcade-Game/" target="blank">See project</a>
-		// 			</div>
-		// 		</div>
-		// 	</div>
+				<Cards />
 		// </Box>
 
 	)
