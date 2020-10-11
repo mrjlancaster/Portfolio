@@ -73,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
 	 projectsContainer: {
 		 display: 'flex',
 		 flexWrap: 'wrap',
-		 justifyContent: 'space-evenly'
+		 justifyContent: 'space-evenly',
 	 },
 	 picContainer: {
 		margin: '15px 10px',
@@ -91,6 +91,10 @@ const useStyles = makeStyles((theme) => ({
 			 transform: 'scale(1.2)',
 			 opacity: 0.5,
 		 }
+	 },
+	 details: {
+		 height: 250,
+		 width: 400,
 	 },
 	 button: {
 		 cursor: 'pointer',
