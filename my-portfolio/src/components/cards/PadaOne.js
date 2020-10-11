@@ -38,7 +38,9 @@ const PadaOne = () => {
 			</CardActionArea>
 			<CardActions>
 				<Button size="small" color="primary">
-					See Project
+					<a href="https://www.padaone.app/" target="blank">
+						See Project
+					</a>
 				</Button>
 			</CardActions>
 		</Card>

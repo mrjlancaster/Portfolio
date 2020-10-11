@@ -37,9 +37,12 @@ const AM = () => {
 				</CardContent>
 			</CardActionArea>
 			<CardActions>
-				<Button size="small" color="primary">
-					See Project
-				</Button>
+					<Button size="small" color="primary">
+					<a href="https://mrjlancaster.github.io/Responsive-website/" target="blank">
+						See Project
+					</a>
+					</Button>
+				
 			</CardActions>
 		</Card>
 

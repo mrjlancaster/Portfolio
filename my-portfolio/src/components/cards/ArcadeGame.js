@@ -38,7 +38,9 @@ const ArcadeGame = () => {
 			</CardActionArea>
 			<CardActions>
 				<Button size="small" color="primary">
-					See Project
+					<a href="https://mrjlancaster.github.io/Arcade-Game/" target="blank">
+						See Project
+					</a>
 				</Button>
 			</CardActions>
 		</Card>

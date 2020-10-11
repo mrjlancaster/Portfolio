@@ -38,7 +38,9 @@ const Trans1go = () => {
 			</CardActionArea>
 			<CardActions>
 				<Button size="small" color="primary">
-					See Project
+					<a href="http://trans1go.com/" target="blank">
+						See Project
+					</a>
 				</Button>
 			</CardActions>
 		</Card>
