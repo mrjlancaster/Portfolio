@@ -81,11 +81,12 @@ const useStyles = makeStyles((theme) => ({
 		 justifyContent: 'space-evenly',
 	 },
 	 cardAction: {
-		 justifyContent: 'flex-end'
+		 justifyContent: 'flex-end',
+		 alignItems: 'end',
 	 },
 	 buttonLink: {
 		 textDecoration: 'none',
-		color: '#1769aa'
+		 color: '#1769aa'
 	},
 
 
