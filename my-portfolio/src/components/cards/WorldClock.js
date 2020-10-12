@@ -31,7 +31,7 @@ const WorldClock = () => {
 						World Clock (Web App)
 					</Typography>
 					<Typography variant="body2" color="textSecondary" component="p">
-						Simple digital world clock web application built in HTML5,CSS3, and JavaScript.
+						Simple digital world clock web application built in <b>HTML5,CSS3, and JavaScript.</b>
 					</Typography>
 				</CardContent>
 			</CardActionArea>

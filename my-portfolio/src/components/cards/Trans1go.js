@@ -32,7 +32,7 @@ const Trans1go = () => {
 					</Typography>
 					<Typography variant="body2" color="textSecondary" component="p">
 						Trans1go.com is an auto repair shop focused on delivering mobile repairs (service at your door). Responsive website, mobile and tablet friendly. Front-end and back-end technologies were used in this project, such as 
-						<span className={classes.techText}> HTML5, CSS3/Sass, Javascript, nodeJS, and REST APIs.</span>
+						<b> HTML5, CSS3/Sass, Javascript, nodeJS, and REST APIs.</b>
 					</Typography>
 				</CardContent>
 			</CardActionArea>

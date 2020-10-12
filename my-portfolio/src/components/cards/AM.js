@@ -31,7 +31,7 @@ const AM = () => {
 						AM Architecture & Design
 					</Typography>
 					<Typography variant="body2" color="textSecondary" component="p">
-						This is a mockup website I've built based on a design I found as an inspiration. AM Architecture & Design was built utilizing HTML5, and CSS3 as technologies. Simple, elegant and great design.
+						This is a mockup website I've built based on a design I found as an inspiration. AM Architecture & Design was built utilizing <b>HTML5 and CSS3.</b> Simple, elegant and great design.
 					</Typography>
 				</CardContent>
 			</CardActionArea>

@@ -31,7 +31,7 @@ const ArcadeGame = () => {
 						Arcade Game
 					</Typography>
 					<Typography variant="body2" color="textSecondary" component="p">
-						I've used my Javascript skills to build an Arcade game. Just for the fun also for my daily coding practices. Check it out!
+						I've used my <b>Javascript</b> skills to build an Arcade game. Just for the fun also for my daily coding practices. Check it out!
 					</Typography>
 				</CardContent>
 			</CardActionArea>
