@@ -31,8 +31,7 @@ const PadaOne = () => {
 						PadaOne
 					</Typography>
 					<Typography variant="body2" color="textSecondary" component="p">
-						Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-						across all continents except Antarctica
+						PadaOne is a mobile app (Online space) for individuals to take classes and train with coaches all over the world. Perfect for home workouts or wherever you'd like! Worked on project to build first company's Landing Page. Technologies used in this project were HTML5, CSS3/Sass, and Javascript.
 					</Typography>
 				</CardContent>
 			</CardActionArea>
