@@ -7,6 +7,7 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "proxy": "http://localhost:8000",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mrjlancaster/Portfolio.git"
