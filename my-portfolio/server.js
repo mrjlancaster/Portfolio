@@ -6,7 +6,6 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(express.static(path.join(__dirname, 'build')));
-// app.use(express.static(path.join(__dirname, 'my-portfolio', 'public')));
 
 // Route
 app.get('/', (req, res) => {

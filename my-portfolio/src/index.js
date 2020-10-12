@@ -8,7 +8,6 @@ import { ThemeProvider } from '@material-ui/core';
 ReactDOM.render(
 	<ThemeProvider theme={theme}>
 		<App />
-	</ThemeProvider>
-	,
+	</ThemeProvider>,
   document.getElementById('root')
 );	
