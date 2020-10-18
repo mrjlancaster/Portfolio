@@ -28,8 +28,6 @@ const useStyles = makeStyles((theme) => ({
 	 // Welcome section
 	 welcomeContainer: {
 		 display: 'flex',
-		 position: 'absolute',
-		 width: '100vw',
 	 },
 	 welcomeSection: {	
 		display: 'flex',
@@ -62,6 +60,14 @@ const useStyles = makeStyles((theme) => ({
 	 },
 
 	 // Projects styles
+	 projectsContainer: {
+		 padding: '30px 0',
+		display: 'flex',
+		width: '85%',
+		margin: '0 auto',
+		flexWrap: 'wrap',
+		justifyContent: 'space-evenly',
+	},
 	 root: {
 		maxWidth: 345,
 		margin: '20px 0'
@@ -72,13 +78,6 @@ const useStyles = makeStyles((theme) => ({
 	 projectsHeading: {
 		 textAlign: 'center',
 		 padding: '40px 0'
-	 },
-	 projectsContainer: {
-		 display: 'flex',
-		 width: '85%',
-		 margin: '0 auto',
-		 flexWrap: 'wrap',
-		 justifyContent: 'space-evenly',
 	 },
 	 cardAction: {
 		 justifyContent: 'flex-end',
@@ -92,8 +91,8 @@ const useStyles = makeStyles((theme) => ({
 
 	 // Contact component styles
 	 contactBox: {
-		 backgroundColor: '#1e272e',
-		 height: '90vh',
+		 backgroundColor: '#000',
+		 height: '100vh',
 		 display: 'flex',
 		 flexDirection: 'column',
 		 alignItems: 'center',
