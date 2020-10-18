@@ -1,13 +1,16 @@
 import React from 'react';
 
+// import styles
+import useStyles from '../styles';
+
 const Calculator = () => {
+	const classes = useStyles();
+
 	return (
-		<div>
-			<div>
-				<img src="" />
+		<div className={classes.calculatorContainer}>
+			<div className={classes.leftBox}>
 			</div>
-			<div>
-				<img src="" />
+			<div className={classes.rightBox}>
 			</div>
 		</div>
 	)

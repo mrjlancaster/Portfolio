@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
 		 justifyContent: 'center',
 		 backgroundColor: 'rgba(0, 0, 0, 0.8)',
 		 position: 'fixed',
-		 height: '7%'
+		 height: '7%',
 	 },
 	 title: {
 		flexGrow: 1,
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: 'center',
 		textAlign: 'center',
 		margin: '0 auto',
-		height: '93vh',
+		height: '94vh',
 		width: '75%'
 	 },
 	 welcomeTitle: {
@@ -96,6 +96,29 @@ const useStyles = makeStyles((theme) => ({
 		 textDecoration: 'none',
 		 color: '#1769aa'
 	},
+
+	// calculator styles
+	calculatorContainer: {
+		display: 'flex',
+		height: 600,
+		justifyContent: 'space-evenly',
+		alignItems: 'center',
+		margin: '0 auto',
+		width: '85%',
+		backgroundColor: 'brown'
+	},
+	leftBox: {
+		height: 573,
+		width: '48%',
+		backgroundColor: 'green'
+	},
+	rightBox: {
+		height: 573,
+		width: '48%',
+		backgroundColor: 'blue'
+	},
+
+	
 
 
 	 // Contact component styles
