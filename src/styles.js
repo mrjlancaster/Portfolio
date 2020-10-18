@@ -1,29 +1,38 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
-	toolbar: {
-		height: '10vh'
-	},
+	 // Header styles
+
 	 bar: {
-		 backgroundColor: '#1e272e',
+		 display: 'flex',
+		 justifyContent: 'center',
+		 backgroundColor: 'rgba(0, 0, 0, 0.8)',
+		 position: 'fixed',
+		 height: 44
 	 },
 	 title: {
 		flexGrow: 1,
 	 },
 	 
-	 // Header styles
+	 signature: {
+		 position: 'absolute',
+		 opacity: '0.8',
+		 color: '#f5f5f7',
+	 },
 	 ul: {
 		 width: '100%',
 		 display: 'flex',
 		 listStyle: 'none',
-		 justifyContent: 'flex-end'
+		 justifyContent: 'center',
+		 alignItems: 'center'
 	 },
 	 
 	 li: {
+		 opacity: '0.8',
+		 fontSize: 14,
 		 marginLeft: 20,
-		 color: '#fff',
 		 textDecoration: 'none',
-		 cursor: 'pointer'
+		 cursor: 'pointer',
 	 },
 	 // Welcome section
 	 welcomeContainer: {
@@ -99,23 +108,23 @@ const useStyles = makeStyles((theme) => ({
 		 justifyContent: 'space-evenly'
 	 },
 	 contactTitle: {
-		 color: '#fff',
+		 color: '#f5f5f7',
 		 fontSize: 40,
 		 fontWeight: 200,
 		 letterSpacing: '1px',
 	 },
 	 contactButton: {
-		 color: '#fff',
+		 color: '#f5f5f7',
 		 padding: '15px 50px',
-		 border: '1px solid #7f8fa6',
+		 border: '1px solid #f5f5f7',
 		 cursor: 'pointer',
 		 background: 'none',
-		 borderRadius: 4,
+		 borderRadius: 2,
 		 textDecoration: 'none',
 		 transition: 'all 500ms ease',
 		 '&:hover': {
 			 backgroundColor: '#f5f6fa',
-			 color: '#000'
+			 color: '#000',
 		 }
 	 },
 }))

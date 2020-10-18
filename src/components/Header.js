@@ -5,6 +5,7 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import useStyles from '../styles';
+import { Typography } from '@material-ui/core';
 
 
 const Header = () => {
@@ -27,6 +28,7 @@ const Header = () => {
 		<div>
 			<AppBar className={classes.bar} position="static">
 				<Toolbar className={classes.toolbar}>
+					<Typography variant="h5" className={classes.signature}>Mrjlancaster</Typography>
 					<ul className={classes.ul}>
 						<li className={classes.li}>Home</li>
 						<li className={classes.li}>Projects</li>
