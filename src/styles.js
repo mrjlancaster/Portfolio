@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
 		 justifyContent: 'center',
 		 backgroundColor: 'rgba(0, 0, 0, 0.8)',
 		 position: 'fixed',
-		 height: 44
+		 height: '7%'
 	 },
 	 title: {
 		flexGrow: 1,
@@ -20,11 +20,11 @@ const useStyles = makeStyles((theme) => ({
 		 color: '#f5f5f7',
 	 },
 	 ul: {
-		 width: '100%',
+		 width: '50%',
+		 margin: '0 auto',
 		 display: 'flex',
 		 listStyle: 'none',
-		 justifyContent: 'center',
-		 alignItems: 'center'
+		 justifyContent: 'space-evenly',
 	 },
 	 
 	 li: {
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: 'center',
 		textAlign: 'center',
 		margin: '0 auto',
-		height: '90vh',
+		height: '93vh',
 		width: '75%'
 	 },
 	 welcomeTitle: {

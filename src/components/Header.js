@@ -28,7 +28,7 @@ const Header = () => {
 		<div>
 			<AppBar className={classes.bar} position="static">
 				<Toolbar className={classes.toolbar}>
-					<Typography variant="h5" className={classes.signature}>Mrjlancaster</Typography>
+					<Typography variant="h6" className={classes.signature}>Mrjlancaster</Typography>
 					<ul className={classes.ul}>
 						<li className={classes.li}>Home</li>
 						<li className={classes.li}>Projects</li>
