@@ -1,8 +1,8 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
-	 // Header styles
 
+	 // Header styles
 	 bar: {
 		 display: 'flex',
 		 justifyContent: 'center',
@@ -103,19 +103,25 @@ const useStyles = makeStyles((theme) => ({
 		height: 600,
 		justifyContent: 'space-evenly',
 		alignItems: 'center',
-		margin: '0 auto',
-		width: '85%',
-		backgroundColor: 'brown'
+		margin: '50px auto',
 	},
 	leftBox: {
+		display: 'flex',
+		alignItems: 'center',
 		height: 573,
 		width: '48%',
-		backgroundColor: 'green'
+		boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
 	},
 	rightBox: {
+		display: 'flex',
+		alignItems: 'center',
 		height: 573,
 		width: '48%',
-		backgroundColor: 'blue'
+		boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+	},
+	calc: {
+		height: 500,
+		width: '100%'
 	},
 
 	
