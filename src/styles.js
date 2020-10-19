@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
 		 position: 'absolute',
 		 opacity: '0.8',
 		 color: '#f5f5f7',
+		 cursor: 'default'
 	 },
 	 ul: {
 		 width: '50%',
@@ -110,8 +111,8 @@ const useStyles = makeStyles((theme) => ({
 	},
 	leftBox: {
 		display: 'flex',
-		justifyContent: 'flex-end',
 		alignItems: 'center',
+		justifyContent: 'center',
 		width: '100%'
 	},
 	rightBox: {
@@ -119,9 +120,21 @@ const useStyles = makeStyles((theme) => ({
 		alignItems: 'center',
 		width: '100%'
 	},
+	lightCalc: {
+		position: 'relative',
+		left: 100,
+		height: '650px',
+		width: '900px',
+	},
 	calc: {
 		height: '650px',
 		width: '900px'
+	},
+	darkModeText: {
+		width: 340,
+	},
+	ifStatements: {
+		textDecoration: 'underline'
 	},
 
 	
