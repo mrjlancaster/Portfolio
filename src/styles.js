@@ -74,6 +74,7 @@ const useStyles = makeStyles((theme) => ({
 		backgroundColor: '#f5f6fa',
 		width: '98%',
 		margin: '0 auto',
+		paddingBottom: 25
 	},
 	 projectsContainer: {
 		display: 'flex',

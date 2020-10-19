@@ -32,7 +32,7 @@ const Calculator = () => {
 				<Box>
 				<Typography variant="h2">Dark Mode</Typography>
 				<Typography variant="body1" className={classes.darkModeText}>
-					The technologies I used here were <b>HTML5, CSS3, and JavaScript.</b> A lot of <span className={classes.ifStatements}>if statements</span> to get this done. Very straight forward.
+					The technologies I used here were <b>HTML5, CSS3, JavaScript, and Photoshop.</b> A lot of <span className={classes.ifStatements}>if statements</span> to get this done. Very straight forward.
 				</Typography>
 				</Box>
 				
