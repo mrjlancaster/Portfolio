@@ -38,6 +38,7 @@ const useStyles = makeStyles((theme) => ({
 	 // Welcome section
 	 welcomeContainer: {
 		 display: 'flex',
+		 height: '100vh'
 	 },
 	 welcomeSection: {	
 		display: 'flex',
@@ -45,7 +46,6 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: 'center',
 		textAlign: 'center',
 		margin: '0 auto',
-		height: '94vh',
 		width: '75%'
 	 },
 	 welcomeTitle: {
@@ -70,11 +70,13 @@ const useStyles = makeStyles((theme) => ({
 	 },
 
 	 // Projects styles
-	 projectsContainer: {
-		 padding: '30px 0',
-		display: 'flex',
-		width: '85%',
+	 projectsBox: {
+		backgroundColor: '#f5f6fa',
+		width: '98%',
 		margin: '0 auto',
+	},
+	 projectsContainer: {
+		display: 'flex',
 		flexWrap: 'wrap',
 		justifyContent: 'space-evenly',
 	},
@@ -123,11 +125,11 @@ const useStyles = makeStyles((theme) => ({
 	lightCalc: {
 		position: 'relative',
 		left: 100,
-		height: '650px',
+		height: '680px',
 		width: '900px',
 	},
 	calc: {
-		height: '650px',
+		height: '680px',
 		width: '900px'
 	},
 	darkModeText: {

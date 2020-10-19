@@ -10,8 +10,8 @@ const Projects = () => {
 	const classes = useStyles();
 
 	return (
-		<Box>
-			<Typography variant="h3" className={classes.projectsHeading}>
+		<Box className={classes.projectsBox}>
+			<Typography variant="h2" className={classes.projectsHeading}>
 				Projects
 			</Typography>
 			<Cards />
