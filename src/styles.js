@@ -99,29 +99,29 @@ const useStyles = makeStyles((theme) => ({
 
 	// calculator styles
 	calculatorContainer: {
+		padding: '20px 0',
 		display: 'flex',
-		height: 600,
+		flexDirection: 'column',
 		justifyContent: 'space-evenly',
 		alignItems: 'center',
+		width: '98%',
 		margin: '50px auto',
+		boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
 	},
 	leftBox: {
 		display: 'flex',
+		justifyContent: 'flex-end',
 		alignItems: 'center',
-		height: 573,
-		width: '48%',
-		boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+		width: '100%'
 	},
 	rightBox: {
 		display: 'flex',
 		alignItems: 'center',
-		height: 573,
-		width: '48%',
-		boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+		width: '100%'
 	},
 	calc: {
-		height: 500,
-		width: '100%'
+		height: '650px',
+		width: '900px'
 	},
 
 	
