@@ -20,6 +20,8 @@ const Calculator = () => {
 			<Typography variant="body1">
 				The focus when building this calculator was only on the design. The idea creating this was to implement the dark mode switch functionality.
 			</Typography>
+			<Typography variant="body1">Visit here: <a href="https://mrjlancaster.github.io/calculator-darkmode/" target="blank">https://mrjlancaster.github.io/calculator-darkmode/</a></Typography>
+		
 			<div className={classes.leftBox}>
 				<Typography variant="h2">
 					Light <br />
