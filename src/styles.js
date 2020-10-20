@@ -71,22 +71,22 @@ const useStyles = makeStyles((theme) => ({
 
 	 // Projects styles
 	 projectsBox: {
-		backgroundColor: '#f5f6fa',
 		width: '98%',
 		margin: '0 auto',
 		paddingBottom: 25
 	},
 	 projectsContainer: {
+		 width: '100%',
 		display: 'flex',
 		flexWrap: 'wrap',
 		justifyContent: 'space-evenly',
 	},
 	 root: {
-		maxWidth: 345,
-		margin: '20px 0'
+		maxWidth: 500,
+		margin: '30px 0'
 	 },
 	 media: {
-		height: 170
+		height: 245
 	 },
 	 projectsHeading: {
 		 textAlign: 'center',
@@ -111,6 +111,10 @@ const useStyles = makeStyles((theme) => ({
 		width: '98%',
 		margin: '50px auto',
 		boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+	},
+	uiDesign: {
+		paddingTop: 20,
+		paddingBottom: 10
 	},
 	leftBox: {
 		display: 'flex',
