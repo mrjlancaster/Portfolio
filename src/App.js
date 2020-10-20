@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import Calculator from './components/Calculator';
 
 const App = () => {
-
+	
   return (
 	//   <Router>
 			<div className="App">

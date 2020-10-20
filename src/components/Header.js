@@ -1,5 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+
+import { Link } from 'react-router-dom';
 
 // Material ui imports
 import AppBar from '@material-ui/core/AppBar';
@@ -9,7 +10,6 @@ import { Typography } from '@material-ui/core';
 
 
 const Header = () => {
-	
 	const classes = useStyles();
 
 	return (

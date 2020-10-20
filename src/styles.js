@@ -11,6 +11,15 @@ const useStyles = makeStyles((theme) => ({
 		 position: 'fixed',
 		 height: '7%',
 	 },
+	 activeBar: {
+		display: 'flex',
+		justifyContent: 'center',
+	  //  backgroundColor: 'rgba(0, 0, 0, 0.8)',
+	  backgroundColor: '#ffff',
+		position: 'fixed',
+		height: '7%',
+	 },
+
 	 title: {
 		flexGrow: 1,
 	 },
