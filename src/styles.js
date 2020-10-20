@@ -6,7 +6,8 @@ const useStyles = makeStyles((theme) => ({
 	 bar: {
 		 display: 'flex',
 		 justifyContent: 'center',
-		 backgroundColor: 'rgba(0, 0, 0, 0.8)',
+		//  backgroundColor: 'rgba(0, 0, 0, 0.8)',
+		backgroundColor: '#ffff',
 		 position: 'fixed',
 		 height: '7%',
 	 },
@@ -17,7 +18,8 @@ const useStyles = makeStyles((theme) => ({
 	 signature: {
 		 position: 'absolute',
 		 opacity: '0.8',
-		 color: '#f5f5f7',
+		//  color: '#f5f5f7',
+		color: '#000',
 		 cursor: 'default'
 	 },
 	 ul: {
@@ -29,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
 	 },
 	 
 	 li: {
+		 color: '#000',
 		 opacity: '0.8',
 		 fontSize: 14,
 		 marginLeft: 20,
