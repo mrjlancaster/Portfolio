@@ -17,10 +17,10 @@ const Header = () => {
 			<AppBar className={classes.bar} position="static">
 				<Toolbar className={classes.toolbar}>
 					<Typography variant="h6" className={classes.signature}>Mrjlancaster</Typography>
-					<ul className={classes.ul}>
+					{/* <ul className={classes.ul}>
 						<li className={classes.li}>Home</li>
 						<li className={classes.li}>Projects</li>
-						<li className={classes.li}>Contact</li>
+						<li className={classes.li}>Contact</li> */}
 						{/* <li>
 							<Link to='/' className={classes.li} onClick={displayHome}>Home</Link>
 						</li>
@@ -30,7 +30,7 @@ const Header = () => {
 						<li>
 							<Link to='/Contact' className={classes.li} onClick={displayContact}>Contact</Link>
 						</li> */}
-					</ul>
+					{/* </ul> */}
 				</Toolbar>
 			</AppBar>
 		</div>

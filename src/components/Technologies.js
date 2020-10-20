@@ -1,9 +1,6 @@
 import React from 'react';
 import './Technologies.css';
 
-// import styles
-import useStyles from '../styles';
-
 // material ui imports
 import { Typography } from '@material-ui/core';
 import { Box } from '@material-ui/core';
@@ -11,7 +8,6 @@ import { Box } from '@material-ui/core';
 
 
 const Technologies = () => {
-	const classes = useStyles();
 
 	return (
 		<div className="tech_container">
