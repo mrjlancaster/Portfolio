@@ -1,0 +1,34 @@
+.tech_container {
+	width: 55%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 20px auto;
+	min-height: 500px;
+	background-color: #fbfbfd;
+}
+
+.typography_container {
+	text-align: center;
+	width: 80%;
+}
+
+.icon_wrapper {
+	text-align: center;
+}
+
+.fab.fa-html5,
+.fab.fa-css3-alt,
+.fab.fa-sass,
+.fab.fa-js-square,
+.fab.fa-react,
+.fab.fa-node-js {
+	font-size: 100px;
+}
+
+.grid {
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat(3, 100px);
+}
