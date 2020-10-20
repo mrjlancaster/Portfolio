@@ -1,5 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
 
+const opacity = 0.8;
+
 const useStyles = makeStyles((theme) => ({
 
 	 // Header styles
@@ -23,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 	 
 	 signature: {
 		 position: 'absolute',
-		 opacity: '0.8',
+		 opacity: opacity,
 		//  color: '#f5f5f7',
 		color: '#000',
 		 cursor: 'default'
@@ -34,19 +36,11 @@ const useStyles = makeStyles((theme) => ({
 		 display: 'flex',
 		 height: '100vh'
 	 },
-	//  welcomeSection: {	
-	// 	display: 'flex',
-	// 	flexDirection: 'column',
-	// 	justifyContent: 'center',
-	// 	textAlign: 'center',
-	// 	margin: '0 auto',
-	// 	width: '75%'
-	//  },
+
 	 welcomeTitle: {
-		 fontSize: 40,
+		 opacity: opacity,
 		 lineHeight: '1.3em',
 		 letterSpacing: 1,
-		 fontWeight: 200,
 		 fontFamily: 'Arial, Helvetica, sans-serif'
 	 },
 	 welcomeSeparator: {
@@ -55,11 +49,12 @@ const useStyles = makeStyles((theme) => ({
 	 socialLinks: {
 		 display: 'inline',
 		 color: '#000',
+		 opacity: opacity,
 		 margin: '20px 30px',
 		 fontSize: 25,
 		 transition: 'all 300ms ease',
 		 '&:hover': {
-			 color: '#05c46b'
+			 color: '#74b9ff'
 		 }
 	 },
 
@@ -67,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
 	 projectsBox: {
 		margin: '0 auto',
 		paddingBottom: 25,
-		backgroundColor: '#54a0ff'
+		backgroundColor: '#d3e7ff'
 	},
 	 projectsContainer: {
 		 width: '100%',
@@ -84,7 +79,8 @@ const useStyles = makeStyles((theme) => ({
 	 },
 	 projectsHeading: {
 		 textAlign: 'center',
-		 padding: '40px 0'
+		 padding: '40px 0',
+		 opacity: opacity
 	 },
 	 cardAction: {
 		 justifyContent: 'flex-end',

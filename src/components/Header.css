@@ -1,14 +1,9 @@
 .bar {
+	position: relative;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	background-color: #fff;
 	position: fixed;
 	height: 7%;
-}
-
-.bar.active {
-
-	background-color: #000;
-
 }

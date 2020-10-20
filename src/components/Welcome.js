@@ -23,7 +23,7 @@ function Welcome() {
 					
 			</div> 
 			<div className='welcomeSection'>
-				<Typography variant="p" className={classes.welcomeTitle}>
+				<Typography variant="h2" className={classes.welcomeTitle}>
 					Hey, I'm Jonathan,<br />
 					A Front-end Developer<br />
 						<hr className={classes.welcomeSeparator} />

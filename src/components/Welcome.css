@@ -12,12 +12,12 @@ ul {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 93%;
+	height: 100%;
 }
 
 li {
 	opacity: 0.8;
-	font-size: 68px;
+	font-size: 65px;
 	text-decoration: none;
 	cursor: pointer;
 	margin: 10px 15px;

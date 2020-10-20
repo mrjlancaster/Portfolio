@@ -14,6 +14,10 @@
 	margin-bottom: 60px;
 }
 
+.heading {
+	opacity: 0.8;
+}
+
 .icon_wrapper {
 	text-align: center;
 }
