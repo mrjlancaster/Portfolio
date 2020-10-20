@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Calculator from './components/Calculator';
 import Technologies from './components/Technologies';
+import About from './components/About';
 
 const App = () => {
 	
@@ -15,9 +16,10 @@ const App = () => {
 			<div className="App">
 				<Header />
 				<Welcome />
+				<About />	
+				<Technologies />
 				<Projects />
 				<Calculator />
-				<Technologies />
 				<Contact />
 				{/* <Switch>
 					<Route path='/' exact component={Welcome} />

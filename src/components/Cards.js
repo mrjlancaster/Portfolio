@@ -18,11 +18,11 @@ const Cards = () => {
 
 	return (
 		<Box className={classes.projectsContainer}>
-			<Trans1go />
-			<PadaOne />
-			<AM />
-			<WorldClock />
-			<ArcadeGame />
+				<Trans1go />
+				<PadaOne />
+				<AM />
+				<WorldClock />
+				<ArcadeGame />			
 		</Box>
   );
 }

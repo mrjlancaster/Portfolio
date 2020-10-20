@@ -1,4 +1,5 @@
 import React from 'react';
+import './Welcome.css'
 
 // Material UI imports
 import useStyles from '../styles';
@@ -11,7 +12,17 @@ function Welcome() {
 
 	return (
 		<div className={classes.welcomeContainer}>
-			<div className={classes.welcomeSection}>
+			<div>
+				<ul>
+					<li>Welcome</li>
+					<li>About</li>
+					<li>My Stack</li>
+					<li>Projects</li>
+					<li>Contact</li>
+				</ul>
+					
+			</div> 
+			<div className='welcomeSection'>
 				<Typography variant="p" className={classes.welcomeTitle}>
 					Hey, I'm Jonathan,<br />
 					A Front-end Developer<br />

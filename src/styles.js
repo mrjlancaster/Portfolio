@@ -6,17 +6,14 @@ const useStyles = makeStyles((theme) => ({
 	 bar: {
 		 display: 'flex',
 		 justifyContent: 'center',
-		//  backgroundColor: 'rgba(0, 0, 0, 0.8)',
-		backgroundColor: '#ffff',
+		 backgroundColor: '#ffff',
 		 position: 'fixed',
 		 height: '7%',
 	 },
 	 activeBar: {
 		display: 'flex',
 		justifyContent: 'center',
-	  //  backgroundColor: 'rgba(0, 0, 0, 0.8)',
-	  backgroundColor: '#ffff',
-		position: 'fixed',
+	   backgroundColor: '#ffff',
 		height: '7%',
 	 },
 
@@ -31,35 +28,20 @@ const useStyles = makeStyles((theme) => ({
 		color: '#000',
 		 cursor: 'default'
 	 },
-	 ul: {
-		 width: '50%',
-		 margin: '0 auto',
-		 display: 'flex',
-		 listStyle: 'none',
-		 justifyContent: 'space-evenly',
-	 },
-	 
-	 li: {
-		 color: '#000',
-		 opacity: '0.8',
-		 fontSize: 14,
-		 marginLeft: 20,
-		 textDecoration: 'none',
-		 cursor: 'pointer',
-	 },
+
 	 // Welcome section
 	 welcomeContainer: {
 		 display: 'flex',
 		 height: '100vh'
 	 },
-	 welcomeSection: {	
-		display: 'flex',
-		flexDirection: 'column',
-		justifyContent: 'center',
-		textAlign: 'center',
-		margin: '0 auto',
-		width: '75%'
-	 },
+	//  welcomeSection: {	
+	// 	display: 'flex',
+	// 	flexDirection: 'column',
+	// 	justifyContent: 'center',
+	// 	textAlign: 'center',
+	// 	margin: '0 auto',
+	// 	width: '75%'
+	//  },
 	 welcomeTitle: {
 		 fontSize: 40,
 		 lineHeight: '1.3em',
@@ -83,9 +65,9 @@ const useStyles = makeStyles((theme) => ({
 
 	 // Projects styles
 	 projectsBox: {
-		width: '98%',
 		margin: '0 auto',
-		paddingBottom: 25
+		paddingBottom: 25,
+		backgroundColor: '#54a0ff'
 	},
 	 projectsContainer: {
 		 width: '100%',
@@ -122,7 +104,7 @@ const useStyles = makeStyles((theme) => ({
 		alignItems: 'center',
 		width: '98%',
 		margin: '50px auto',
-		boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+		// boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
 	},
 	uiDesign: {
 		paddingTop: 20,
