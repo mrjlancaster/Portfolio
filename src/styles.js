@@ -1,35 +1,44 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
-	toolbar: {
-		height: '10vh'
-	},
+
+	 // Header styles
 	 bar: {
-		 backgroundColor: '#1e272e',
+		 display: 'flex',
+		 justifyContent: 'center',
+		 backgroundColor: 'rgba(0, 0, 0, 0.8)',
+		 position: 'fixed',
+		 height: '7%',
 	 },
 	 title: {
 		flexGrow: 1,
 	 },
 	 
-	 // Header styles
+	 signature: {
+		 position: 'absolute',
+		 opacity: '0.8',
+		 color: '#f5f5f7',
+		 cursor: 'default'
+	 },
 	 ul: {
-		 width: '100%',
+		 width: '50%',
+		 margin: '0 auto',
 		 display: 'flex',
 		 listStyle: 'none',
-		 justifyContent: 'flex-end'
+		 justifyContent: 'space-evenly',
 	 },
 	 
 	 li: {
+		 opacity: '0.8',
+		 fontSize: 14,
 		 marginLeft: 20,
-		 color: '#fff',
 		 textDecoration: 'none',
-		 cursor: 'pointer'
+		 cursor: 'pointer',
 	 },
 	 // Welcome section
 	 welcomeContainer: {
 		 display: 'flex',
-		 position: 'absolute',
-		 width: '100vw',
+		 height: '100vh'
 	 },
 	 welcomeSection: {	
 		display: 'flex',
@@ -37,7 +46,6 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: 'center',
 		textAlign: 'center',
 		margin: '0 auto',
-		height: '90vh',
 		width: '75%'
 	 },
 	 welcomeTitle: {
@@ -62,23 +70,27 @@ const useStyles = makeStyles((theme) => ({
 	 },
 
 	 // Projects styles
+	 projectsBox: {
+		width: '98%',
+		margin: '0 auto',
+		paddingBottom: 25
+	},
+	 projectsContainer: {
+		 width: '100%',
+		display: 'flex',
+		flexWrap: 'wrap',
+		justifyContent: 'space-evenly',
+	},
 	 root: {
-		maxWidth: 345,
-		margin: '20px 0'
+		maxWidth: 500,
+		margin: '30px 0'
 	 },
 	 media: {
-		height: 170
+		height: 245
 	 },
 	 projectsHeading: {
 		 textAlign: 'center',
 		 padding: '40px 0'
-	 },
-	 projectsContainer: {
-		 display: 'flex',
-		 width: '85%',
-		 margin: '0 auto',
-		 flexWrap: 'wrap',
-		 justifyContent: 'space-evenly',
 	 },
 	 cardAction: {
 		 justifyContent: 'flex-end',
@@ -89,34 +101,79 @@ const useStyles = makeStyles((theme) => ({
 		 color: '#1769aa'
 	},
 
+	// calculator styles
+	calculatorContainer: {
+		padding: '20px 0',
+		display: 'flex',
+		flexDirection: 'column',
+		justifyContent: 'space-evenly',
+		alignItems: 'center',
+		width: '98%',
+		margin: '50px auto',
+		boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+	},
+	uiDesign: {
+		paddingTop: 20,
+		paddingBottom: 10
+	},
+	leftBox: {
+		display: 'flex',
+		alignItems: 'center',
+		justifyContent: 'center',
+		width: '100%'
+	},
+	rightBox: {
+		display: 'flex',
+		alignItems: 'center',
+		width: '100%'
+	},
+	lightCalc: {
+		position: 'relative',
+		left: 100,
+		height: '680px',
+		width: '900px',
+	},
+	calc: {
+		height: '680px',
+		width: '900px'
+	},
+	darkModeText: {
+		width: 340,
+	},
+	ifStatements: {
+		textDecoration: 'underline'
+	},
+
+	
+
 
 	 // Contact component styles
 	 contactBox: {
-		 backgroundColor: '#1e272e',
-		 height: '90vh',
+		 backgroundColor: '#000',
+		 height: '100vh',
 		 display: 'flex',
 		 flexDirection: 'column',
 		 alignItems: 'center',
 		 justifyContent: 'space-evenly'
 	 },
 	 contactTitle: {
-		 color: '#fff',
+		 color: '#f5f5f7',
 		 fontSize: 40,
 		 fontWeight: 200,
 		 letterSpacing: '1px',
 	 },
 	 contactButton: {
-		 color: '#fff',
+		 color: '#f5f5f7',
 		 padding: '15px 50px',
-		 border: '1px solid #7f8fa6',
+		 border: '1px solid #f5f5f7',
 		 cursor: 'pointer',
 		 background: 'none',
-		 borderRadius: 4,
+		 borderRadius: 2,
 		 textDecoration: 'none',
 		 transition: 'all 500ms ease',
 		 '&:hover': {
 			 backgroundColor: '#f5f6fa',
-			 color: '#000'
+			 color: '#000',
 		 }
 	 },
 }))

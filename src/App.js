@@ -1,25 +1,30 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Calculator from './components/Calculator';
 
 const App = () => {
 
   return (
-	  <Router>
+	//   <Router>
 			<div className="App">
 				<Header />
-				<Switch>
+				<Welcome />
+				<Projects />
+				<Calculator />
+				<Contact />
+				{/* <Switch>
 					<Route path='/' exact component={Welcome} />
 					<Route path='/Home' exact component={Welcome} />
 					<Route path='/Projects' exact component={Projects} />
 					<Route path='/Contact' exact component={Contact} />
-				</Switch>
+				</Switch> */}
 			</div>
-	  </Router>
+	//   </Router>
   );
 }
 
