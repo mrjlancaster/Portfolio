@@ -17,8 +17,9 @@ function Welcome() {
 				<ul>
 					<Link 
 					activeClass="active" 
-					to="welcome" 
-					smooth={true} 
+					to="welcome"
+					spy={true}
+					smooth={true}
 					duration={1500}
 					className="li"
 					>
@@ -26,7 +27,8 @@ function Welcome() {
 					</Link>
 					<Link
 					activeClass="active" 
-					to="about" 
+					to="about"
+					spy={true}
 					smooth={true} 
 					duration={1500}
 					className="li"
@@ -35,8 +37,10 @@ function Welcome() {
 					</Link>
 					<Link
 					activeClass="active" 
-					to="my stack" 
-					smooth={true} 
+					to="my stack"
+					spy={true}
+					smooth={true}
+					offset={-90}
 					duration={1500}
 					className="li"
 					>
@@ -45,7 +49,9 @@ function Welcome() {
 					<Link
 					activeClass="active" 
 					to="projects" 
-					smooth={true} 
+					smooth={true}
+					spy={true}
+					offset={-50}
 					duration={1500}
 					className="li"
 					>
@@ -54,7 +60,8 @@ function Welcome() {
 					<Link
 					activeClass="active" 
 					to="contact" 
-					smooth={true} 
+					smooth={true}
+					spy={true}
 					duration={1500}
 					className="li"
 					>
