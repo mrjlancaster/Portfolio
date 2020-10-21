@@ -10,6 +10,7 @@ import Technologies from './components/Technologies';
 import About from './components/About';
 
 const App = () => {
+
 	
   return (
 	//   <Router>

@@ -8,6 +8,7 @@ import Box from '@material-ui/core/Box';
 
 function Welcome() {
 
+
 	const classes = useStyles();
 
 	return (
