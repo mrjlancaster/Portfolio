@@ -25,7 +25,7 @@ function Welcome() {
 					>
 					Welcome
 					</Link>
-					<Link
+					{/* <Link
 					activeClass="active" 
 					to="about"
 					spy={true}
@@ -34,6 +34,17 @@ function Welcome() {
 					className="li"
 					>
 					About
+					</Link> */}
+					<Link
+					activeClass="active" 
+					to="projects" 
+					smooth={true}
+					spy={true}
+					offset={-50}
+					duration={1000}
+					className="li"
+					>
+					Projects
 					</Link>
 					<Link
 					activeClass="active" 
@@ -45,17 +56,6 @@ function Welcome() {
 					className="li"
 					>
 					My Stack
-					</Link>
-					<Link
-					activeClass="active" 
-					to="projects" 
-					smooth={true}
-					spy={true}
-					offset={-50}
-					duration={1500}
-					className="li"
-					>
-					Projects
 					</Link>
 					<Link
 					activeClass="active" 

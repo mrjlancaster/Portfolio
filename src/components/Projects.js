@@ -11,7 +11,7 @@ const Projects = () => {
 
 	return (
 		<Box id="projects" className={classes.projectsBox}>
-			<Typography variant="h3" className={classes.projectsHeading}>
+			<Typography variant="h2" className={classes.projectsHeading}>
 				Projects
 			</Typography>
 			<Cards />

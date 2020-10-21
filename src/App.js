@@ -1,5 +1,4 @@
 import React from 'react';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
@@ -13,23 +12,15 @@ const App = () => {
 
 	
   return (
-	//   <Router>
-			<div className="App">
-				<Header />
-				<Welcome />
-				<About />	
-				<Technologies />
-				<Projects />
-				<Calculator />
-				<Contact />
-				{/* <Switch>
-					<Route path='/' exact component={Welcome} />
-					<Route path='/Home' exact component={Welcome} />
-					<Route path='/Projects' exact component={Projects} />
-					<Route path='/Contact' exact component={Contact} />
-				</Switch> */}
-			</div>
-	//   </Router>
+		<div className="App">
+			<Header />
+			<Welcome />
+			{/* <About /> */}
+			<Projects />
+			<Calculator />
+			<Technologies />
+			<Contact />
+		</div>
   );
 }
 

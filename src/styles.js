@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
 	 projectsBox: {
 		margin: '0 auto',
 		paddingBottom: 25,
-		backgroundColor: '#d3e7ff'
+		backgroundColor: '#f1f2f6'
 	},
 	 projectsContainer: {
 		 width: '100%',
@@ -79,8 +79,8 @@ const useStyles = makeStyles((theme) => ({
 	 },
 	 projectsHeading: {
 		 textAlign: 'center',
-		 padding: '40px 0',
-		 opacity: opacity
+		 padding: '60px 0 40px 0',
+		 opacity: opacity,
 	 },
 	 cardAction: {
 		 justifyContent: 'flex-end',
@@ -145,7 +145,7 @@ const useStyles = makeStyles((theme) => ({
 	 },
 	 contactTitle: {
 		 color: '#f5f5f7',
-		 fontSize: 40,
+		 fontSize: 40,	
 		 fontWeight: 200,
 		 letterSpacing: '1px',
 	 },
