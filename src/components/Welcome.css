@@ -2,10 +2,16 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	text-align: center;
+	align-items: flex-end;
+	text-align: end;
 	height: 93%;
-	width: 55%;
+	width: 98%;
 	margin: 0 auto;
+}
+
+.animate__animated.animate__fadeIn {
+	animation: fadeIn;
+	animation-duration: 1s;
 }
 
 ul {
@@ -46,3 +52,7 @@ ul {
 	opacity: 0.8;
 	cursor: pointer;
 } */
+
+.effect {
+	background-color: blue;
+}

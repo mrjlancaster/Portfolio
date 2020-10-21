@@ -28,7 +28,7 @@ const PadaOne = () => {
 				/>
 				<CardContent>
 					<Typography gutterBottom variant="h5" component="h2">
-						PadaOne
+						Padaone
 					</Typography>
 					<Typography variant="body2" color="textSecondary" component="p">
 						Padaone is a marketplace for individuals to take classes and train with coaches all over the world. I was responsible to build the first company's Landing Page. Technologies used in this project were <b>HTML5, CSS3/Sass, and Javascript.</b>

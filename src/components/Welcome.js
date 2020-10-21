@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './Welcome.css'
 
@@ -10,10 +10,48 @@ import Box from '@material-ui/core/Box';
 function Welcome() {
 	const classes = useStyles();
 
+	const [nav, setNav] = useState({
+		transform: 'translateX(-120%)'
+	})
+
+	const [intro, setIntro] = useState({
+		transform: 'translateX(150%)'
+		});
+
+		const [isShown,setIsShown] = useState({
+			opacity: '0'
+		})
+	
+
+
+	// const [github, setGithub] = useState(false);
+	// const [linkedIn, setLinkedIn] = useState(false);
+	
+	window.addEventListener('load', () => {
+		setTimeout(() => {
+			setIntro({
+				transform: 'translateX(0%)',
+				transition: '1100ms'
+			})
+		}, 2000);
+		setTimeout(() => {
+			setNav({
+				transform: 'translateX(0%)',
+				transition: '1200ms'
+			})
+		}, 3600);
+		setTimeout(() => {
+			setIsShown({
+				opacity: '1',
+				transition: '1200ms'
+			})
+		}, 4800);
+	})
+
 	return (
 		<div id="welcome" className={classes.welcomeContainer}>
 			<div>
-				<ul>
+				<ul style={nav}>
 					{/* <Link
 					activeClass="active" 
 					to="about"
@@ -60,12 +98,11 @@ function Welcome() {
 					
 			</div> 
 			<div className='welcomeSection'>
-				<Typography variant="h2" className={classes.welcomeTitle}>
+				<Typography style={intro} variant="h2" className={classes.welcomeTitle}>
 					Hey, I'm Jonathan,<br />
 					A Front-end Developer<br />
-						<hr className={classes.welcomeSeparator} />
 				</Typography>
-				<Box>
+				<Box style={isShown}>
 					<a href="https://github.com/mrjlancaster" target="_blank" className={classes.socialLinks}>
 						<i className="fab fa-github"></i>
 					</a>
