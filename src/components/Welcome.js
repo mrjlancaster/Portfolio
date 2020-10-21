@@ -8,23 +8,12 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
 function Welcome() {
-
 	const classes = useStyles();
 
 	return (
 		<div id="welcome" className={classes.welcomeContainer}>
 			<div>
 				<ul>
-					<Link 
-					activeClass="active" 
-					to="welcome"
-					spy={true}
-					smooth={true}
-					duration={1500}
-					className="li"
-					>
-					Welcome
-					</Link>
 					{/* <Link
 					activeClass="active" 
 					to="about"
@@ -67,7 +56,6 @@ function Welcome() {
 					>
 					Contact
 					</Link>
-		
 				</ul>
 					
 			</div> 
@@ -86,6 +74,9 @@ function Welcome() {
 					</a>
 				</Box>
 			</div>
+			{/* <button className="down-button">
+				<i className="fas fa-chevron-down"></i>
+			</button> */}
 		</div>
 	)
 }
