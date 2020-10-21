@@ -15,7 +15,7 @@ ul {
 	height: 100%;
 }
 
-li {
+.li {
 	opacity: 0.8;
 	font-size: 65px;
 	text-decoration: none;
@@ -26,7 +26,7 @@ li {
 	transition: all 300ms ease;
 }
 
-li:hover {
+.li:hover {
 	text-decoration: underline;
 	text-decoration-color: #74b9ff;
 }

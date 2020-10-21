@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import './Welcome.css'
 
 // Material UI imports
@@ -8,18 +9,58 @@ import Box from '@material-ui/core/Box';
 
 function Welcome() {
 
-
 	const classes = useStyles();
 
 	return (
-		<div className={classes.welcomeContainer}>
+		<div id="welcome" className={classes.welcomeContainer}>
 			<div>
 				<ul>
-					<li>Welcome</li>
-					<li>About</li>
-					<li>My Stack</li>
-					<li>Projects</li>
-					<li>Contact</li>
+					<Link 
+					activeClass="active" 
+					to="welcome" 
+					smooth={true} 
+					duration={1500}
+					className="li"
+					>
+					Welcome
+					</Link>
+					<Link
+					activeClass="active" 
+					to="about" 
+					smooth={true} 
+					duration={1500}
+					className="li"
+					>
+					About
+					</Link>
+					<Link
+					activeClass="active" 
+					to="my stack" 
+					smooth={true} 
+					duration={1500}
+					className="li"
+					>
+					My Stack
+					</Link>
+					<Link
+					activeClass="active" 
+					to="projects" 
+					smooth={true} 
+					duration={1500}
+					className="li"
+					>
+					Projects
+					</Link>
+					<Link
+					activeClass="active" 
+					to="contact" 
+					smooth={true} 
+					duration={1500}
+					className="li"
+					>
+					Contact
+					</Link>
+		
 				</ul>
 					
 			</div> 

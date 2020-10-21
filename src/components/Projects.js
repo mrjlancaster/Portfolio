@@ -10,7 +10,7 @@ const Projects = () => {
 	const classes = useStyles();
 
 	return (
-		<Box className={classes.projectsBox}>
+		<Box id="projects" className={classes.projectsBox}>
 			<Typography variant="h3" className={classes.projectsHeading}>
 				Projects
 			</Typography>

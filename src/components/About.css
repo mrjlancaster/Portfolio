@@ -1,0 +1,22 @@
+.about-me {
+	background-color: #0c2461;
+	display: flex;
+	align-items: center;
+	padding: 40px 20px;
+	height: 93vh;
+}
+
+.profile-pic {
+	width: 50%;
+}
+
+.text-wrapper {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 100%;
+	color: #fff;
+}
+
+

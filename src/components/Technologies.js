@@ -10,7 +10,7 @@ import { Box } from '@material-ui/core';
 const Technologies = () => {
 
 	return (
-		<div className="tech_container">
+		<div id="my stack" className="tech_container">
 			<Box className="typography_container">
 				<Typography variant="h3" className="heading">My stack</Typography>
 				<Typography variant="body1">Day in and day out I'm utilizing these technologies to build websites and web applications</Typography>

@@ -13,7 +13,7 @@ const Contact = () => {
 	const classes = useStyles();
 
 	return (
-		<div className={classes.contactBox}>
+		<div id="contact" className={classes.contactBox}>
 			<h1 className={classes.contactTitle}>
 				I'm Available For Work
 			</h1>
