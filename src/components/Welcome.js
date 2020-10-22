@@ -10,42 +10,31 @@ import Box from '@material-ui/core/Box';
 function Welcome() {
 	const classes = useStyles();
 
-	const [nav, setNav] = useState({
-		transform: 'translateX(-120%)'
-	})
-
-	const [intro, setIntro] = useState({
-		transform: 'translateX(150%)'
-		});
-
-		const [isShown,setIsShown] = useState({
-			opacity: '0'
-		})
+	const [nav, setNav] = useState({opacity: '0'})
+	const [intro, setIntro] = useState({opacity: '0'});
+	const [isShown,setIsShown] = useState({opacity: '0'})
 	
 
-
-	// const [github, setGithub] = useState(false);
-	// const [linkedIn, setLinkedIn] = useState(false);
 	
 	window.addEventListener('load', () => {
 		setTimeout(() => {
 			setIntro({
-				transform: 'translateX(0%)',
+				opacity: '1',
 				transition: '1100ms'
 			})
-		}, 2000);
+		}, 500);
 		setTimeout(() => {
 			setNav({
-				transform: 'translateX(0%)',
+				opacity: '1',
 				transition: '1200ms'
 			})
-		}, 3600);
+		}, 2500);
 		setTimeout(() => {
 			setIsShown({
 				opacity: '1',
 				transition: '1200ms'
 			})
-		}, 4800);
+		}, 4000);
 	})
 
 	return (

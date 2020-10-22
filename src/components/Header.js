@@ -12,11 +12,19 @@ import { Typography } from '@material-ui/core';
 const Header = () => {
 	const classes = useStyles();
 
+	const handleScroll = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth',
+		})
+	}
+
+
 	return (
 		<div>
 			<AppBar className={classes.bar} position="static">
 				<Toolbar className={classes.toolbar}>
-					<Typography variant="h6" className={classes.signature}>Mrjlancaster</Typography>
+					<Typography onClick={handleScroll} variant="h6" className={classes.signature}>Mrjlancaster</Typography>
 					{/* <ul className={classes.ul}>
 						<li className={classes.li}>Home</li>
 						<li className={classes.li}>Projects</li>

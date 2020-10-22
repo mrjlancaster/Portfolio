@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 		 opacity: opacity,
 		//  color: '#f5f5f7',
 		color: '#000',
-		 cursor: 'default'
+		 cursor: 'pointer'
 	 },
 
 	 // Welcome section
