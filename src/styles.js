@@ -38,10 +38,9 @@ const useStyles = makeStyles((theme) => ({
 	 },
 
 	 welcomeTitle: {
-		 opacity: opacity,
+		 opacity: '0.8',
 		 lineHeight: '1.3em',
 		 letterSpacing: 1,
-		 fontFamily: 'Arial, Helvetica, sans-serif'
 	 },
 	 welcomeSeparator: {
 		 margin: '15px 0'

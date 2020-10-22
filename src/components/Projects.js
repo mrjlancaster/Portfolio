@@ -1,5 +1,6 @@
 import React from 'react';
 import Cards from './Cards';
+import AM2 from './cards/AM2';
 
 // Material UI imports
 import useStyles from '../styles';
@@ -15,6 +16,7 @@ const Projects = () => {
 				Projects
 			</Typography>
 			<Cards />
+			<AM2 />
 		</Box>
 	)
 }
