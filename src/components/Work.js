@@ -6,7 +6,7 @@ import AM2 from './cards/AM2';
 
 const Work = () => {
 	return (
-		<div className="Work">
+		<div className="work">
 			<List />
 			<AM2 />
 		</div>

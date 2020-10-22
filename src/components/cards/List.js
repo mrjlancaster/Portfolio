@@ -4,7 +4,7 @@ import './List.css';
 const List = () => {
 	return (
 		<div className="project_list-container">
-			<ul>
+			<ul className="projects_ul">
 				<li className="projects-li">Trans1go.com</li>
 				<li className="projects-li">Padaone Inc</li>
 				<li className="projects-li">AM Architecture & Design</li>

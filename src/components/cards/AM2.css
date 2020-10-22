@@ -1,12 +1,11 @@
 .am2 {
 	display: flex;
 	justify-content: flex-end;
-	width: 100%;
-	color: #fff
+	color: #fff;
+	width: 70%;
 }
 
 .project-container {
-	width: 70%;
 	height: 400px;
 	padding: 25px;
 	display: flex;
