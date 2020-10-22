@@ -28,7 +28,7 @@ function Welcome() {
 				opacity: '1',
 				transition: '1200ms'
 			})
-		}, 2500);
+		}, 2300);
 		setTimeout(() => {
 			setIsShown({
 				opacity: '1',
