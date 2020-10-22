@@ -40,7 +40,7 @@ function Welcome() {
 	return (
 		<div id="welcome" className={classes.welcomeContainer}>
 			<div>
-				<ul style={nav}>
+				<ul className="navBar-ul" style={nav}>
 					{/* <Link
 					activeClass="active" 
 					to="about"
