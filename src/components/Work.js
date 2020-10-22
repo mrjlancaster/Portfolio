@@ -11,7 +11,8 @@ import WorldClock2 from './cards/WorldClock2';
 import { Typography } from '@material-ui/core';
 
 const Work = () => {
-	const [isShown, setIsShown] = useState(false);
+	// const [isShown, setIsShown] = useState(false);
+	const [active, setActive] = useState(false);
 
 	return (
 		<div className="work">
@@ -21,7 +22,7 @@ const Work = () => {
 			<div className="work_container">
 				<div className="project_list-container">
 					<ul className="projects_ul">
-						<li className="projects-li project--active">Trans1go.com</li>
+						<li onClick={() => setActive(!active)} className={active ? 'projects-li' : 'project--active'}>Trans1go.com</li>
 						<li className="projects-li">Padaone Inc</li>
 						<li className="projects-li">AM Architecture & Design</li>
 						<li className="projects-li">World Clock (Web App)</li>
