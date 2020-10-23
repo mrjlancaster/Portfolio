@@ -1,5 +1,5 @@
 .am2 {
-	display: none;
+	display: flex;
 	justify-content: flex-end;
 	color: #fff;
 	width: 70%;
