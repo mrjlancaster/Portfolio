@@ -20,7 +20,7 @@ const Work = () => {
 			image: Trans1goScreenshot,
 			title: 'Trans1go.com',
 			description: `Trans1go.com is an auto repair shop focused on delivering mobile repairs (service at your door). Responsive website, mobile and tablet friendly. Front-end and back-end technologies were used in this project, such as HTML5, CSS3/Sass, Javascript, nodeJS, and REST APIs.`,
-			link: ''
+			link: 'http://trans1go.com/'
 		})
 
 
@@ -31,10 +31,9 @@ const Work = () => {
 				setLi('trans1go.com');
 				setProject({
 					image: Trans1goScreenshot,
-					imageAlt: 'website screenshot',
 					title: 'Trans1go.com',
 					description: `Trans1go.com is an auto repair shop focused on delivering mobile repairs (service at your door). Responsive website, mobile and tablet friendly. Front-end and back-end technologies were used in this project, such as HTML5, CSS3/Sass, Javascript, nodeJS, and REST APIs.`,
-					link: ''
+					link: 'http://trans1go.com/'
 				})
 			}
 
@@ -43,7 +42,8 @@ const Work = () => {
 				setProject({
 					image: PadaoneScreenshot,
 					title: 'Padaone Inc',
-					description: 'Padaone is a marketplace for individuals to take classes and train with coaches all over the world. I was responsible to build the first company\'s Landing Page. Technologies used in this project were HTML5, CSS3/Sass, and Javascript.'
+					description: 'Padaone is a marketplace for individuals to take classes and train with coaches all over the world. I was responsible to build the first company\'s Landing Page. Technologies used in this project were HTML5, CSS3/Sass, and Javascript.',
+					link: 'https://www.padaone.app/'
 				})
 			}
 
@@ -52,7 +52,8 @@ const Work = () => {
 				setProject({
 					image: AMScreenshot,
 					title: 'AM Architecture & Design',
-					description: 'This is a mockup website I\'ve built based on a design I found as an inspiration. AM Architecture & Design was built utilizing HTML5 and CSS3. Simple, elegant and great design.'
+					description: 'This is a mockup website I\'ve built based on a design I found as an inspiration. AM Architecture & Design was built utilizing HTML5 and CSS3. Simple, elegant and great design.',
+					link: 'https://mrjlancaster.github.io/Responsive-website/'
 				})
 			}
 
@@ -61,7 +62,8 @@ const Work = () => {
 				setProject({
 					image: WorldClockScreenshot,
 					title: 'World clock web application',
-					description: 'Simple digital world clock web application built in HTML5,CSS3, and JavaScript.'
+					description: 'Simple digital world clock web application built in HTML5,CSS3, and JavaScript.',
+					link: 'https://mrjlancaster.github.io/world_clock/'
 				})
 			}
 
@@ -70,14 +72,15 @@ const Work = () => {
 				setProject({
 					image: ArcadeGameScreenshot,
 					title: 'Arcade Game',
-					description: 'I\'ve used my Javascript skills to build an Arcade game. Just for the fun also for my daily coding practices. Check it out!'
+					description: 'I\'ve used my Javascript skills to build an Arcade game. Just for the fun also for my daily coding practices. Check it out!',
+					link: 'https://mrjlancaster.github.io/Arcade-Game/'
 				})
 			}
 		}
 	}
 
 	return (
-		<div className="work">
+		<div id="work" className="work">
 			<Typography className="work_heading" variant="h2">
 				Some of my work
 			</Typography>
@@ -101,7 +104,9 @@ const Work = () => {
 								<Typography variant="body1" className="project-description">{project.description}
 								</Typography>
 								<div>
-									<button className="projectBtn">See project</button>
+									<a href={project.link} target="blank" className="projectBtn">
+									See Project
+									</a>
 								</div>
 							</div>
 						</div>

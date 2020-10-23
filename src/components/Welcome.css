@@ -9,11 +9,6 @@
 	margin: 0 auto;
 }
 
-.animate__animated.animate__fadeIn {
-	animation: fadeIn;
-	animation-duration: 1s;
-}
-
 .navBar-ul {
 	position: absolute;
 	display: flex;
@@ -45,12 +40,9 @@
 	border: none;
 }
 
-/* .fas.fa-chevron-down {
-	font-size: 25px;
-	transform: scale(1.8, 1.6);
-	opacity: 0.8;
-	cursor: pointer;
-} */
+.social-icons {
+	padding-top: 15px;
+}
 
 .effect {
 	background-color: blue;

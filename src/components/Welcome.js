@@ -53,14 +53,14 @@ function Welcome() {
 					</Link> */}
 					<Link
 					activeClass="active" 
-					to="projects" 
+					to="work" 
 					smooth={true}
 					spy={true}
 					offset={-50}
 					duration={1000}
 					className="li"
 					>
-					Projects
+					Work
 					</Link>
 					<Link
 					activeClass="active" 
@@ -91,7 +91,7 @@ function Welcome() {
 					Hey, I'm Jonathan,<br />
 					A Front-end Developer<br />
 				</Typography>
-				<Box style={isShown}>
+				<Box className="social-icons" style={isShown}>
 					<a href="https://github.com/mrjlancaster" target="_blank" className={classes.socialLinks}>
 						<i className="fab fa-github"></i>
 					</a>

@@ -42,9 +42,6 @@ const useStyles = makeStyles((theme) => ({
 		 lineHeight: '1.3em',
 		 letterSpacing: 1,
 	 },
-	 welcomeSeparator: {
-		 margin: '15px 0'
-	 },
 	 socialLinks: {
 		 display: 'inline',
 		 color: '#000',
@@ -103,7 +100,7 @@ const useStyles = makeStyles((theme) => ({
 	},
 	uiDesign: {
 		paddingTop: 20,
-		paddingBottom: 10
+		paddingBottom: 10,
 	},
 	leftBox: {
 		display: 'flex',

@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
-import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Calculator from './components/Calculator';
 import Technologies from './components/Technologies';
@@ -16,7 +15,6 @@ const App = () => {
 			<Welcome />
 			<Work />
 			{/* <About /> */}
-			{/* <Projects /> */}
 			<Calculator />
 			<Technologies />
 			<Contact />
