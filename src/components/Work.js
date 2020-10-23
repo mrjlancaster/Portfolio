@@ -11,14 +11,32 @@ import WorldClock2 from './cards/WorldClock2';
 import { Typography } from '@material-ui/core';
 
 const Work = () => {
-	const [active, setActive] = useState(false);
-	// const [component, setComponent] = useState(false);
+	const [li, setLi] = useState('trans1go.com');
 
-	const display = () => {
-		setActive(!active);
+	const switchLi = (e) => {
+		const key = e.target;
+		if (key.matches('li')) {
+			if (key.innerText === 'Trans1go.com') {
+				setLi('trans1go.com');
+			}
+
+			if (key.innerText === 'Padaone Inc') {
+				setLi('padaone');
+			}
+
+			if (key.innerText === 'AM Architecture & Design') {
+				setLi('am');
+			}
+
+			if (key.innerText === 'World Clock (Web App)') {
+				setLi('worldclock');
+			}
+
+			if (key.innerText === 'Arcade game') {
+				setLi('arcade game');
+			}
+		}
 	}
-
-	// const list = ['Trans1go.com', 'Padaone Inc', 'AM Architecture & Design', 'World Clock (Web App)', 'Arcade game'];
 
 	return (
 		<div className="work">
@@ -27,12 +45,18 @@ const Work = () => {
 			</Typography>
 			<div className="work_container">
 				<div className="project_list-container">
-					<ul className="projects_ul">
-						<li onClick={display} className={active ? 'projects-li' : 'project--active'}>Trans1go.com</li>
-						<li className="projects-li">Padaone Inc</li>
-						<li className="projects-li">AM Architecture & Design</li>
-						<li className="projects-li">World Clock (Web App)</li>
-						<li className="projects-li">Arcade game</li>
+					<ul onClick={switchLi} className="projects_ul">
+
+						<li className={li === 'trans1go.com' ? 'project--active' : 'projects-li'}>Trans1go.com</li>
+
+
+						<li className={li === 'padaone' ? 'project--active' : 'projects-li'}>Padaone Inc</li>
+
+
+						<li className={li === 'am' ? 'project--active' : 'projects-li'}>AM Architecture & Design</li>
+
+						<li className={li === 'worldclock' ? 'project--active' : 'projects-li'}>World Clock (Web App)</li>
+						<li className={li === 'arcade game' ? 'project--active' : 'projects-li'}>Arcade game</li>
 					</ul>
 				</div>
 				<div className="projects">
