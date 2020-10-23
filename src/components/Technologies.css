@@ -5,7 +5,7 @@
 	align-items: center;
 	justify-content: space-evenly;
 	margin: 50px auto;
-	min-height: 85vh;
+	height: 420px;
 }
 
 .typography_container {
@@ -14,7 +14,7 @@
 }
 
 .heading {
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 .icon_wrapper {
@@ -27,7 +27,7 @@
 .fab.fa-js-square,
 .fab.fa-react,
 .fab.fa-node-js {
-	font-size: 100px;
+	font-size: 80px;
 }
 
 .grid {

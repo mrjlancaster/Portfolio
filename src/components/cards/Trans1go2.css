@@ -1,28 +1,9 @@
-.trans1go2 {
-	display: flex;
-	justify-content: flex-end;
-	color: #fff;
-}
-
-.project-container {
-	height: 400px;
-	padding: 25px;
-	display: flex;
-	background-color: #2f3542;
-}
 
 .pic {
 	align-self: center;
 	height: 250px;
 	max-width: 480px;
 	border-radius: 2px;
-}
-
-.project-details {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-left: 20px;
 }
 
 .project-title,
@@ -40,6 +21,7 @@
 	border: 1px solid #fff;
 	color: #fff;
 	transition: all 300ms ease;
+	text-decoration: none;
 }
 
 .projectBtn:hover {

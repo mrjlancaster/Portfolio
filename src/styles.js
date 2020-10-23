@@ -101,6 +101,7 @@ const useStyles = makeStyles((theme) => ({
 	uiDesign: {
 		paddingTop: 20,
 		paddingBottom: 10,
+		opacity: 0.9
 	},
 	leftBox: {
 		display: 'flex',

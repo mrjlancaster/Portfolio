@@ -16,7 +16,7 @@ const Calculator = () => {
 
 	return (
 		<div className={classes.calculatorContainer}>
-			<Typography variant="h2" className={classes.uiDesign}>UI Design</Typography>
+			<Typography variant="h4" className={classes.uiDesign}>UI Design</Typography>
 			<Typography variant="body1">
 				The focus when building this calculator was on the design. The idea was simply to implement the dark mode switch functionality.
 			</Typography>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Work.css';
-import './cards/AM2.css'
+// import './cards/AM2.css's
 
 import Trans1go2 from './cards/Trans1go2';
 
@@ -81,7 +81,7 @@ const Work = () => {
 
 	return (
 		<div id="work" className="work">
-			<Typography className="work_heading" variant="h2">
+			<Typography className="work_heading" variant="h4">
 				Some of my work
 			</Typography>
 			<div className="work_container">
@@ -96,11 +96,11 @@ const Work = () => {
 				</div>
 				
 				<div className="projects">
-					<div className="trans1go2">
+					<div className="project_details">
 						<div className="project-container">
 							<img src={project.image} className="pic" alt="trans1go image" />
-							<div className="project-details">
-								<Typography variant="h4" className="project-Title">{project.title}</Typography>
+							<div className="project_text-wrapper">
+								<Typography variant="h5" className="project-Title">{project.title}</Typography>
 								<Typography variant="body1" className="project-description">{project.description}
 								</Typography>
 								<div>

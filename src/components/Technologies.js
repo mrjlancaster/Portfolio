@@ -12,7 +12,7 @@ const Technologies = () => {
 	return (
 		<div id="my stack" className="tech_container">
 			<Box className="typography_container">
-				<Typography variant="h2" className="heading">My stack</Typography>
+				<Typography variant="h4" className="heading">My stack</Typography>
 				<Typography variant="body1">Day in and day out I'm utilizing these technologies to build websites and web applications</Typography>
 			</Box>
 		
