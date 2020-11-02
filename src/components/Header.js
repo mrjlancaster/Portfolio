@@ -24,7 +24,11 @@ const Header = () => {
 		<div>
 			<AppBar className={classes.bar} position="static">
 				<Toolbar className={classes.toolbar}>
-					<Typography onClick={handleScroll} variant="h6" className={classes.signature}>Mrjlancaster</Typography>
+					<Typography onClick={handleScroll} variant="h6" className={classes.signature}>Mrjlancaster
+					</Typography>
+					{/* <div>
+						<i class="fas fa-bars"></i>
+					</div> */}
 				</Toolbar>
 			</AppBar>
 		</div>
