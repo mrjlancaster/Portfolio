@@ -41,16 +41,17 @@ function Welcome() {
 		<div id="welcome" className={classes.welcomeContainer}>
 			<div>
 				<ul className="navBar-ul" style={nav}>
-					{/* <Link
+					<Link
 					activeClass="active" 
 					to="about"
 					spy={true}
 					smooth={true} 
+					offset={-90}
 					duration={1500}
 					className="li"
 					>
 					About
-					</Link> */}
+					</Link>
 					<Link
 					activeClass="active" 
 					to="work" 
@@ -100,9 +101,6 @@ function Welcome() {
 					</a>
 				</Box>
 			</div>
-			{/* <button className="down-button">
-				<i className="fas fa-chevron-down"></i>
-			</button> */}
 		</div>
 	)
 }
