@@ -3,6 +3,7 @@
 	flex-direction: column;
 	height: 550px;
 	justify-content: space-around;
+	padding: 40px 0;
 }
 
 .work_container {

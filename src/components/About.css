@@ -1,12 +1,10 @@
 .about-me {
-	/* background-color: #0c2461; */
-	background-color: #6687e1;
+	background-color: #0a3d62;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 	padding: 40px 20px;
 	height: 390px;
-	margin: 20px 0;
 }
 
 .profile_pic-wrapper {
