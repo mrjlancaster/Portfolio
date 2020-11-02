@@ -87,10 +87,10 @@ function Welcome() {
 				</ul>
 			</div> 
 			<div className='welcomeSection'>
-				<Typography style={intro} variant="h2" className={classes.welcomeTitle}>
+				<h2 style={intro} variant="h2" className='welcomeTitle'>
 					Hey, I'm Jonathan,<br />
 					A Front-end Developer<br />
-				</Typography>
+				</h2>
 				<Box className="social-icons" style={isShown}>
 					<a href="https://github.com/mrjlancaster" target="_blank" className={classes.socialLinks}>
 						<i className="fab fa-github"></i>
