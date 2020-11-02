@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
 		 justifyContent: 'center',
 		 backgroundColor: '#ffff',
 		 position: 'fixed',
-		 height: '7%',
+		 maxHeight: '7%',
 	 },
 	 activeBar: {
 		display: 'flex',
@@ -146,20 +146,6 @@ const useStyles = makeStyles((theme) => ({
 		 fontWeight: 200,
 		 letterSpacing: '1px',
 	 },
-	 contactButton: {
-		 color: '#f5f5f7',
-		 padding: '15px 50px',
-		 border: '1px solid #f5f5f7',
-		 cursor: 'pointer',
-		 background: 'none',
-		 borderRadius: 2,
-		 textDecoration: 'none',
-		 transition: 'all 500ms ease',
-		 '&:hover': {
-			 backgroundColor: '#f5f6fa',
-			 color: '#000',
-		 }
-	 }
 }))
 
 export default useStyles;

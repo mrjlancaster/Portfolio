@@ -25,20 +25,6 @@ const Header = () => {
 			<AppBar className={classes.bar} position="static">
 				<Toolbar className={classes.toolbar}>
 					<Typography onClick={handleScroll} variant="h6" className={classes.signature}>Mrjlancaster</Typography>
-					{/* <ul className={classes.ul}>
-						<li className={classes.li}>Home</li>
-						<li className={classes.li}>Projects</li>
-						<li className={classes.li}>Contact</li> */}
-						{/* <li>
-							<Link to='/' className={classes.li} onClick={displayHome}>Home</Link>
-						</li>
-						<li>
-							<Link to='/Projects' className={classes.li} onClick={displayProjects}>Projects</Link>
-						</li>
-						<li>
-							<Link to='/Contact' className={classes.li} onClick={displayContact}>Contact</Link>
-						</li> */}
-					{/* </ul> */}
 				</Toolbar>
 			</AppBar>
 		</div>

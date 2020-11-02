@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-
-// Material UI imports
-import { Typography } from '@material-ui/core';
-import useStyles from '../styles';
-
+import './Contact.css';
 
 const Contact = () => {
 
@@ -11,14 +7,12 @@ const Contact = () => {
 		email: 'lancast001@gmail.com'
 	});
 
-	const classes = useStyles();
-
 	return (
-		<div id="contact" className={classes.contactBox}>
-			<Typography variant="h2" className={classes.contactTitle}>
+		<div id="contact" className='contactBox'>
+			<h2 className='contactTitle'>
 				I'm Available For Work
-			</Typography>
-			<a href={'mailto: ' + email.email} variant="Outlined" className={classes.contactButton}>
+			</h2>
+			<a href={'mailto: ' + email.email} className='contactButton'>
 				Get in touch
 			</a>
 		</div>

@@ -85,7 +85,6 @@ function Welcome() {
 					Contact
 					</Link>
 				</ul>
-					
 			</div> 
 			<div className='welcomeSection'>
 				<Typography style={intro} variant="h2" className={classes.welcomeTitle}>

@@ -44,3 +44,18 @@
 .social-icons {
 	padding-top: 15px;
 }
+
+/* MEDIA QUERIES */
+@media (min-width: 340px) and (max-width: 768px) {
+	.navBar-ul {
+		display: none;
+	}
+
+	.welcomeSection {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+}
