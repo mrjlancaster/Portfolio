@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 
-import ProfilePicture from '../img/profile_pic.jpg';
+// import ProfilePicture from '../img/profile_pic.jpg';
 
 // material ui imports
 import { Typography } from '@material-ui/core';
@@ -9,9 +9,7 @@ import { Typography } from '@material-ui/core';
 const About = () => {
 	return (
 		<div id="about" className="about-me">
-			<div className="profile_pic-wrapper">
-				{/* <img className="profile_picture" src={ProfilePicture} alt="me" /> */}
-			</div>
+			<div className="profile_pic-wrapper"></div>
 			<div className="text-wrapper">
 				<Typography className="about-title" variant="h4">About me</Typography>
 				<Typography className="about-bio" variant="body1">
