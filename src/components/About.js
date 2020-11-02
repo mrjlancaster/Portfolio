@@ -9,8 +9,8 @@ import { Typography } from '@material-ui/core';
 const About = () => {
 	return (
 		<div id="about" className="about-me">
-			<div className="profile-pic">
-				<img className="profile_picture" src={ProfilePicture} alt="me" />
+			<div className="profile_pic-wrapper">
+				{/* <img className="profile_picture" src={ProfilePicture} alt="me" /> */}
 			</div>
 			<div className="text-wrapper">
 				<Typography className="about-title" variant="h4">About me</Typography>
