@@ -11,10 +11,11 @@
 
 .navBar-ul {
 	position: absolute;
+	top: 40px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 100%;
+	height: 93vh;
 }
 
 .li {
