@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.css';
 
+import ProfilePicture from '../img/profile_pic.jpg';
+
 // material ui imports
 import { Typography } from '@material-ui/core';
 
@@ -8,11 +10,16 @@ const About = () => {
 	return (
 		<div id="about" className="about-me">
 			<div className="profile-pic">
-				<img src="" alt="me" />
+				<img className="profile_picture" src={ProfilePicture} alt="me" />
 			</div>
 			<div className="text-wrapper">
 				<Typography className="about-title" variant="h4">About me</Typography>
-				<Typography className="about-bio" variant="body1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, laborum voluptatibus pariatur ut quis officiis nisi magni accusamus nostrum ducimus labore corrupti harum consequatur, ipsam tempore ad iusto ab quia. Iste culpa dicta repudiandae impedit cumque at quis porro in laboriosam incidunt minima, doloribus maiores quidem saepe aperiam laudantium alias unde, facere excepturi! Harum, cumque cum deserunt debitis ad vel modi quia doloribus, accusamus earum esse atque quo inventore obcaecati assumenda consequatur voluptas tempore, autem quos tempora. Est alias dolorum quis tempore neque omnis ad pariatur provident quos consequatur magnam, enim, molestiae veritatis voluptatibus sequi error sit libero id ea. Atque enim unde, fugit laboriosam ducimus magni perferendis exercitationem ut maiores, corrupti saepe iste, expedita quos reiciendis? Maiores, dicta odio. Eos voluptatum harum vero illum eum dolorem praesentium sequi inventore, aliquid delectus cum quidem, dicta aspernatur natus, alias atque quos est veniam sint voluptates! Doloremque cum ex ratione repellat non tempora sapiente dicta odio repudiandae, quidem laboriosam quia in.</Typography>
+				<Typography className="about-bio" variant="body1">
+					I'm a Frontend Engineer passionate about building innovative web applications and modern responsive web designs. My main focus as a developer is in HTML, CSS, JavaScript, and ReactJS. Throughout my time as a frontend engineer I've learned several technologies and have had some brief experiences with different modern frameworks and languages. I'm a quick learner, and a self-taught programmer. I'm able to learn any new technology very quickly and effectively, being able to apply to projects as needed.
+					<br />
+					<br />
+					In my personal time I like to read, code and practice my programming skills, create personal projects, play video games (of course), and find competitive games/hobbies to participate in, such as Men's Physique contests, casual chess. I love doing outdoors activities and playing sports such as basketball. Traveling and seeing new places and exploring the outside world is also a big interest that takes place in my life. The older I get the more I find opportunities to go on adventures.
+				</Typography>
 			</div>
 		</div>
 	)

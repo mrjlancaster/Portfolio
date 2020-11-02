@@ -1,13 +1,18 @@
 .about-me {
-	background-color: #0c2461;
+	/* background-color: #0c2461; */
+	background-color: #6687e1;
 	display: flex;
 	align-items: center;
+	justify-content: space-evenly;
 	padding: 40px 20px;
-	height: 93vh;
+	height: 390px;
+	margin: 20px 0;
 }
 
-.profile-pic {
-	width: 50%;
+.profile_picture {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
 }
 
 .text-wrapper {

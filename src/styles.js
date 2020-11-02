@@ -159,7 +159,7 @@ const useStyles = makeStyles((theme) => ({
 			 backgroundColor: '#f5f6fa',
 			 color: '#000',
 		 }
-	 },
+	 }
 }))
 
 export default useStyles;
