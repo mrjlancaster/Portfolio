@@ -11,7 +11,7 @@ const Technologies = () => {
 		<div id="my stack" className="tech_container">
 			<Box className="typography_container">
 				<h4 className="stack_title">My stack</h4>
-				<Typography variant="body1">Day in and day out I'm utilizing these technologies to build websites and web applications</Typography>
+				<p className="stack_text">Day in and day out I'm utilizing these technologies to build websites and web applications</p>
 			</Box>
 		
 			<div className='grid'>
