@@ -5,14 +5,12 @@ import './Technologies.css';
 import { Typography } from '@material-ui/core';
 import { Box } from '@material-ui/core';
 
-
-
 const Technologies = () => {
 
 	return (
 		<div id="my stack" className="tech_container">
 			<Box className="typography_container">
-				<Typography variant="h4" className="heading">My stack</Typography>
+				<h4 className="stack_title">My stack</h4>
 				<Typography variant="body1">Day in and day out I'm utilizing these technologies to build websites and web applications</Typography>
 			</Box>
 		

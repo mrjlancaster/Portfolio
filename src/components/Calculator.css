@@ -71,6 +71,10 @@
 
 /* MEDIA QUERIES */
 @media (min-width: 340px) and (max-width: 768px) {
+	.calculatorContainer {
+		margin: 0 auto;
+	}
+
 	.uiDesign {
 		padding-bottom: 20px;
 		font-size: 2.4rem;
