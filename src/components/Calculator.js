@@ -5,10 +5,6 @@ import './Calculator.css';
 import LightMode from '../img/light-mode.png';
 import DarkMode from '../img/dark-mode.png';
 
-// import material ui
-import { Typography } from '@material-ui/core';
-import { Box } from '@material-ui/core';
-
 // import styles
 import useStyles from '../styles';
 
@@ -32,12 +28,12 @@ const Calculator = () => {
 			</div>
 			<div className='rightBox'>
 				<img src={DarkMode} alt="calculator" className='calc' />
-				<Box>
+				<div>
 				<h2 className="calc_mode-heading">Dark Mode</h2>
 				<p className='darkModeText'>
 					The technologies I used here were <b>HTML5, CSS3, JavaScript, and Photoshop.</b> A lot of <span className={classes.ifStatements}>if statements</span> to get this done. Very straight forward.
 				</p>
-				</Box>
+				</div>
 				
 			</div>
 		</div>
