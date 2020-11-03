@@ -30,8 +30,43 @@
 	font-size: 80px;
 }
 
+.icon_titles {
+	margin: 0;
+	font-size: 1.25rem;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 500;
+	line-height: 1.6;
+	letter-spacing: 0.0075em;
+}
+
 .grid {
 	display: grid;
 	grid-gap: 15px;
 	grid-template-columns: repeat(3, 100px);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 340px) and (max-width: 768px) {
+	.tech_container {
+		width: 100%;
+		margin: 50px 0 0 0;
+	}
+
+	.fab.fa-html5,
+	.fab.fa-css3-alt,
+	.fab.fa-sass,
+	.fab.fa-js-square,
+	.fab.fa-react,
+	.fab.fa-node-js {
+		font-size: 45px;
+	}
+
+	.icon_titles {
+		margin: 0;
+		font-size: 1rem;
+		font-weight: 500;
+		line-height: 1.6;
+		letter-spacing: 0.0075em;
+	}
+
 }
