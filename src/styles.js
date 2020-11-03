@@ -94,6 +94,7 @@ const useStyles = makeStyles((theme) => ({
 		flexDirection: 'column',
 		justifyContent: 'space-evenly',
 		alignItems: 'center',
+		backgroundColor: '#f5f7fa',
 		width: '98%',
 		margin: '50px auto',
 		// boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
