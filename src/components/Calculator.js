@@ -18,10 +18,10 @@ const Calculator = () => {
 	return (
 		<div className='calculatorContainer'>
 			<h4 className='uiDesign'>UI Design</h4>
-			<Typography variant="body1">
+			<p className="calc-description">
 				The focus when building this calculator was on the design. The idea was simply to implement the dark mode switch functionality.
-			</Typography>
-			<p variant="body1">Visit here: <a href="https://mrjlancaster.github.io/calculator-darkmode/" target="blank">https://mrjlancaster.github.io/calculator-darkmode/</a></p>
+			</p>
+			<p className="calc-description">Visit here: <a href="https://mrjlancaster.github.io/calculator-darkmode/" target="blank">https://mrjlancaster.github.io/calculator-darkmode/</a></p>
 		
 			<div className='leftBox'>
 				<h2 className="calc_mode-heading">
