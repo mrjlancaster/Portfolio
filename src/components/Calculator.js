@@ -17,11 +17,11 @@ const Calculator = () => {
 
 	return (
 		<div className='calculatorContainer'>
-			<Typography variant="h4" className={classes.uiDesign}>UI Design</Typography>
+			<h4 className='uiDesign'>UI Design</h4>
 			<Typography variant="body1">
 				The focus when building this calculator was on the design. The idea was simply to implement the dark mode switch functionality.
 			</Typography>
-			<Typography variant="body1">Visit here: <a href="https://mrjlancaster.github.io/calculator-darkmode/" target="blank">https://mrjlancaster.github.io/calculator-darkmode/</a></Typography>
+			<p variant="body1">Visit here: <a href="https://mrjlancaster.github.io/calculator-darkmode/" target="blank">https://mrjlancaster.github.io/calculator-darkmode/</a></p>
 		
 			<div className='leftBox'>
 				<h2 className="calc_mode-heading">
@@ -34,9 +34,9 @@ const Calculator = () => {
 				<img src={DarkMode} alt="calculator" className='calc' />
 				<Box>
 				<h2 className="calc_mode-heading">Dark Mode</h2>
-				<Typography variant="body1" className={classes.darkModeText}>
+				<p className='darkModeText'>
 					The technologies I used here were <b>HTML5, CSS3, JavaScript, and Photoshop.</b> A lot of <span className={classes.ifStatements}>if statements</span> to get this done. Very straight forward.
-				</Typography>
+				</p>
 				</Box>
 				
 			</div>

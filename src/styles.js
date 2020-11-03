@@ -88,25 +88,6 @@ const useStyles = makeStyles((theme) => ({
 	},
 
 	// calculator styles
-	uiDesign: {
-		paddingTop: 20,
-		paddingBottom: 10,
-		opacity: 0.9
-	},
-	leftBox: {
-		display: 'flex',
-		alignItems: 'center',
-		justifyContent: 'center',
-		// maxWidth: '100%'
-	},
-	rightBox: {
-		display: 'flex',
-		alignItems: 'center',
-		width: '100%'
-	},
-	darkModeText: {
-		width: 340,
-	},
 	ifStatements: {
 		textDecoration: 'underline'
 	},
