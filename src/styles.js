@@ -88,17 +88,6 @@ const useStyles = makeStyles((theme) => ({
 	},
 
 	// calculator styles
-	calculatorContainer: {
-		padding: '20px 0',
-		display: 'flex',
-		flexDirection: 'column',
-		justifyContent: 'space-evenly',
-		alignItems: 'center',
-		backgroundColor: '#f5f7fa',
-		width: '98%',
-		margin: '50px auto',
-		// boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-	},
 	uiDesign: {
 		paddingTop: 20,
 		paddingBottom: 10,
@@ -108,22 +97,12 @@ const useStyles = makeStyles((theme) => ({
 		display: 'flex',
 		alignItems: 'center',
 		justifyContent: 'center',
-		width: '100%'
+		// maxWidth: '100%'
 	},
 	rightBox: {
 		display: 'flex',
 		alignItems: 'center',
 		width: '100%'
-	},
-	lightCalc: {
-		position: 'relative',
-		left: 100,
-		height: '680px',
-		width: '900px',
-	},
-	calc: {
-		height: '680px',
-		width: '900px'
 	},
 	darkModeText: {
 		width: 340,
