@@ -137,15 +137,14 @@ const Work = () => {
 								alt="trans1go image"
 							/>
 							<div className="project_text-wrapper">
-								<Typography variant="h5" className="project-Title">
+								<h5 className="project_title-name">
 									{project.title}
-								</Typography>
-								<Typography
-									variant="body1"
+								</h5>
+								<p
 									className="project-description"
 								>
 									{project.description}
-								</Typography>
+								</p>
 								<div>
 									<a
 										href={project.link}

@@ -69,6 +69,21 @@
 	color: #fff;
 }
 
+.project_title-name {
+	font-size: 1.5rem;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	line-height: 1.334;
+}
+
+.project-description {
+	font-size: 1rem;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.00938em;
+}
+
 .project_text-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -117,8 +132,26 @@
 	}
 
 	.project-container {
-		height: auto;
+		min-height: 540px;
 		padding: 25px 10px;
 		flex-direction: column;
+	}
+
+	.pic {
+		width: 98%;
+	}
+
+	.project_title-name {
+		font-size: 1.2rem;
+	}
+
+	.project_text-wrapper {
+		margin-left: 0;
+		padding: 8px;
+	}
+
+	.projectBtn {
+		padding: 10px 20px;
+		font-size: 1rem;
 	}
 }

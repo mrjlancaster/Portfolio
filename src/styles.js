@@ -78,10 +78,6 @@ const useStyles = makeStyles((theme) => ({
 		 padding: '60px 0 40px 0',
 		 opacity: opacity,
 	 },
-	 cardAction: {
-		 justifyContent: 'flex-end',
-		 alignItems: 'end',
-	 },
 	 buttonLink: {
 		 textDecoration: 'none',
 		 color: '#1769aa'
