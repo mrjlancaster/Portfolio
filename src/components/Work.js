@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Work.css";
 
-// import './cards/AM2.css's
+// import './cards/AM2.css'
 import Trans1go2 from "./cards/Trans1go2";
 
 // import screenshots
@@ -89,7 +89,7 @@ const Work = () => {
 			</Typography>
 			<div className="work_container">
 				<div className="project_list-container">
-					<ul onClick={switchLi} className="projects_ul">
+					<ul onClick={switchLi}className="projects_ul">
 						<li
 							className={
 								li === "trans1go.com"
