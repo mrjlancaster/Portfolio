@@ -59,7 +59,7 @@
 
 .lightCalc {
 	position: relative;
-	left: 100;
+	left: 100px;
 	height: 680px;
 	width: 900px;
 }
@@ -91,14 +91,31 @@
 	}
 
 	.calc_mode-heading {
+		text-align: center;
+		padding-bottom: 10px;
 		font-size: 1.6rem;
 	}
 	
 	.leftBox {
-		flex-direction: column;
+		 flex-direction: column;
 	}
 	
 	.rightBox {
 		flex-direction: column-reverse;
+	}
+
+	.lightCalc {
+		left: 0;
+		width: 900px;
+	}
+	
+	.calc {
+		height: 680px;
+		width: 900px;
+	}
+
+	.darkModeText {
+		text-align: center;
+
 	}
 }

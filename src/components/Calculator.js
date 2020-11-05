@@ -10,7 +10,6 @@ import useStyles from '../styles';
 
 const Calculator = () => {
 	const classes = useStyles();
-
 	return (
 		<div className='calculatorContainer'>
 			<h4 className='uiDesign'>UI Design</h4>
