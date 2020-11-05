@@ -21,6 +21,32 @@
 	letter-spacing: 0.00735em;
 }
 
+.leftBox {
+	height: 700px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.calculator_heading1-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 50%;
+}
+
+.blue_calculator-container {
+	width: 50%;
+	height: 100%;
+}
+
+.blue_calculator {
+	height: 680px;
+	width: 900px;
+}
+
 .calc_mode-heading {
 	font-size: 3.75rem;
 	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -29,11 +55,7 @@
 	letter-spacing: -0.00833em;
 }
 
-.leftBox {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
 
 .rightBox {
 	display: flex;
@@ -55,13 +77,6 @@
 	font-weight: 400;
 	line-height: 1.5;
 	letter-spacing: 0.00938em;
-}
-
-.lightCalc {
-	position: relative;
-	left: 100px;
-	height: 680px;
-	width: 900px;
 }
 
 .calc {
