@@ -94,7 +94,7 @@
 
 	.calc-description {
 		text-align: center;
-		padding-bottom: 10px;
+		padding-bottom: 15px;
 	}
 
 	.calc_mode-heading {
@@ -134,7 +134,9 @@
 	}
 	
 	.darkModeText {
+		width: 100%;
 		text-align: center;
+		padding: 15px;
 
 	}
 }
