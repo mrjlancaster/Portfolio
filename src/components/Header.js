@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 
 import { Link } from 'react-router-dom';
 
@@ -19,16 +20,13 @@ const Header = () => {
 		})
 	}
 
-
 	return (
 		<div>
 			<AppBar className={classes.bar} position="static">
 				<Toolbar className={classes.toolbar}>
 					<Typography onClick={handleScroll} variant="h6" className={classes.signature}>Mrjlancaster
 					</Typography>
-					{/* <div>
-						<i class="fas fa-bars"></i>
-					</div> */}
+					{/* <i className="fas fa-bars"></i> */}
 				</Toolbar>
 			</AppBar>
 		</div>

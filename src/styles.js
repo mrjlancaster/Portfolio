@@ -12,6 +12,8 @@ const useStyles = makeStyles((theme) => ({
 		 position: 'fixed',
 		 maxHeight: '7%',
 	 },
+	 toolbar: {
+	 },
 	 activeBar: {
 		display: 'flex',
 		justifyContent: 'center',
@@ -28,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
 		 opacity: opacity,
 		//  color: '#f5f5f7',
 		color: '#000',
-		 cursor: 'pointer'
+		 cursor: 'pointer',
 	 },
 
 	 // Welcome section
