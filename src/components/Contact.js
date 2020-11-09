@@ -10,11 +10,22 @@ const Contact = () => {
 	return (
 		<div id="contact" className='contactBox'>
 			<h2 className='contactTitle'>
-				I'm Available For Work
-			</h2>
-			<a href={'mailto: ' + email.email} className='contactButton'>
 				Get in touch
-			</a>
+			</h2>
+			<div className="contact_info-wrapper">
+				<a href="tel:+17739919846" className="contact-number"><i class="fas fa-phone-alt"></i> +1 (773)-991-9846</a>
+				<a href={'mailto: ' + email.email} className='contact-email'>
+				<i class="far fa-envelope"></i> lancast001@gmail.com
+				</a>
+			</div>
+			<div className="social-icons">
+				<a href="https://github.com/mrjlancaster" target="_blank" className="socialLinks">
+					<i className="fab fa-github"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/mrjlancaster" target="_blank" className="socialLinks">
+					<i className="fab fa-linkedin-in"></i>
+				</a>
+			</div>
 		</div>
 	)
 }
