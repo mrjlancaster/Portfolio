@@ -21,23 +21,45 @@
 	letter-spacing: 0.00735em;
 }
 
+.top-container,
+.bottom-container {
+	height: 500px;
+	width: 100%;
+	display: flex;
+}
+
+.calculator_heading1-container,
+.calculator_heading2-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 50%;
+	flex-direction: column;
+	text-align: justify;
+}
+
+.blue_calculator-container,
+.dark_calculator-container {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.blue_calculator,
+.dark_calculator {
+	height: 440px;
+	width: 240px;
+}
+
 .calc_mode-heading {
 	font-size: 3.75rem;
 	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 	font-weight: 300;
 	line-height: 1.2;
 	letter-spacing: -0.00833em;
-}
-
-.leftBox {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.rightBox {
-	display: flex;
-	align-items: center;
 }
 
 .darkModeText {
@@ -57,17 +79,6 @@
 	letter-spacing: 0.00938em;
 }
 
-.lightCalc {
-	position: relative;
-	left: 100px;
-	height: 680px;
-	width: 900px;
-}
-
-.calc {
-	height: 680px;
-	width: 900px;
-}
 
 /* MEDIA QUERIES */
 @media (min-width: 340px) and (max-width: 768px) {
@@ -83,11 +94,37 @@
 
 	.calc-description {
 		text-align: center;
-		padding-bottom: 10px;
+		padding-bottom: 15px;
 	}
 
 	.calc_mode-heading {
 		font-size: 2.5rem;
+	}
+
+	.top-container,
+	.bottom-container {
+		height: auto;
+		flex-direction: column;
+		padding: 20px 0;
+	}
+
+	.calculator_heading1-container,
+	.calculator_heading2-container {
+		width: 100%;
+		text-align: center;
+	}
+
+	.blue_calculator-container,
+	.dark_calculator-container {
+		width: 100%;
+		height: auto;
+		justify-content: center;
+		align-items: center;
+		padding-top: 10px;
+	}
+
+	.bottom-container {
+		flex-direction: column-reverse;
 	}
 
 	.calc_mode-heading {
@@ -96,26 +133,10 @@
 		font-size: 1.6rem;
 	}
 	
-	.leftBox {
-		 flex-direction: column;
-	}
-	
-	.rightBox {
-		flex-direction: column-reverse;
-	}
-
-	.lightCalc {
-		left: 0;
-		width: 900px;
-	}
-	
-	.calc {
-		height: 680px;
-		width: 900px;
-	}
-
 	.darkModeText {
+		width: 100%;
 		text-align: center;
+		padding: 15px;
 
 	}
 }
