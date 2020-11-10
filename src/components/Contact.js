@@ -18,11 +18,11 @@ const Contact = () => {
 				<i class="far fa-envelope"></i> lancast001@gmail.com
 				</a>
 			</div>
-			<div className="social-icons">
-				<a href="https://github.com/mrjlancaster" target="_blank" className="socialLinks">
+			<div className="contact_social-icons">
+				<a href="https://github.com/mrjlancaster" target="_blank" className="contact_socialLinks">
 					<i className="fab fa-github"></i>
 				</a>
-				<a href="https://www.linkedin.com/in/mrjlancaster" target="_blank" className="socialLinks">
+				<a href="https://www.linkedin.com/in/mrjlancaster" target="_blank" className="contact_socialLinks">
 					<i className="fab fa-linkedin-in"></i>
 				</a>
 			</div>
