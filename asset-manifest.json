@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ca77b6fa.chunk.css",
+    "main.js": "/Portfolio/static/js/main.69a3331d.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.69a3331d.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.9e287cfb.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9e287cfb.js.map",
+    "static/js/2.3baed272.chunk.js": "/Portfolio/static/js/2.3baed272.chunk.js",
+    "static/js/2.3baed272.chunk.js.map": "/Portfolio/static/js/2.3baed272.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.a2a01796c86f7e534c79f5a252ea7854.js": "/Portfolio/precache-manifest.a2a01796c86f7e534c79f5a252ea7854.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.ca77b6fa.chunk.css.map": "/Portfolio/static/css/main.ca77b6fa.chunk.css.map",
+    "static/js/2.3baed272.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.3baed272.chunk.js.LICENSE.txt",
+    "static/media/am.jpg": "/Portfolio/static/media/am.4aaec4f5.jpg",
+    "static/media/arcade_game.jpg": "/Portfolio/static/media/arcade_game.b7be904b.jpg",
+    "static/media/blue-calculator.png": "/Portfolio/static/media/blue-calculator.a7c0379a.png",
+    "static/media/dark-calculator.png": "/Portfolio/static/media/dark-calculator.39643b9f.png",
+    "static/media/padaone.jpg": "/Portfolio/static/media/padaone.5dd2cd5e.jpg",
+    "static/media/About.css": "/Portfolio/static/media/profile_pic.3d49cdef.jpg",
+    "static/media/trans1go.jpg": "/Portfolio/static/media/trans1go.054ec156.jpg",
+    "static/media/world_clock.jpg": "/Portfolio/static/media/world_clock.46e2f022.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e287cfb.js",
+    "static/js/2.3baed272.chunk.js",
+    "static/css/main.ca77b6fa.chunk.css",
+    "static/js/main.69a3331d.chunk.js"
+  ]
+}
