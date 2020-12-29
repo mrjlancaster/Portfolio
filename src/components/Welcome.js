@@ -38,53 +38,6 @@ function Welcome() {
 
 	return (
 		<div id="welcome" className={classes.welcomeContainer}>
-			<div>
-				<ul className="navBar-ul" style={nav}>
-					<Link
-					activeClass="active" 
-					to="about"
-					spy={true}
-					smooth={true} 
-					offset={-90}
-					duration={1500}
-					className="li"
-					>
-					About
-					</Link>
-					<Link
-					activeClass="active" 
-					to="work" 
-					smooth={true}
-					spy={true}
-					offset={-50}
-					duration={1000}
-					className="li"
-					>
-					Work
-					</Link>
-					<Link
-					activeClass="active" 
-					to="my stack"
-					spy={true}
-					smooth={true}
-					offset={-90}
-					duration={1500}
-					className="li"
-					>
-					My Stack
-					</Link>
-					<Link
-					activeClass="active" 
-					to="contact" 
-					smooth={true}
-					spy={true}
-					duration={1500}
-					className="li"
-					>
-					Contact
-					</Link>
-				</ul>
-			</div> 
 			<div className='welcomeSection'>
 				<h2 style={intro} variant="h2" className='welcomeTitle'>
 					Hey, I'm Jonathan,<br />

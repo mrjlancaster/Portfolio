@@ -31,7 +31,7 @@ const Header = () => {
 							offset={-90}
 							duration={1500}
 							>
-							About
+							About me
 						</Link>
 					</li>
 					<li className="nav__item"><Link
@@ -42,7 +42,7 @@ const Header = () => {
 							offset={-50}
 							duration={1000}
 							>
-							Work
+							Projects
 						</Link>
 					</li>
 					<li className="nav__item"><Link
