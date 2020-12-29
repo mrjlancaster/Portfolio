@@ -4,7 +4,6 @@ import './Welcome.css'
 
 // Material UI imports
 import useStyles from '../styles';
-import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
 function Welcome() {
