@@ -3,18 +3,7 @@ import './Header.css';
 
 import { Link } from 'react-scroll';
 
-// Material ui imports
-import useStyles from '../styles';
-
 const Header = () => {
-
-	const handleScroll = () => {
-		window.scrollTo({
-			top: 0,
-			behavior: 'smooth',
-		})
-	}
-
 	return (
 		<div className="header">
 			<h3 className="logo">mrjlancaster</h3>

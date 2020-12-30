@@ -3,9 +3,6 @@ import './About.css';
 
 // import ProfilePicture from '../img/profile_pic.jpg';
 
-// material ui imports
-import { Typography } from '@material-ui/core';
-
 const About = () => {
 	return (
 		<div id="about" className="about-me">

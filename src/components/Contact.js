@@ -13,9 +13,9 @@ const Contact = () => {
 				Get in touch
 			</h2>
 			<div className="contact_info-wrapper">
-				<a href="tel:+17739919846" className="contact-number"><i class="fas fa-phone-alt"></i> +1 (773)-991-9846</a>
+				<a href="tel:+17739919846" className="contact-number"><i className="fas fa-phone-alt"></i> +1 (773)-991-9846</a>
 				<a href={'mailto: ' + email.email} className='contact-email'>
-				<i class="far fa-envelope"></i> lancast001@gmail.com
+				<i className="far fa-envelope"></i> lancast001@gmail.com
 				</a>
 			</div>
 			<div className="contact_social-icons">

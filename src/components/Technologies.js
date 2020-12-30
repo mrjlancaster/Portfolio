@@ -2,7 +2,6 @@ import React from 'react';
 import './Technologies.css';
 
 // material ui imports
-import { Typography } from '@material-ui/core';
 import { Box } from '@material-ui/core';
 
 const Technologies = () => {
