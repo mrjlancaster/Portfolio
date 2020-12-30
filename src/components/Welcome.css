@@ -9,14 +9,14 @@
 	margin: 0 auto;
 }
 
-.welcomeTitle {
+.welcome__title{
 	font-size: 3.75rem;
 	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 	font-weight: 300;
+	opacity: .9;
 	line-height: 1.2;
 	letter-spacing: -0.00833em;
 }
-
 
 .down-button {
 	position: absolute;

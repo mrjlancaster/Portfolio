@@ -4,45 +4,10 @@ const opacity = 0.8;
 
 const useStyles = makeStyles((theme) => ({
 
-	 // Header styles
-	 bar: {
-		 display: 'flex',
-		 justifyContent: 'center',
-		 backgroundColor: '#ffff',
-		 position: 'fixed',
-		 maxHeight: '7%',
-	 },
-	 toolbar: {
-	 },
-	 activeBar: {
-		display: 'flex',
-		justifyContent: 'center',
-	   backgroundColor: '#ffff',
-		height: '7%',
-	 },
-
-	 title: {
-		flexGrow: 1,
-	 },
-	 
-	 signature: {
-		 position: 'absolute',
-		 opacity: opacity,
-		//  color: '#f5f5f7',
-		color: '#000',
-		 cursor: 'pointer',
-	 },
-
 	 // Welcome section
 	 welcomeContainer: {
 		 display: 'flex',
 		 height: '100vh'
-	 },
-
-	 welcomeTitle: {
-		 opacity: '0.8',
-		 lineHeight: '1.3em',
-		 letterSpacing: 1,
 	 },
 	 socialLinks: {
 		 display: 'inline',

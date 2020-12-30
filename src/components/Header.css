@@ -1,5 +1,5 @@
 .header {
-	height: 60px;
+	height: 80px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -7,7 +7,7 @@
 
 .logo {
 	border: 1px solid gray;
-	margin-left: 10px;
+	margin-left: 20px;
 	padding: 5px 8px;
 	cursor: default;
 	font-weight: 200;
