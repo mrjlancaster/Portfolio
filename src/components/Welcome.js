@@ -8,7 +8,6 @@ import Box from '@material-ui/core/Box';
 function Welcome() {
 	const classes = useStyles();
 
-	const [nav, setNav] = useState({opacity: '0'})
 	const [intro, setIntro] = useState({opacity: '0'});
 	const [isShown,setIsShown] = useState({opacity: '0'})
 	
@@ -19,12 +18,6 @@ function Welcome() {
 				transition: '1100ms'
 			})
 		}, 500);
-		setTimeout(() => {
-			setNav({
-				opacity: '1',
-				transition: '1200ms'
-			})
-		}, 2300);
 		setTimeout(() => {
 			setIsShown({
 				opacity: '1',
