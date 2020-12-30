@@ -36,7 +36,7 @@ function Welcome() {
 	return (
 		<div id="welcome" className={classes.welcomeContainer}>
 			<div className='welcomeSection'>
-				<h2 className='welcome__title'>
+				<h2 style={intro} className='welcome__title'>
 					Hey, I'm Jonathan,<br />
 					A Front-end Developer<br />
 				</h2>
