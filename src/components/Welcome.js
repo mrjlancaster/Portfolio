@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
 import './Welcome.css'
 
 // Material UI imports
@@ -12,8 +11,6 @@ function Welcome() {
 	const [nav, setNav] = useState({opacity: '0'})
 	const [intro, setIntro] = useState({opacity: '0'});
 	const [isShown,setIsShown] = useState({opacity: '0'})
-	
-
 	
 	window.addEventListener('load', () => {
 		setTimeout(() => {

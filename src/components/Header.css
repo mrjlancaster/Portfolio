@@ -3,7 +3,14 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: 1px solid gray;
+}
+
+.logo {
+	border: 1px solid gray;
+	margin-left: 10px;
+	padding: 5px 8px;
+	cursor: default;
+	font-weight: 200;
 }
 
 .bar {
@@ -34,4 +41,5 @@
 	color: #000;
 	margin-right: 20px;
 	cursor: pointer;
+	opacity: 0.9;
 }

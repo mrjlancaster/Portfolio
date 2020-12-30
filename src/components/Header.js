@@ -5,11 +5,8 @@ import { Link } from 'react-scroll';
 
 // Material ui imports
 import useStyles from '../styles';
-import { Typography } from '@material-ui/core';
-
 
 const Header = () => {
-	const classes = useStyles();
 
 	const handleScroll = () => {
 		window.scrollTo({
