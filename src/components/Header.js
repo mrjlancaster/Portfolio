@@ -4,7 +4,7 @@ import './Header.css';
 import { Link } from 'react-scroll';
 
 const Header = () => {
-	const [ showMenu, setShowMenu ] = useState(false);
+	// const [ showMenu, setShowMenu ] = useState(false);
 
 	return (
 		<div className="header">
