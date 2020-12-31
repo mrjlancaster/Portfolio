@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 
 import { Link } from 'react-scroll';
 
 const Header = () => {
+	const [ showMenu, setShowMenu ] = useState(false);
+
 	return (
 		<div className="header">
 			<h3 className="logo">mrjlancaster</h3>
-			<nav>
+			{/* <i onClick={() => setShowMenu(!showMenu)} className="fas fa-bars"></i> */}
+			<nav className="navigation">
 				<ul className="nav__list">
 					<li className="nav__item"><Link
 							activeClass="active" 
@@ -53,7 +56,6 @@ const Header = () => {
 						</Link>
 					</li>
 				</ul>
-				<i className="fas fa-bars"></i>
 			</nav>
 		</div>
 	)

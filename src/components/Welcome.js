@@ -23,7 +23,7 @@ function Welcome() {
 				opacity: '1',
 				transition: '1200ms'
 			})
-		}, 4000);
+		}, 1500);
 	})
 
 	return (

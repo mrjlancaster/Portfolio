@@ -1,3 +1,7 @@
+.fas.fa-bars {
+	display: none;
+}
+
 .header {
 	height: 80px;
 	display: flex;
@@ -44,7 +48,7 @@
 	opacity: 0.9;
 }
 
-@media (min-width: 340px) and (max-width: 768px) {
+@media (min-width: 340px) and (max-width: 667px) {
 	.header {
 		height: 60px;
 	}
@@ -56,10 +60,11 @@
 	}
 
 	.fas.fa-bars {
+		display: block;
 		margin-right: 20px;
 	}
 
-	.nav__list {
+	.navigation {
 		display: none;
 	}
 }
