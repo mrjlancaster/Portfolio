@@ -53,6 +53,7 @@ const Header = () => {
 						</Link>
 					</li>
 				</ul>
+				<i className="fas fa-bars"></i>
 			</nav>
 		</div>
 	)

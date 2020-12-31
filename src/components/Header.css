@@ -43,3 +43,23 @@
 	cursor: pointer;
 	opacity: 0.9;
 }
+
+@media (min-width: 340px) and (max-width: 768px) {
+	.header {
+		height: 60px;
+	}
+
+	.logo {
+		margin-left: 20px;
+		padding: 4px 6px;
+		font-size: 14px;
+	}
+
+	.fas.fa-bars {
+		margin-right: 20px;
+	}
+
+	.nav__list {
+		display: none;
+	}
+}
