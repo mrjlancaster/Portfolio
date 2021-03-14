@@ -9,8 +9,6 @@ import { FaNodeJs } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
-import { DiResponsive } from "react-icons/di";
-import { DiAws } from "react-icons/di";
 
 // material ui imports
 import { Box } from "@material-ui/core";
@@ -26,36 +24,36 @@ const Technologies = () => {
 				</p>
 			</Box>
 
-			<div className="grid">
-				<div className="icon_wrapper">
-					<h6 className="icon_titles">HTML5</h6>
-					<i className="fab fa-html5" style={{ color: "#ff5a44" }}></i>
-				</div>
-
-				<div className="icon_wrapper">
-					<h6 className="icon_titles">CSS3</h6>
-					<i className="fab fa-css3-alt" style={{ color: "#0a7ae9" }}></i>
-				</div>
-
-				<div className="icon_wrapper">
-					<h6 className="icon_titles">Sass</h6>
-					<i className="fab fa-sass" style={{ color: "#e759b8" }}></i>
-				</div>
-
-				<div className="icon_wrapper">
-					<h6 className="icon_titles">JavaScript</h6>
-					<i className="fab fa-js-square" style={{ color: "#ffd53d" }}></i>
-				</div>
-
-				<div className="icon_wrapper">
-					<h6 className="icon_titles">React</h6>
-					<i className="fab fa-react" style={{ color: "#73d3ff" }}></i>
-				</div>
-
-				<div className="icon_wrapper">
-					<h6 className="icon_titles">NodeJS</h6>
-					<i className="fab fa-node-js" style={{ color: "#1f9e54" }}></i>
-				</div>
+			<div>
+				<ul className="tech__list">
+					<li className="tech__item">
+						<FaReact style={{ color: "#73d3ff" }} />
+					</li>
+					<li className="tech__item">
+						<FaJs style={{ color: "#f0db4f" }} />
+					</li>
+					<li className="tech__item">
+						<FaHtml5 style={{ color: "#f06529" }} />
+					</li>
+					<li className="tech__item">
+						<FaCss3 style={{ color: "#0a7ae9" }} />
+					</li>
+					<li className="tech__item">
+						<DiMongodb style={{ color: "#4DB33D" }} />
+					</li>
+					<li className="tech__item">
+						<FaSass style={{ color: "#e759b8" }} />
+					</li>
+					<li className="tech__item">
+						<FaNodeJs style={{ color: "3C873A" }} />
+					</li>
+					<li className="tech__item">
+						<FaGitAlt style={{ color: "#f34f29" }} />
+					</li>
+					<li className="tech__item">
+						<FaGithub />
+					</li>
+				</ul>
 			</div>
 		</div>
 	);
