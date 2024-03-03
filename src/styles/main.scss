@@ -1,0 +1,12 @@
+// CSS Reset
+@import "./base/reset";
+
+// Layouts
+@import "./layouts/header";
+@import "./layouts/footer";
+
+// Sections
+@import "./sections/welcome";
+@import "./sections/about";
+@import "./sections/myWork";
+@import "./sections/showcase";

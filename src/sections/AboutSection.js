@@ -1,9 +1,8 @@
 import React from "react";
-import "./About.css";
 
 // import ProfilePicture from '../img/profile_pic.jpg';
 
-const About = () => {
+const AboutSection = () => {
 	return (
 		<div id="about" className="about-me">
 			<div className="profile_pic-wrapper"></div>
@@ -34,4 +33,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default AboutSection;

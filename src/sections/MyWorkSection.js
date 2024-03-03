@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import "./Work.css";
 
 // import './cards/AM2.css'
-import Trans1go2 from "./cards/Trans1go2";
+// import Trans1go2 from "./cards/Trans1go2";
 
 // import screenshots
 import Trans1goScreenshot from "../img/trans1go.jpg";
@@ -10,11 +9,12 @@ import PadaoneScreenshot from "../img/padaone.jpg";
 import AMScreenshot from "../img/am.jpg";
 import WorldClockScreenshot from "../img/world_clock.jpg";
 import ArcadeGameScreenshot from "../img/arcade_game.jpg";
+import TicTacToeScreenshot from "../assets/tic-tac-toe.png";
 
 // material ui imports
 import { Typography } from "@material-ui/core";
 
-const Work = () => {
+const MyWorkSection = () => {
 	const [activeTab, setActiveTab] = useState(0);
 
 	const tabs = [
@@ -62,10 +62,10 @@ const Work = () => {
 			link: "https://mrjlancaster.github.io/Arcade-Game/",
 		},
 		{
-			image: ArcadeGameScreenshot,
+			image: TicTacToeScreenshot,
 			title: "Tic Tac Toe",
 			description: "",
-			link: "https://github.com/mrjlancaster/tic-tac-toe",
+			link: "https://mrjlancaster.github.io/tic-tac-toe/",
 		},
 	];
 
@@ -133,4 +133,4 @@ const Work = () => {
 	);
 };
 
-export default Work;
+export default MyWorkSection;

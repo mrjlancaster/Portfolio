@@ -9,11 +9,11 @@
 	margin: 0 auto;
 }
 
-.welcome__title{
+.welcome__title {
 	font-size: 3.75rem;
 	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 	font-weight: 300;
-	opacity: .9;
+	opacity: 0.9;
 	line-height: 1.2;
 	letter-spacing: -0.00833em;
 }
@@ -32,7 +32,6 @@
 
 /* MEDIA QUERIES */
 @media (min-width: 340px) and (max-width: 768px) {
-
 	.welcomeSection {
 		height: calc(667px - 60px);
 	}

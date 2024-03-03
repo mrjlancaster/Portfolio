@@ -1,27 +1,25 @@
-import React from 'react';
-import './App.css';
+import React from "react";
 
-// Components imports
-import Header from './components/Header';
-import Welcome from './components/Welcome';
-import About from './components/About';
-import Work from './components/Work';
-import Calculator from './components/Calculator';
-import Technologies from './components/Technologies';
-import Contact from './components/Contact';
+// Layout
+import Layout from "./components/Layout";
+
+// Sections
+import WelcomeSection from "./sections/WelcomeSection";
+import AboutSection from "./sections/AboutSection";
+import MyWorkSection from "./sections/MyWorkSection";
+import ShowcaseSection from "./sections/ShowcaseSection";
 
 const App = () => {
-  return (
+	return (
 		<div className="App">
-			<Header />
-			<Welcome />
-			<About />
-			<Work />
-			<Calculator />
-			<Technologies />
-			<Contact />
+			<Layout>
+				<WelcomeSection />
+				<AboutSection />
+				<MyWorkSection />
+				<ShowcaseSection />
+			</Layout>
 		</div>
-  );
-}
+	);
+};
 
 export default App;
