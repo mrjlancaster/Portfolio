@@ -1,30 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.fce7ec0d.chunk.css",
-    "main.js": "/static/js/main.4aa20e07.chunk.js",
-    "main.js.map": "/static/js/main.4aa20e07.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6b3488d1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6b3488d1.js.map",
-    "static/js/2.692adb27.chunk.js": "/static/js/2.692adb27.chunk.js",
-    "static/js/2.692adb27.chunk.js.map": "/static/js/2.692adb27.chunk.js.map",
+    "main.css": "/static/css/main.7955877a.css",
+    "main.js": "/static/js/main.79412dc2.js",
+    "static/media/blue-calculator.png": "/static/media/blue-calculator.548e92477ca587dab706.png",
+    "static/media/am.jpg": "/static/media/am.cad4edccce0aa75b8c73.jpg",
+    "static/media/world_clock.jpg": "/static/media/world_clock.267ecba7590769667d82.jpg",
+    "static/media/padaone.jpg": "/static/media/padaone.fac201dd259d97d33060.jpg",
+    "static/media/dark-calculator.png": "/static/media/dark-calculator.4fce3993fc605b21a1ec.png",
+    "static/media/trans1go.jpg": "/static/media/trans1go.b43dfd1e158c2a9d46b3.jpg",
+    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.9c3d93e22d2adafe7d14.png",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.338fce8500103471f417.jpg",
+    "static/media/arcade_game.jpg": "/static/media/arcade_game.cae83b98a12e88e106c6.jpg",
     "index.html": "/index.html",
-    "precache-manifest.a8a5ffd1e5d0881be909ec4f6afa9ff8.js": "/precache-manifest.a8a5ffd1e5d0881be909ec4f6afa9ff8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.fce7ec0d.chunk.css.map": "/static/css/main.fce7ec0d.chunk.css.map",
-    "static/js/2.692adb27.chunk.js.LICENSE.txt": "/static/js/2.692adb27.chunk.js.LICENSE.txt",
-    "static/media/am.jpg": "/static/media/am.4aaec4f5.jpg",
-    "static/media/arcade_game.jpg": "/static/media/arcade_game.b7be904b.jpg",
-    "static/media/blue-calculator.png": "/static/media/blue-calculator.a7c0379a.png",
-    "static/media/dark-calculator.png": "/static/media/dark-calculator.39643b9f.png",
-    "static/media/padaone.jpg": "/static/media/padaone.5dd2cd5e.jpg",
-    "static/media/About.css": "/static/media/profile_pic.3d49cdef.jpg",
-    "static/media/trans1go.jpg": "/static/media/trans1go.054ec156.jpg",
-    "static/media/world_clock.jpg": "/static/media/world_clock.46e2f022.jpg"
+    "main.7955877a.css.map": "/static/css/main.7955877a.css.map",
+    "main.79412dc2.js.map": "/static/js/main.79412dc2.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b3488d1.js",
-    "static/js/2.692adb27.chunk.js",
-    "static/css/main.fce7ec0d.chunk.css",
-    "static/js/main.4aa20e07.chunk.js"
+    "static/css/main.7955877a.css",
+    "static/js/main.79412dc2.js"
   ]
 }
