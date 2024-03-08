@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7955877a.css",
-    "main.js": "/static/js/main.79412dc2.js",
+    "main.css": "/static/css/main.5b822224.css",
+    "main.js": "/static/js/main.36366ab0.js",
     "static/media/blue-calculator.png": "/static/media/blue-calculator.548e92477ca587dab706.png",
     "static/media/am.jpg": "/static/media/am.cad4edccce0aa75b8c73.jpg",
     "static/media/world_clock.jpg": "/static/media/world_clock.267ecba7590769667d82.jpg",
@@ -12,11 +12,11 @@
     "static/media/profile_pic.jpg": "/static/media/profile_pic.338fce8500103471f417.jpg",
     "static/media/arcade_game.jpg": "/static/media/arcade_game.cae83b98a12e88e106c6.jpg",
     "index.html": "/index.html",
-    "main.7955877a.css.map": "/static/css/main.7955877a.css.map",
-    "main.79412dc2.js.map": "/static/js/main.79412dc2.js.map"
+    "main.5b822224.css.map": "/static/css/main.5b822224.css.map",
+    "main.36366ab0.js.map": "/static/js/main.36366ab0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7955877a.css",
-    "static/js/main.79412dc2.js"
+    "static/css/main.5b822224.css",
+    "static/js/main.36366ab0.js"
   ]
 }
