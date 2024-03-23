@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button, ButtonBase, Link, Typography } from "@material-ui/core";
 
 // import './cards/AM2.css'
 // import Trans1go2 from "./cards/Trans1go2";
@@ -12,7 +13,6 @@ import ArcadeGameScreenshot from "../img/arcade_game.jpg";
 import TicTacToeScreenshot from "../assets/tic-tac-toe.png";
 
 // material ui imports
-import { Typography } from "@material-ui/core";
 
 const MyWorkSection = () => {
 	const [activeTab, setActiveTab] = useState(0);
@@ -64,7 +64,7 @@ const MyWorkSection = () => {
 		{
 			image: TicTacToeScreenshot,
 			title: "Tic Tac Toe",
-			description: "",
+			description: "Created Tic Tac Toe just for fun. Check it out!",
 			link: "https://mrjlancaster.github.io/tic-tac-toe/",
 		},
 	];
@@ -109,20 +109,32 @@ const MyWorkSection = () => {
 								alt="project pic"
 							/>
 							<div className="project_text-wrapper">
-								<h5 className="project_title-name">
+								<Typography variant="h5">
 									{tabContent[activeTab].title}
-								</h5>
-								<p className="project-description">
+								</Typography>
+
+								<Typography variant="body2">
 									{tabContent[activeTab].description}
-								</p>
+								</Typography>
+
 								<div>
-									<a
+									<Button
+										variant="contained"
 										href={tabContent[activeTab].link}
-										target="blank"
-										className="projectBtn"
+										target="_blank"
+										underline="none"
+										rel="noreferrer"
+										// color="primary"
+										size="small"
+										style={{
+											textTransform: "none",
+											background: "#fff",
+											color: "#000",
+										}}
+										disableElevation
 									>
 										See Project
-									</a>
+									</Button>
 								</div>
 							</div>
 						</div>

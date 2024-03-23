@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 // Material UI imports
 import useStyles from "../styles";
@@ -10,20 +10,22 @@ function WelcomeSection() {
 	const [intro, setIntro] = useState({ opacity: "0" });
 	const [isShown, setIsShown] = useState({ opacity: "0" });
 
-	window.addEventListener("load", () => {
-		setTimeout(() => {
-			setIntro({
-				opacity: "1",
-				transition: "1100ms",
-			});
-		}, 500);
-		setTimeout(() => {
-			setIsShown({
-				opacity: "1",
-				transition: "1200ms",
-			});
-		}, 1500);
-	});
+	useEffect(() => {
+		window.addEventListener("load", () => {
+			setTimeout(() => {
+				setIntro({
+					opacity: "1",
+					transition: "1100ms",
+				});
+			}, 500);
+			setTimeout(() => {
+				setIsShown({
+					opacity: "1",
+					transition: "1200ms",
+				});
+			}, 1500);
+		});
+	}, []);
 
 	return (
 		<div id="welcome" className={classes.welcomeContainer}>

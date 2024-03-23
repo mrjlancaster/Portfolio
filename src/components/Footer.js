@@ -1,36 +1,48 @@
-import React, { useState } from "react";
+import React from "react";
+import { Link } from "@material-ui/core";
 
 const Footer = () => {
-	const [email] = useState({
+	const contact = {
 		email: "lancast001@gmail.com",
-	});
+		phone: "+17739919846",
+	};
+
+	const social = [
+		{
+			link: "https://github.com/mrjlancaster",
+			iconClassname: "fab fa-github",
+		},
+		{
+			link: "https://www.linkedin.com/in/mrjlancaster",
+			iconClassname: "fab fa-linkedin-in",
+		},
+	];
 
 	return (
 		<div id="contact" className="contactBox">
 			<h2 className="contactTitle">Get in touch</h2>
 			<div className="contact_info-wrapper">
-				<a href="tel:+17739919846" className="contact-number">
+				<a href={`tel:${contact.phone}`} className="contact-number">
 					<i className="fas fa-phone-alt"></i> +1 (773)-991-9846
 				</a>
-				<a href={"mailto: " + email.email} className="contact-email">
-					<i className="far fa-envelope"></i> lancast001@gmail.com
+				<a href={"mailto: " + contact.email} className="contact-email">
+					<i className="far fa-envelope"></i> {contact.email}
 				</a>
 			</div>
 			<div className="contact_social-icons">
-				<a
-					href="https://github.com/mrjlancaster"
-					target="_blank"
-					className="contact_socialLinks"
-				>
-					<i className="fab fa-github"></i>
-				</a>
-				<a
-					href="https://www.linkedin.com/in/mrjlancaster"
-					target="_blank"
-					className="contact_socialLinks"
-				>
-					<i className="fab fa-linkedin-in"></i>
-				</a>
+				{social.map((item) => {
+					return (
+						<Link
+							href={item.link}
+							target="_blank"
+							className="contact_socialLinks"
+							rel="noreferrer"
+							color="white"
+						>
+							<i className={item.iconClassname}></i>
+						</Link>
+					);
+				})}
 			</div>
 		</div>
 	);

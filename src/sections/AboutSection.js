@@ -1,3 +1,4 @@
+import { Typography } from "@material-ui/core";
 import React from "react";
 
 // import ProfilePicture from '../img/profile_pic.jpg';
@@ -7,7 +8,7 @@ const AboutSection = () => {
 		<div id="about" className="about-me">
 			<div className="profile_pic-wrapper"></div>
 			<div className="text-wrapper">
-				<h4 className="about-title">About me</h4>
+				<Typography variant="h4">About me</Typography>
 				<p className="about-bio">
 					I'm a Frontend Engineer passionate about building innovative web
 					applications and creating modern responsive web designs. My main
