@@ -1,23 +1,23 @@
 import React from "react";
 import { Link } from "@material-ui/core";
 
+const contact = {
+	email: "lancast001@gmail.com",
+	phone: "+17739919846",
+};
+
+const social = [
+	{
+		link: "https://github.com/mrjlancaster",
+		iconClassname: "fab fa-github",
+	},
+	{
+		link: "https://www.linkedin.com/in/mrjlancaster",
+		iconClassname: "fab fa-linkedin-in",
+	},
+];
+
 const Footer = () => {
-	const contact = {
-		email: "lancast001@gmail.com",
-		phone: "+17739919846",
-	};
-
-	const social = [
-		{
-			link: "https://github.com/mrjlancaster",
-			iconClassname: "fab fa-github",
-		},
-		{
-			link: "https://www.linkedin.com/in/mrjlancaster",
-			iconClassname: "fab fa-linkedin-in",
-		},
-	];
-
 	return (
 		<div id="contact" className="contactBox">
 			<h2 className="contactTitle">Get in touch</h2>
