@@ -5,10 +5,9 @@ import useStyles from "../styles";
 import Box from "@material-ui/core/Box";
 
 function WelcomeSection() {
-	const classes = useStyles();
-
 	const [intro, setIntro] = useState({ opacity: "0" });
 	const [isShown, setIsShown] = useState({ opacity: "0" });
+	const classes = useStyles();
 
 	useEffect(() => {
 		window.addEventListener("load", () => {
@@ -33,7 +32,7 @@ function WelcomeSection() {
 				<h2 style={intro} className="welcome__title">
 					Hey, I'm Jonathan,
 					<br />
-					A Front-end Developer
+					A Full-Stack Developer
 					<br />
 				</h2>
 				<Box className="social-icons" style={isShown}>
@@ -41,6 +40,7 @@ function WelcomeSection() {
 						href="https://github.com/mrjlancaster"
 						target="_blank"
 						className={classes.socialLinks}
+						rel="noreferrer"
 					>
 						<i className="fab fa-github"></i>
 					</a>
@@ -48,6 +48,7 @@ function WelcomeSection() {
 						href="https://www.linkedin.com/in/mrjlancaster"
 						target="_blank"
 						className={classes.socialLinks}
+						rel="noreferrer"
 					>
 						<i className="fab fa-linkedin-in"></i>
 					</a>
